@@ -21,9 +21,9 @@ Welcome to my personal website!  I am Dongping Chen (陈东平), a Year 3 underg
 =====
 At present, I have the privilege of being a visiting student to LAIR, where I work with Professors [Lichao Sun](https://lichao-sun.github.io/) at Lehigh University and [Yao Wan](http://wanyao.me/) at HUST. Prior to this, my academic journey has also been enriched by a collaboration with [Prof. Bolong Zheng](https://bolongzheng.com/) at HUST and a Harvard summer workshop with [Prof. Pavlos Protopapas](https://seas.harvard.edu/person/pavlos-protopapas).
 
-My academic and research interests are deeply rooted in the latest advancements in Multi-modal perception, Diffusion models, and trustworthy AI. 
+My academic and research interests are deeply rooted in the latest advancements in Multi-modal perception, Diffusion models, LLM calibration and trustworthy AI. 
 
-My resume and transcripts can be viewed at [Here]("https://dongping-chen.github.io/Resume.pdf")
+My resume and transcripts can be viewed at [Here](Resume.pdf).
 # 💡 Research Interest
 
 - Multi-modal Perception: diffusion models, multi-modal large language model (MLLM), etc.
@@ -74,9 +74,15 @@ Qihui Zhang \*, Chujie Gao \*, **Dongping Chen** \*, Yue Huang, Yixin Huang, Zhe
 - *2021.09 - 2025.06 (expected)*, BEng.,  Huazhong University of Science and Technology. 
 <!-- - *2015.09 - 2021.06*, Zhixin High School, Guangzhou, China.  -->
 
-# 💬 Invited Talks
+<!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 <!-- # 💻 Internships
 - *2023.09 - now*, [Lichao Sun](https://lichao-sun.github.io/), remote intern, Lehigh University. -->
+
+# 🐱 My Beloved Petite Creature
+
+<div align="center">
+    <img src="images/Aggregate.jpg" alt="sym" width="50%" />
+</div>
