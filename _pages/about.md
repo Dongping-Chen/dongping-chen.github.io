@@ -23,7 +23,7 @@ At present, I have the privilege of being a visiting student to LAIR, where I wo
 
 My academic and research interests are deeply rooted in the latest advancements in Multi-modal perception, Diffusion models, and trustworthy AI. 
 
-
+My resume and transcripts can be viewed at [Here]("https://dongping-chen.github.io/Resume.pdf")
 # 💡 Research Interest
 
 - Multi-modal Perception: diffusion models, multi-modal large language model (MLLM), etc.
