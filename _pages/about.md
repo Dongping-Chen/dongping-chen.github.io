@@ -86,6 +86,6 @@ Qihui Zhang \*, Chujie Gao \*, **Dongping Chen** \*, Yue Huang, Yixin Huang, Zhe
 # 🐱 My Beloved Petite Creature
 
 <div align="center">
-    <img src="images/IMG_8497.GIF" alt="sym" width="50%" />
-    <img src="images/IMG_8480.GIF" alt="sym" width="50%" />
+    <img src="images/IMG_8497.GIF" alt="sym" width="49%" />
+    <img src="images/IMG_8480.GIF" alt="sym" width="49%" />
 </div>
