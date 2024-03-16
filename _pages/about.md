@@ -17,7 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Welcome to my personal website!  I am Dongping Chen (陈东平), a Year 3 undergraduate student at [HUST](https://hust.edu.cn).
+Welcome to my personal website!  
+
+I am Dongping Chen (陈东平), a Year 3 undergraduate student at [HUST](https://hust.edu.cn).
 =====
 At present, I have the privilege of being a visiting student to LAIR, where I work with Professors [Lichao Sun](https://lichao-sun.github.io/) at Lehigh University and [Yao Wan](http://wanyao.me/) at HUST. Prior to this, my academic journey has also been enriched by a collaboration with [Prof. Bolong Zheng](https://bolongzheng.com/) at HUST and a Harvard summer workshop with [Prof. Pavlos Protopapas](https://seas.harvard.edu/person/pavlos-protopapas).
 
