@@ -63,6 +63,8 @@ Qihui Zhang \*, Chujie Gao \*, **Dongping Chen** \*, Yue Huang, Yixin Huang, Zhe
 [Aggregate, Decompose, and Fine-Tune: A Simple Yet Effective Factor-Tuning Method for Vision Transformer](https://arxiv.org/abs/2311.06749)
 
 **Dongping Chen** 
+
+- Notice: This work was completed in-person with personal server before internship with Professors [Lichao Sun](https://lichao-sun.github.io/) [Yao Wan](http://wanyao.me/).
 </div>
 </div>
 
