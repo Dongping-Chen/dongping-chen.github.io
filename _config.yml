@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Homepage"
+title                    : "Dongping Chen's Website"
 description              : "Dongping Chen's Homepage"
 repository               : "Dongping-Chen/Dongping-Chen.github.io"
 google_scholar_stats_use_cdn : true

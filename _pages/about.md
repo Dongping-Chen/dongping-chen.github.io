@@ -17,9 +17,11 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Welcome to my personal website!  I am Dongping Chen, a Year 3 undergraduate student at [HUST](https://hust.edu.cn).
+Welcome to my personal website!  I am Dongping Chen (陈东平), a Year 3 undergraduate student at [HUST](https://hust.edu.cn).
 =====
-My academic and research interests are deeply rooted in the latest advancements in Large Language Models (LLM), multi-modal perception, and trustworthy LLM. I am currently engaged in research under Professors [Lichao Sun](https://lichao-sun.github.io/) at Lehigh University and [Yao Wan](http://wanyao.me/) at HUST.
+At present, I have the privilege of being a visiting student to LAIR, where I work with Professors [Lichao Sun](https://lichao-sun.github.io/) at Lehigh University and [Yao Wan](http://wanyao.me/) at HUST. Prior to this, my academic journey has also been enriched by a collaboration with [Prof. Bolong Zheng](https://bolongzheng.com/) at HUST and a Harvard summer workshop with [Prof. Pavlos Protopapas](https://seas.harvard.edu/person/pavlos-protopapas).
+
+My academic and research interests are deeply rooted in the latest advancements in Multi-modal perception, Diffusion models, and trustworthy AI. 
 
 
 # 💡 Research Interest
@@ -33,7 +35,7 @@ My academic and research interests are deeply rooted in the latest advancements 
 - *2024.03*: &nbsp;🎉🎉 One paper has been accepted by NAACL 2024! Congratulations to [Qihui](https://scholar.google.com/citations?user=ZdgtY0EAAAAJ&hl=en), [Chujie](https://scholar.google.com/citations?user=1AqAngQAAAAJ&hl=zh-CN) and [Yue](https://howiehwong.github.io/)! 
 - *2024.02*: &nbsp;🎉🎉 This summer, I will start my summer intern with Senior [Jieyu](https://jieyuz2.github.io/) and [Prof. Ranjay Krishna](https://ranjaykrishna.com/index.html) in University of Washinton.
 
-# 📝 Selected Publications 
+# 📝 Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NAACL 2024</div><img src='images/mixcase.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -52,6 +54,15 @@ Qihui Zhang \*, Chujie Gao \*, **Dongping Chen** \*, Yue Huang, Yixin Huang, Zhe
 
 **Dongping Chen** \*, Ruoxi Chen \*, Shilin Zhang \*, Yinuo Liu \*, Yaochen Wang \*, Huichi Zhou \*, Qihui Zhang \*, Pan Zhou, Yao Wan, Lichao Sun
 
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv Preprint</div><img src='images/Aggregate.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Aggregate, Decompose, and Fine-Tune: A Simple Yet Effective Factor-Tuning Method for Vision Transformer](https://arxiv.org/abs/2311.06749)
+
+**Dongping Chen** 
 </div>
 </div>
 
