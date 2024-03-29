@@ -32,7 +32,7 @@ My resume and transcripts can be viewed at [Here](Resume.pdf).
   
   
 # 🔥 News
-- *2024.03*: &nbsp;🎉🎉 One paper has been accepted by NAACL 2024! Congratulations to [Qihui](https://scholar.google.com/citations?user=ZdgtY0EAAAAJ&hl=en), [Chujie](https://scholar.google.com/citations?user=1AqAngQAAAAJ&hl=zh-CN) and [Yue](https://howiehwong.github.io/)! 
+- *2024.03*: &nbsp;🎉🎉 One paper has been accepted by NAACL 2024! Congratulations to [Qihui](https://scholar.google.com/citations?user=ZdgtY0EAAAAJ&hl=en), [Chujie](https://flossiee.github.io/) and [Yue](https://howiehwong.github.io/)! 
 - *2024.02*: &nbsp;🎉🎉 This summer, I will start my summer intern with Senior [PhD. Jieyu](https://jieyuz2.github.io/) and [Prof. Ranjay Krishna](https://ranjaykrishna.com/index.html) in University of Washington.
 
 # 📝 Publications 
