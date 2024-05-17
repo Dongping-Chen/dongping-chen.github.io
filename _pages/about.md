@@ -32,6 +32,7 @@ My resume and transcripts can be viewed at [Here](Resume.pdf).
   
   
 # 🔥 News
+- *2024.05*: &nbsp;🎉🎉 One paper has been accepted by ACL 2024! Congratulations to [Huichi](https://scholar.google.com/citations?user=1IJyxpUAAAAJ).
 - *2024.05*: &nbsp;🎉🎉 One paper has been accepted by ICML 2024! Congratulations to [Ruoxi](https://scholar.google.com/citations?user=F7cDYF0AAAAJ), [Shilin](https://scholar.google.com/citations?hl=en&user=b_qLXToAAAAJ), [Yaochen](https://scholar.google.com/citations?hl=en&user=pcqtbQEAAAAJ), [Yinuo](https://scholar.google.com/citations?hl=en&user=MKPvCFIAAAAJ), [Huichi](https://scholar.google.com/citations?user=1IJyxpUAAAAJ), [Qihui](https://scholar.google.com/citations?user=ZdgtY0EAAAAJ&hl=en)!
 - *2024.03*: &nbsp;🎉🎉 One paper has been accepted by NAACL 2024! Congratulations to [Qihui](https://scholar.google.com/citations?user=ZdgtY0EAAAAJ&hl=en), [Chujie](https://flossiee.github.io/) and [Yue](https://howiehwong.github.io/)! 
 - *2024.02*: &nbsp;🎉🎉 This summer, I will start my summer intern with Senior [PhD. Jieyu](https://jieyuz2.github.io/) and [Prof. Ranjay Krishna](https://ranjaykrishna.com/index.html) in University of Washington.
