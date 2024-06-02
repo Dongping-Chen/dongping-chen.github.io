@@ -32,7 +32,7 @@ My resume and transcripts can be viewed at [Here](Resume.pdf).
   
   
 # 🔥 News
-- *2024.06*: &nbsp;🥳🥳 Our **MLLM-as-a-Judge: : Assessing Multimodal LLM-as-a-Judge with Vision-Language Benchmark** is selected as **ICML 2024 Oral**!
+- *2024.06*: &nbsp;🥳🥳 Our **MLLM-as-a-Judge** is selected as **ICML 2024 Oral**!
 - *2024.05*: &nbsp;🎉🎉 One paper has been accepted by **ACL 2024 Findings**! Congratulations to [Huichi](https://huichizhou.github.io/).
 - *2024.05*: &nbsp;🎉🎉 One paper has been accepted by **ICML 2024**! Congratulations to [Ruoxi](https://scholar.google.com/citations?user=F7cDYF0AAAAJ), [Shilin](https://scholar.google.com/citations?hl=en&user=b_qLXToAAAAJ), [Yaochen](https://scholar.google.com/citations?hl=en&user=pcqtbQEAAAAJ), [Yinuo](https://scholar.google.com/citations?hl=en&user=MKPvCFIAAAAJ), [Huichi](https://scholar.google.com/citations?user=1IJyxpUAAAAJ), [Qihui](https://scholar.google.com/citations?user=ZdgtY0EAAAAJ&hl=en)!
 - *2024.03*: &nbsp;🎉🎉 One paper has been accepted by **NAACL 2024 Findings**! Congratulations to [Qihui](https://scholar.google.com/citations?user=ZdgtY0EAAAAJ&hl=en), [Chujie](https://flossiee.github.io/) and [Yue](https://howiehwong.github.io/)! 
