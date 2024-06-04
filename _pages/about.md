@@ -51,6 +51,17 @@ My resume and transcripts can be viewed at [Here](Resume.pdf).
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/HonestLLM.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+***The Best of Both Worlds*: Toward an Honest and Helpful Large Language Model** [[PDF]](https://arxiv.org/abs/2406.00380) [[Github]](https://github.com/Flossiee/HonestyLLM) 
+
+Chujie Gao \*, Qihui Zhang \*, **Dongping Chen** \*, Yue Huang, Siyuan Wu, Zhengyan Fu, Yao Wan, Xiangliang Zhang, Lichao Sun
+
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2024 Findings</div><img src='images/ACL2024.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
