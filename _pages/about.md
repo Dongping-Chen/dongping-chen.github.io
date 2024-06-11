@@ -122,5 +122,28 @@ Chujie Gao \*, Qihui Zhang \*, **Dongping Chen** \*, Yue Huang, Siyuan Wu, Zheng
 </div>
 
 
-Thanks for your reviewing my homepage!
-<script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=fbffc5&w=a&t=m&d=2DkJRDrBeg-CCyqtKLmfTsHaZGyMG4L1RfpChDpZ6is&co=9ff4f3&cmo=f96e6e&ct=ffffff'></script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map Widget</title>
+    <style>
+        .map-container {
+            width: 100px; /* 设置你想要的宽度 */
+            margin: 0 auto; /* 居中对齐 */
+            text-align: center; /* 文字居中对齐 */
+        }
+        .map-container iframe {
+            width: 100%; /* 使iframe适应容器宽度 */
+            height: 300px; /* 设置你想要的高度 */
+        }
+    </style>
+</head>
+<body>
+    <div class="map-container">
+        <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=fbffc5&w=a&t=m&d=2DkJRDrBeg-CCyqtKLmfTsHaZGyMG4L1RfpChDpZ6is&co=9ff4f3&cmo=f96e6e&ct=ffffff'></script>
+    </div>
+</body>
+</html>
