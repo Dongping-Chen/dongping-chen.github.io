@@ -121,9 +121,6 @@ Chujie Gao \*, Qihui Zhang \*, **Dongping Chen** \*, Yue Huang, Siyuan Wu, Zheng
     <!-- <img src="images/IMG_0279.GIF" alt="sym" width="49%" /> -->
 </div>
 
-
-
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -131,7 +128,7 @@ Chujie Gao \*, Qihui Zhang \*, **Dongping Chen** \*, Yue Huang, Siyuan Wu, Zheng
     <title>Map Widget</title>
     <style>
         .map-container {
-            width: 100px; /* 设置你想要的宽度 */
+            width: 300px; /* 设置你想要的宽度 */
             margin: 0 auto; /* 居中对齐 */
             text-align: center; /* 文字居中对齐 */
         }
