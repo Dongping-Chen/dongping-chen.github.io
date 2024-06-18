@@ -21,9 +21,9 @@ Welcome to my personal website!  I am Dongping Chen (陈东平), a Year 3 underg
 =====
 At present, I have the privilege of being a visiting student to LAIR, where I work with Professors [Lichao Sun](https://lichao-sun.github.io/) at Lehigh University and [Yao Wan](http://wanyao.me/) at HUST. Prior to this, my academic journey has also been enriched by a collaboration with [Prof. Bolong Zheng](https://bolongzheng.com/) at HUST.
 
-My academic and research interests are deeply rooted in the latest advancements in Multi-modal perception, Diffusion models, LLM calibration and trustworthy AI. 
+My academic and research interests are deeply rooted in the latest advancements in Multi-modal perception, LLM-based Agents and trustworthy AI. 
 
-My resume and transcripts can be viewed at [Here](Resume.pdf).
+My latest CV can be viewed at [Here](CV_20240618.pdf).
 # 💡 Research Interest
 
 - Multi-modal Perception: diffusion models, multi-modal large language model (MLLM), etc.
@@ -150,13 +150,13 @@ Chujie Gao \*, Qihui Zhang \*, **Dongping Chen** \*, Yue Huang, Siyuan Wu, Zheng
     <title>Map Widget</title>
     <style>
         .map-container {
-            width: 300px; /* 设置你想要的宽度 */
-            margin: 0 auto; /* 居中对齐 */
-            text-align: center; /* 文字居中对齐 */
+            width: 300px; 
+            margin: 0 auto; 
+            text-align: center; 
         }
         .map-container iframe {
-            width: 100%; /* 使iframe适应容器宽度 */
-            height: 300px; /* 设置你想要的高度 */
+            width: 100%; 
+            height: 300px; 
         }
     </style>
 </head>
