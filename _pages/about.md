@@ -32,7 +32,7 @@ My latest CV can be viewed at [Here](CV_20240618.pdf).
   
   
 # 🔥 News
-- *2024.06*: &nbsp;🎉🎉 One paper has been accepted by **ICMLW 2024**! Congratulations to [Jiawen](https://scholar.google.com/citations?user=yy8oPX0AAAAJ&hl=en).
+- *2024.06*: &nbsp;🎉🎉 One paper has been accepted by **ICMLW 2024**! Congratulations to [Jiawen](https://scholar.google.com/citations?user=yy8oPX0AAAAJ&hl=en).   
 - *2024.06*: &nbsp;🥳🥳 Our **MLLM-as-a-Judge** is selected as **ICML 2024 Oral**!
 - *2024.05*: &nbsp;🎉🎉 **AVLLM** has been accepted by **ACL 2024 Findings**! Congratulations to [Huichi](https://huichizhou.github.io/).
 - *2024.05*: &nbsp;🎉🎉 **MLLM-as-a-Judge** has been accepted by **ICML 2024**! Congratulations to [Ruoxi](https://scholar.google.com/citations?user=F7cDYF0AAAAJ), [Shilin](https://scholar.google.com/citations?hl=en&user=b_qLXToAAAAJ), [Yaochen](https://scholar.google.com/citations?hl=en&user=pcqtbQEAAAAJ), [Yinuo](https://scholar.google.com/citations?hl=en&user=MKPvCFIAAAAJ), [Huichi](https://scholar.google.com/citations?user=1IJyxpUAAAAJ), [Qihui](https://scholar.google.com/citations?user=ZdgtY0EAAAAJ&hl=en)!
@@ -103,6 +103,17 @@ Qihui Zhang \*, Chujie Gao \*, **Dongping Chen** \*, Yue Huang, Yixin Huang, Zhe
 ***The Best of Both Worlds*: Toward an Honest and Helpful Large Language Model** [[PDF]](https://arxiv.org/abs/2406.00380) [[Github]](https://github.com/Flossiee/HonestyLLM) 
 
 Chujie Gao \*, Qihui Zhang \*, **Dongping Chen** \*, Yue Huang, Siyuan Wu, Zhengyan Fu, Yao Wan, Xiangliang Zhang, Lichao Sun
+
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/ObscurePrompt.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+***ObscurePrompt*: Jailbreaking Large Language Models via Obscure Input** [[PDF]](https://arxiv.org/abs/2406.13662) [[Github]](https://github.com/HowieHwong/ObscurePrompt) 
+
+Yue Huang \*, Jingyu Tang \*, **Dongping Chen** \*, Bingda Tang, Yao Wan, Lichao Sun, Xiangliang Zhang
 
 
 </div>
