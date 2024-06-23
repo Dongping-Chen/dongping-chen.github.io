@@ -23,7 +23,7 @@ At present, I have the privilege of being a visiting student to LAIR, where I wo
 
 My academic and research interests are deeply rooted in the latest advancements in Multi-modal perception, LLM-based Agents and trustworthy AI. 
 
-My latest CV can be viewed at [Here](CV_20240618.pdf).
+My latest CV can be viewed at [Here](CV_20240623.pdf).
 # 💡 Research Interest
 
 - Multi-modal Perception: diffusion models, multi-modal large language model (MLLM), etc.
@@ -89,7 +89,7 @@ Qihui Zhang \*, Chujie Gao \*, **Dongping Chen** \*, Yue Huang, Yixin Huang, Zhe
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/GUI.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**GUI-World: A Dataset for GUI-oriented Multimodal LLM-based Agents** [[PDF]](https://arxiv.org/abs/2406.10819) [[Github]](https://github.com/Dongping-Chen/GUI-World) 
+**GUI-World: A Dataset for GUI-oriented Multimodal LLM-based Agents** [[PDF]](https://arxiv.org/abs/2406.10819) [[Github]](https://github.com/Dongping-Chen/GUI-World) [[Website]](https://gui-world.github.io)
 
 **Dongping Chen** \*, Yue Huang \*, Siyuan Wu \*, Jingyu Tang \*, Liuyi Chen, Yilin Bai, Zhigang He, Chenlong Wang, Huichi Zhou, Yiqiang Li, Tianshuo Zhou, Yue Yu, Chujie Gao, Qihui Zhang, Yi Gui, Zhen Li, Yao Wan, Pan Zhou, Jianfeng Gao, Lichao Sun
 
