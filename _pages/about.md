@@ -117,6 +117,7 @@ Yue Huang \*, Jingyu Tang \*, **Dongping Chen** \*, Bingda Tang, Yao Wan, Lichao
 
 
 </div>
+</div>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/Unigen.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -128,7 +129,7 @@ Yue Huang \*, Jingyu Tang \*, **Dongping Chen** \*, Bingda Tang, Yao Wan, Lichao
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv Preprint</div><img src='images/Aggregate.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/Aggregate.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Aggregate, Decompose, and Fine-Tune: A Simple Yet Effective Factor-Tuning Method for Vision Transformer** [[PDF]](https://arxiv.org/abs/2311.06749) [[Github]](https://github.com/Dongping-Chen/EFFT-EFfective-Factor-Tuning)
