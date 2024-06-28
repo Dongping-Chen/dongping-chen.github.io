@@ -23,7 +23,7 @@ At present, I have the privilege of being a visiting student to LAIR, where I wo
 
 My academic and research interests are deeply rooted in the latest advancements in Multi-modal perception, LLM-based Agents and trustworthy AI. 
 
-My latest CV can be viewed at [Here](CV_20240623.pdf).
+My latest CV can be viewed at [Here](CV_20240628.pdf).
 # 💡 Research Interest
 
 - Multi-modal Perception: diffusion models, multi-modal large language model (MLLM), etc.
