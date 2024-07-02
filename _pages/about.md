@@ -55,7 +55,7 @@ My latest CV can be viewed at [Here](CV_20240628.pdf).
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICMLW 2024</div><img src='images/self-cognition.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Self-Cognition in Large Language Models: An Exploratory Study** 
+**Self-Cognition in Large Language Models: An Exploratory Study** [[PDF]](https://arxiv.org/abs/2407.01505)
 
 **Dongping Chen** \*, Jiawen Shi \*, Yao Wan, Pan Zhou, Neil Gong, Lichao Sun
 
