@@ -123,20 +123,20 @@ Yue Huang \*, Jingyu Tang \*, **Dongping Chen** \*, Bingda Tang, Yao Wan, Lichao
 
 ***UniGen*: A Unified Framework for Textual Dataset Generation Using Large Language Models** [[PDF]](https://arxiv.org/pdf/2406.18966) [[Github]](https://github.com/HowieHwong/UniGen) [[Website]](https://unigen-framework.github.io/)
 
-Yue Huang \*, Jingyu Tang \*, **Dongping Chen** \*, Bingda Tang, Yao Wan, Lichao Sun, Xiangliang Zhang
+Siyuan Wu \*, Yue Huang \*, Chujie Gao, **Dongping Chen**, Qihui Zhang, Yao Wan, Tianyi Zhou, Xiangliang Zhang, Jianfeng Gao, Chaowei Xiao, Lichao Sun
 
 
 </div>
 </div>
 
-<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/Aggregate.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/Aggregate.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Aggregate, Decompose, and Fine-Tune: A Simple Yet Effective Factor-Tuning Method for Vision Transformer** [[PDF]](https://arxiv.org/abs/2311.06749) [[Github]](https://github.com/Dongping-Chen/EFFT-EFfective-Factor-Tuning)
 
 **Dongping Chen** 
 
-- Notice: This work was completed in-person with personal server before internship with Professors [Lichao Sun](https://lichao-sun.github.io/) and [Yao Wan](http://wanyao.me/).
+<!-- - Notice: This work was completed in-person with personal server before internship with Professors [Lichao Sun](https://lichao-sun.github.io/) and [Yao Wan](http://wanyao.me/).
 </div>
 </div> -->
 
