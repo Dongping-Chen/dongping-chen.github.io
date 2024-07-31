@@ -19,7 +19,7 @@ redirect_from:
 
 Welcome to my personal website!  I am Dongping Chen (陈东平), a Year 3 undergraduate at [HUST](https://hust.edu.cn).
 =====
-At present, I have the privilege of being a visiting student to LAIR, where I work with Professors [Lichao Sun](https://lichao-sun.github.io/) at Lehigh University and [Yao Wan](http://wanyao.me/) at HUST. Prior to this, my academic journey has also been enriched by a collaboration with [Prof. Bolong Zheng](https://bolongzheng.com/) at HUST.
+At present, I have the privilege of being a visiting student to University of Washington, where I work with Professors [Ranjay Krishna](https://ranjaykrishna.com/index.html) and Senior PhD [Jieyu Zhao](https://jieyuz2.github.io/). Prior to this, my academic journey has also been enriched by a collaboration with [Lichao Sun](https://lichao-sun.github.io/) at Lehigh University and [Yao Wan](http://wanyao.me/), [Prof. Bolong Zheng](https://bolongzheng.com/) at HUST.
 
 My academic and research interests are deeply rooted in the latest advancements in Multi-modal perception, LLM-based Agents and trustworthy AI. 
 
@@ -32,7 +32,7 @@ My latest CV can be viewed at [Here](CV_20240628.pdf).
   
   
 # 🔥 News
-- *2024.06*: &nbsp;🎉🎉 One paper has been accepted by **ICMLW 2024**! Congratulations to [Jiawen](https://scholar.google.com/citations?user=yy8oPX0AAAAJ&hl=en).   
+- *2024.06*: &nbsp;🎉🎉 **Self-Cognition** has been accepted by **ICMLW 2024**! Congratulations to [Jiawen](https://scholar.google.com/citations?user=yy8oPX0AAAAJ&hl=en).   
 - *2024.06*: &nbsp;🥳🥳 Our **MLLM-as-a-Judge** is selected as **ICML 2024 Oral**!
 - *2024.05*: &nbsp;🎉🎉 **AVLLM** has been accepted by **ACL 2024 Findings**! Congratulations to [Huichi](https://huichizhou.github.io/).
 - *2024.05*: &nbsp;🎉🎉 **MLLM-as-a-Judge** has been accepted by **ICML 2024**! Congratulations to [Ruoxi](https://scholar.google.com/citations?user=F7cDYF0AAAAJ), [Shilin](https://scholar.google.com/citations?hl=en&user=b_qLXToAAAAJ), [Yaochen](https://scholar.google.com/citations?hl=en&user=pcqtbQEAAAAJ), [Yinuo](https://scholar.google.com/citations?hl=en&user=MKPvCFIAAAAJ), [Huichi](https://scholar.google.com/citations?user=1IJyxpUAAAAJ), [Qihui](https://scholar.google.com/citations?user=ZdgtY0EAAAAJ&hl=en)!
