@@ -21,12 +21,12 @@ Welcome to my personal website!  I am Dongping Chen (陈东平), a final-year un
 =====
 At present, I have the privilege of being a visiting student to University of Washington, where I work with Professors [Ranjay Krishna](https://ranjaykrishna.com/index.html) and Senior PhD [Jieyu Zhao](https://jieyuz2.github.io/). Prior to this, my academic journey has also been enriched by a collaboration with [Lichao Sun](https://lichao-sun.github.io/) at Lehigh University and [Yao Wan](http://wanyao.me/), [Prof. Bolong Zheng](https://bolongzheng.com/) at HUST.
 
-My academic and research interests are deeply rooted in the latest advancements in Multi-modal perception, LLM-based Agents and trustworthy AI. 
+My research interests are deeply rooted in the latest advancements in multimodal perception, LLM-based Agents and Trustworthy AI. 
 
 My latest CV can be viewed at [Here](CV_latest.pdf).
 # 💡 Research Interest
 
-- Multi-modal Perception: diffusion models, multi-modal large language model (MLLM), etc.
+- Multimodal Perception: T2I/T2V models, multimodal large language model (MLLM), etc.
 - LLM-based Agents: tool usage, efficiency and utility.
 - Trustworthy AI: safety, truthfulness, fairness, robustness, and privacy of AI model.
   
@@ -57,7 +57,7 @@ My latest CV can be viewed at [Here](CV_latest.pdf).
 
 **Self-Cognition in Large Language Models: An Exploratory Study** [[PDF]](https://arxiv.org/abs/2407.01505)
 
-**Dongping Chen** \*, Jiawen Shi \*, Yao Wan, Pan Zhou, Neil Gong, Lichao Sun
+**Dongping Chen** \*, Jiawen Shi \*, Yao Wan, Pan Zhou, Neil Zhenqiang Gong, Lichao Sun
 
 </div>
 </div>
