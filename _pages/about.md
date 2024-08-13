@@ -17,13 +17,13 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Welcome to my personal website!  I am Dongping Chen (陈东平), a Year 3 undergraduate at [HUST](https://hust.edu.cn).
+Welcome to my personal website!  I am Dongping Chen (陈东平), a final-year undergraduate at [HUST](https://hust.edu.cn).
 =====
 At present, I have the privilege of being a visiting student to University of Washington, where I work with Professors [Ranjay Krishna](https://ranjaykrishna.com/index.html) and Senior PhD [Jieyu Zhao](https://jieyuz2.github.io/). Prior to this, my academic journey has also been enriched by a collaboration with [Lichao Sun](https://lichao-sun.github.io/) at Lehigh University and [Yao Wan](http://wanyao.me/), [Prof. Bolong Zheng](https://bolongzheng.com/) at HUST.
 
 My academic and research interests are deeply rooted in the latest advancements in Multi-modal perception, LLM-based Agents and trustworthy AI. 
 
-My latest CV can be viewed at [Here](CV_20240628.pdf).
+My latest CV can be viewed at [Here](CV_latest.pdf).
 # 💡 Research Interest
 
 - Multi-modal Perception: diffusion models, multi-modal large language model (MLLM), etc.
@@ -146,8 +146,9 @@ Siyuan Wu \*, Yue Huang \*, Chujie Gao, **Dongping Chen**, Qihui Zhang, Yao Wan,
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
 # 📖 Educations
+- *2024.08 - 2025.01 (expected)*, Visiting Scholar, University of Washington. 
 - *2021.09 - 2025.06 (expected)*, BEng.,  Huazhong University of Science and Technology. 
-<!-- - *2015.09 - 2021.06*, Zhixin High School, Guangzhou, China.  -->
+
 
 <!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
@@ -156,14 +157,14 @@ Siyuan Wu \*, Yue Huang \*, Chujie Gao, **Dongping Chen**, Qihui Zhang, Yao Wan,
 <!-- # 💻 Internships
 - *2023.09 - now*, [Lichao Sun](https://lichao-sun.github.io/), remote intern, Lehigh University. -->
 
-# 🐱 My Beloved Petite Creature
+<!-- # 🐱 My Beloved Petite Creature
 
 <div align="center">
     <img src="images/IMG_8497.GIF" alt="sym" width="49%" />
     <img src="images/IMG_8480.GIF" alt="sym" width="49%" />
     <img src="images/IMG_8528.GIF" alt="sym" width="98%" />
     <!-- <img src="images/IMG_0279.GIF" alt="sym" width="49%" /> -->
-</div>
+</div> -->
 
 <html lang="en">
 <head>
