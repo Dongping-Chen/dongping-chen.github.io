@@ -164,7 +164,7 @@ Siyuan Wu \*, Yue Huang \*, Chujie Gao, **Dongping Chen**, Qihui Zhang, Yao Wan,
     <img src="images/IMG_8480.GIF" alt="sym" width="49%" />
     <img src="images/IMG_8528.GIF" alt="sym" width="98%" />
     <!-- <img src="images/IMG_0279.GIF" alt="sym" width="49%" /> -->
-<!-- </div> --> -->
+<!-- </div> -->
 
 <html lang="en">
 <head>
