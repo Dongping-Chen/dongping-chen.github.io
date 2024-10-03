@@ -99,10 +99,10 @@ Huichi Zhou \*, Zhaoyang Wang \*, Hongtao Wang†,  **Dongping Chen**, Wenhan Mu
 
 # 🍀 In Submission
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/GUI.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/ISG.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Interleaved Scene Graph for Interleaved Text-and-Image Generation Assessment** [[PDF]]((https://drive.google.com/file/d/1EWzqasPv6NagM6K6iFbFk3SpQI_7IXaN/view?usp=drive_link)) 
+**Interleaved Scene Graph for Interleaved Text-and-Image Generation Assessment** [[PDF]](https://drive.google.com/file/d/1EWzqasPv6NagM6K6iFbFk3SpQI_7IXaN/view?usp=drive_link) 
 
 **Dongping Chen** \*, Ruoxi Chen \*, Shu Pu \*, Zhaoyi Liu \*, Yanru Wu \*, Caixi Chen \*, Benlin Liu, Yue Huang, Yao Wan, Pan Zhou, Ranjay Krishna†
 
@@ -120,7 +120,7 @@ Huichi Zhou \*, Zhaoyang Wang \*, Hongtao Wang†,  **Dongping Chen**, Wenhan Mu
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/Unigen.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/LLM-bias.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Justice or Prejudice? Quantifying Biases in LLM-as-a-Judge** [[PDF]](https://drive.google.com/file/d/1LnwkobHolnG7nU1MvpMth9w0ltskVp-Z/view?usp=drive_link) 
