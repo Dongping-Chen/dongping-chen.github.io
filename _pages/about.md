@@ -92,12 +92,23 @@ Qihui Zhang \*, Chujie Gao \*, **Dongping Chen** \*, Yue Huang, Yixin Huang, Zhe
 
 **Evaluating the Validity of Word-level Adversarial Attacks with Large Language Models** [[PDF]](https://drive.google.com/file/d/1wq4iaSicSBiljMUt7lENMPOOLneZj4EO/view?usp=drive_link)  [[Github]](https://github.com/HuichiZhou/AVLLM)
 
-Huichi Zhou \*, Zhaoyang Wang \*,  **Dongping Chen**, Wenhan Mu, Fangyuan Zhang, Hongtao Wang†
+Huichi Zhou \*, Zhaoyang Wang \*, Hongtao Wang†,  **Dongping Chen**, Wenhan Mu, Fangyuan Zhang
 
 </div>
 </div>
 
-# 🍀 Preprint
+# 🍀 In Submission
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/GUI.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Interleaved Scene Graph for Interleaved Text-and-Image Generation Assessment** [[PDF]](/ISG.pdf) 
+
+**Dongping Chen** \*, Ruoxi Chen \*, Shu Pu \*, Zhaoyi Liu \*, Yanru Wu \*, Caixi Chen \*, Benlin Liu, Yue Huang, Yao Wan, Pan Zhou, Ranjay Krishna†
+
+</div>
+</div>
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/GUI.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -120,12 +131,24 @@ Yue Huang \*, Jingyu Tang \*, **Dongping Chen**, Bingda Tang, Yao Wan, Lichao Su
 
 </div>
 </div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/Unigen.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 ***UniGen*: A Unified Framework for Textual Dataset Generation Using Large Language Models** [[PDF]](https://arxiv.org/pdf/2406.18966) [[Github]](https://github.com/HowieHwong/UniGen) [[Website]](https://unigen-framework.github.io/)
 
-Siyuan Wu \*, Yue Huang \*, Chujie Gao, **Dongping Chen**, Qihui Zhang, Yao Wan†, Tianyi Zhou, Xiangliang Zhang, Jianfeng Gao, Chaowei Xiao, Lichao Sun
+Yue Huang \*, Siyuan Wu \*, Chujie Gao, **Dongping Chen**, Qihui Zhang, Yao Wan†, Tianyi Zhou, Xiangliang Zhang, Jianfeng Gao, Chaowei Xiao, Lichao Sun
+
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/Unigen.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Justice or Prejudice? Quantifying Biases in LLM-as-a-Judge** [[PDF]](/Bias.pdf) 
+
+Jiayi Ye \*, Yanbo Wang \*, Yue Huang \*, **Dongping Chen**, Qihui Zhang, Nuno Moniz, Tian Gao, Werner Geyer, Chao Huang, Pin-Yu Chen, Nitesh V Chawla, Xiangliang Zhang
 
 
 </div>
@@ -155,10 +178,9 @@ Siyuan Wu \*, Yue Huang \*, Chujie Gao, **Dongping Chen**, Qihui Zhang, Yao Wan�
 # 💬 Talks
 - *2024.07*, Oral Presentation of **MLLM-as-a-Judge** at ICML 2024. [\[video\]](https://icml.cc/virtual/2024/oral/35497)
 
-<!-- # 💻 Internships
-- *2023.09 - now*, [Lichao Sun](https://lichao-sun.github.io/), remote intern, Lehigh University. -->
-
-
+# 💻 Services
+- 2025, Reviewer for ICLR 2025, ICASSP 2025
+- 2024, Reviewer for 2 x ICML Workshops 2024, 3 x NeurIPS Workshops 2024
 
 <html lang="en">
 <head>
