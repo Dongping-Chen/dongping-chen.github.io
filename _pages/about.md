@@ -76,17 +76,6 @@ Huichi Zhou \*, Zhaoyang Wang \*, Hongtao Wang†,  **Dongping Chen**, Wenhan Mu
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICMLW 2024</div><img src='images/self-cognition.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**Self-Cognition in Large Language Models: An Exploratory Study** [[PDF]](https://arxiv.org/abs/2407.01505)
-
-**Dongping Chen** \*, Jiawen Shi \*, Yao Wan†, Pan Zhou†, Neil Zhenqiang Gong, Lichao Sun
-
-</div>
-</div>
-
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NAACL 2024 Findings</div><img src='images/mixcase.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -95,6 +84,31 @@ Huichi Zhou \*, Zhaoyang Wang \*, Hongtao Wang†,  **Dongping Chen**, Wenhan Mu
 Qihui Zhang \*, Chujie Gao \*, **Dongping Chen** \*, Yue Huang, Yixin Huang, Zhenyang Sun, Shilin Zhang, Weiye Li, Zhengyan Fu, Yao Wan, Lichao Sun†
 
 </div>
+</div>
+
+<div class='paper-box-text' markdown="1">
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICMLW 2024</div></div>
+**Self-Cognition in Large Language Models: An Exploratory Study** [[PDF]](https://arxiv.org/abs/2407.01505)
+
+**Dongping Chen** \*, Jiawen Shi \*, Yao Wan†, Pan Zhou†, Neil Zhenqiang Gong, Lichao Sun
+
+</div>
+
+<div class='paper-box-text' markdown="1">
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPSW 2024</div></div></div>
+***UniGen*: A Unified Framework for Textual Dataset Generation Using Large Language Models** [[PDF]](https://arxiv.org/pdf/2406.18966) [[Github]](https://github.com/HowieHwong/UniGen) [[Website]](https://unigen-framework.github.io/)
+
+Yue Huang \*, Siyuan Wu \*, Chujie Gao, **Dongping Chen**, Qihui Zhang, Yao Wan†, Tianyi Zhou, Xiangliang Zhang, Jianfeng Gao, Chaowei Xiao, Lichao Sun
+
+
+</div>
+
+<div class='paper-box-text' markdown="1">
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPSW 2024</div></div></div>
+**The Impact of Large Language Models in Academia: from Writing to Speaking** [[PDF]](https://arxiv.org/pdf/2409.13686) 
+
+Mingmeng Geng, Caixi Chen, Yanru Wu, **Dongping Chen**, Yao Wan, Pan Zhou, Roberto Trotta
+
 </div>
 
 # 🍀 In Submission
@@ -123,7 +137,7 @@ Qihui Zhang \*, Chujie Gao \*, **Dongping Chen** \*, Yue Huang, Yixin Huang, Zhe
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/LLM-bias.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Justice or Prejudice? Quantifying Biases in LLM-as-a-Judge** [[PDF]](https://drive.google.com/file/d/1LnwkobHolnG7nU1MvpMth9w0ltskVp-Z/view?usp=drive_link) 
+**Justice or Prejudice? Quantifying Biases in LLM-as-a-Judge** [[PDF]](https://arxiv.org/pdf/2410.02736) 
 
 Jiayi Ye \*, Yanbo Wang \*, Yue Huang \*, **Dongping Chen**, Qihui Zhang, Nuno Moniz, Tian Gao, Werner Geyer, Chao Huang, Pin-Yu Chen, Nitesh V Chawla, Xiangliang Zhang
 
@@ -142,16 +156,6 @@ Yue Huang \*, Jingyu Tang \*, **Dongping Chen**, Bingda Tang, Yao Wan, Lichao Su
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/Unigen.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-***UniGen*: A Unified Framework for Textual Dataset Generation Using Large Language Models** [[PDF]](https://arxiv.org/pdf/2406.18966) [[Github]](https://github.com/HowieHwong/UniGen) [[Website]](https://unigen-framework.github.io/)
-
-Yue Huang \*, Siyuan Wu \*, Chujie Gao, **Dongping Chen**, Qihui Zhang, Yao Wan†, Tianyi Zhou, Xiangliang Zhang, Jianfeng Gao, Chaowei Xiao, Lichao Sun
-
-
-</div>
-</div>
 
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/Aggregate.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
