@@ -93,6 +93,7 @@ Qihui Zhang \*, Chujie Gao \*, **Dongping Chen** \*, Yue Huang, Yixin Huang, Zhe
 **Dongping Chen** \*, Jiawen Shi \*, Yao Wan†, Pan Zhou†, Neil Zhenqiang Gong, Lichao Sun
 
 </div>
+</div>
 
 <div class='paper-box-text' markdown="1">
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPSW 2024</div></div></div>
@@ -100,7 +101,7 @@ Qihui Zhang \*, Chujie Gao \*, **Dongping Chen** \*, Yue Huang, Yixin Huang, Zhe
 
 Yue Huang \*, Siyuan Wu \*, Chujie Gao, **Dongping Chen**, Qihui Zhang, Yao Wan†, Tianyi Zhou, Xiangliang Zhang, Jianfeng Gao, Chaowei Xiao, Lichao Sun
 
-
+</div>
 </div>
 
 <div class='paper-box-text' markdown="1">
@@ -108,7 +109,7 @@ Yue Huang \*, Siyuan Wu \*, Chujie Gao, **Dongping Chen**, Qihui Zhang, Yao Wan�
 **The Impact of Large Language Models in Academia: from Writing to Speaking** [[PDF]](https://arxiv.org/pdf/2409.13686) 
 
 Mingmeng Geng, Caixi Chen, Yanru Wu, **Dongping Chen**, Yao Wan, Pan Zhou, Roberto Trotta
-
+</div>
 </div>
 
 # 🍀 In Submission
