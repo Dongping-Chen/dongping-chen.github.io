@@ -4,45 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>特别的信</title>
+    <link href="https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'ZCOOL XiaoWei', cursive;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
             margin: 0;
-            background-color: #f0f0f0;
+            background-color: #f7e6d2;
+            background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23f3d2c1' fill-opacity='0.4'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
         }
         .container {
-            text-align: center;
+            text-align: left;
             background-color: white;
-            padding: 2rem;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            padding: 3rem;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            max-width: 600px;
+            width: 90%;
+            position: relative;
+            overflow: hidden;
+        }
+        .container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 10px;
+            background: linear-gradient(to right, #ff9a9e, #fad0c4);
+        }
+        h1 {
+            color: #d35400;
+            border-bottom: 2px solid #e67e22;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
         }
         #birthdayForm {
-            margin-bottom: 1rem;
+            margin-bottom: 1.5rem;
         }
         #message {
             display: none;
             color: #e74c3c;
+            font-weight: bold;
         }
         #content {
             display: none;
+            line-height: 1.6;
         }
         input, button {
             margin: 0.5rem 0;
-            padding: 0.5rem;
+            padding: 0.7rem;
+            width: 100%;
+            box-sizing: border-box;
+            font-family: inherit;
+        }
+        input {
+            border: 1px solid #bdc3c7;
+            border-radius: 5px;
         }
         button {
             background-color: #3498db;
             color: white;
             border: none;
             cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
         }
         button:hover {
             background-color: #2980b9;
+        }
+        p {
+            margin-bottom: 15px;
+            text-indent: 2em;
         }
     </style>
 </head>
@@ -61,7 +97,7 @@
             <p>很抱歉因为我出来交换了，所以没能在相识的早期见面，而且也因为我的原因让你内耗得睡不着。</p>
             <p>我能get到你的担忧，我也知道之前因为前任导致的ptsd没有完全好，所以你在见到我之前还是有顾虑。</p>
             <p>紫罗兰的花语是永恒，是我最喜欢的花之一，总感觉它有种浅浅的宿命感，美丽的永恒。希望你喜欢这束花，也希望你收到花花开心一点，不要再做噩梦，也不要再因为这件事心烦啦。</p>
-            <p>我认为两个很match的人是能一路走下去的，尽管我们只认识了12天，但是这些天的相处让我意识到你是值得被珍惜，且与我非常同频的人。</p>
+            <p>我认为两个很match的人是能一路走下去的，尽管我们只认识了12天（对的！已经12天啦），但是这些天的相处让我意识到你是值得被珍惜，且与我非常同频的人。</p>
             <p>说实话，我以前觉得不会再认识到这么合拍的人了，因为我觉得我其实想法很多，然后未来规划很复杂，也很害怕自己恋爱脑和强烈的分享欲惹人烦。</p>
             <p>但是，真的很幸运的，我们相遇了，而且，我真的很喜欢你，我认为爱情应该是能跨越时间和空间的，一切的等待都是值得的。</p>
             <p>所以我愿意等你，等你对我全面了解，对我敞开心扉卸下防备（虽然我不知道有没有防备），有勇气的那一刻，再和我相恋。</p>
@@ -83,7 +119,7 @@
                 content.style.display = 'block';
                 message.style.display = 'none';
             } else {
-                message.textContent = '日期不正确，请再试一次。';
+                message.textContent = '输入你的生日啦笨笨。';
                 message.style.display = 'block';
                 content.style.display = 'none';
             }
