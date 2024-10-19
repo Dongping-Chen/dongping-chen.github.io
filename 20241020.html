@@ -80,6 +80,12 @@
             margin-bottom: 15px;
             text-indent: 2em;
         }
+        .signature {
+            text-align: right;
+            margin-top: 30px;
+            font-style: italic;
+            color: #d35400;
+        }
     </style>
 </head>
 <body>
@@ -105,6 +111,7 @@
             <p>最后，希望你不要因为我的付出或者什么别的而感到困扰，你也给到了我很积极的回应，让我非常开心，让我知道我的爱是在被认真对待的。</p>
             <p>下午和晚上加油哦，等我睡醒和你看电影打电话。</p>
             <p>晚安，小木头。</p>
+            <p class="signature">爱你的小东</p>
         </div>
     </div>
 
@@ -119,7 +126,7 @@
                 content.style.display = 'block';
                 message.style.display = 'none';
             } else {
-                message.textContent = '输入你的生日啦笨笨。';
+                message.textContent = '日期不正确，请再试一次。';
                 message.style.display = 'block';
                 content.style.display = 'none';
             }
