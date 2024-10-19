@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>特别的告白</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            text-align: center;
+            background-color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        #birthdayForm {
+            margin-bottom: 1rem;
+        }
+        #message {
+            display: none;
+            color: #e74c3c;
+        }
+        #content {
+            display: none;
+        }
+        input, button {
+            margin: 0.5rem 0;
+            padding: 0.5rem;
+        }
+        button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>特别的告白</h1>
+        <form id="birthdayForm">
+            <input type="text" id="birthdayInput" placeholder="请输入特别的日期" required>
+            <button type="submit">确认</button>
+        </form>
+        <p id="message"></p>
+        <div id="content">
+            <h2>亲爱的，生日快乐！</h2>
+            <p>你是我生命中最珍贵的礼物，今天是属于你的特别日子。</p>
+            <p>我想告诉你，我爱你。你的笑容是我每天的阳光，你的存在让我的世界变得完整。</p>
+            <p>愿我们的爱情如同你的生日一样，年年都值得庆祝，岁岁都充满惊喜。</p>
+            <p>永远爱你！</p>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('birthdayForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const input = document.getElementById('birthdayInput').value;
+            const message = document.getElementById('message');
+            const content = document.getElementById('content');
+
+            if (input === '20040801') {
+                content.style.display = 'block';
+                message.style.display = 'none';
+            } else {
+                message.textContent = '日期不正确，请再试一次。';
+                message.style.display = 'block';
+                content.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
