@@ -19,7 +19,7 @@ redirect_from:
 
 Hi, I am Dongping Chen (陈东平), a final-year undergraduate at [HUST](https://hust.edu.cn).
 =====
-At present, I have the privilege of being a visiting student to University of Washington, where I work with Professors [Ranjay Krishna](https://ranjaykrishna.com/index.html) and Senior PhD [Jieyu Zhang](https://jieyuz2.github.io/). Prior to this, my academic journey has also been enriched by a collaboration with [Lichao Sun](https://lichao-sun.github.io/) at Lehigh University and [Yao Wan](http://wanyao.me/), [Pan Zhou](https://scholar.google.com/citations?user=cTpFPJgAAAAJ&hl=en) at HUST.
+At present, I have the privilege of being a visiting student to University of Washington, where I work with Professors [Ranjay Krishna](https://ranjaykrishna.com/index.html) and Senior PhD [Jieyu Zhang](https://jieyuz2.github.io/). Prior to this, my academic journey has also been enriched by a collaboration with [Lichao Sun](https://lichao-sun.github.io/) at Lehigh University and [Yao Wan](http://wanyao.me/), [Pan Zhou](https://scholar.google.com/citations?user=cTpFPJgAAAAJ&hl=en) at HUST. I am also leading an undergrad research lab at HUST.
 
 My research interests are deeply rooted in the latest advancements in multimodal perception, LLM-based Agents and Trustworthy AI. 
 
@@ -32,6 +32,7 @@ My research interests are deeply rooted in the latest advancements in multimodal
   
   
 # 🔥 News
+- *2024.10*: &nbsp;🎉🎉 Four papers have been accepted by NeurIPSW 2024!
 - *2024.08*: &nbsp;🎉🎉 **HonestLLM** has been accepted by **NeurIPS 2024**! 
 - *2024.08*: &nbsp;🥳🥳 I start my intern with Senior [PhD. Jieyu](https://jieyuz2.github.io/) and [Prof. Ranjay Krishna](https://ranjaykrishna.com/index.html) in University of Washington.
 - *2024.06*: &nbsp;🎉🎉 **Self-Cognition** has been accepted by **ICMLW 2024**! Congratulations to [Jiawen](https://scholar.google.com/citations?user=yy8oPX0AAAAJ&hl=en).   
@@ -95,7 +96,7 @@ Qihui Zhang \*, Chujie Gao \*, **Dongping Chen** \*, Yue Huang, Yixin Huang, Zhe
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/GUI.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPSW 2024</div><img src='images/GUI.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **GUI-World: A Dataset for GUI-oriented Multimodal LLM-based Agents** [[PDF]](https://arxiv.org/pdf/2406.10819) [[Github]](https://github.com/Dongping-Chen/GUI-World) [[Website]](https://gui-world.github.io)
