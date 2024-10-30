@@ -85,6 +85,12 @@
             animation: floating 3s ease-in-out infinite;
         }
 
+        .text-right {
+            text-align: right;
+            display: block;
+            margin-top: 2rem;
+        }
+
         @keyframes floating {
             0% { transform: translate(0, 0px); }
             50% { transform: translate(0, 15px); }
@@ -105,7 +111,7 @@
             <span class="halloween-icon">👻</span>
             <span class="halloween-icon">🦇</span>
             <h1>万圣节来信</h1>
-            <p>请输入密码查看神秘信件...</p>
+            <p>请输入我们认识的天数查看神秘信件...</p>
             <input type="password" id="password" placeholder="输入密码">
             <br>
             <button onclick="checkPassword()">打开信件</button>
@@ -123,7 +129,11 @@
 <p>你的很多特长和兴趣爱好也很吸引我，我是一个有点慕强的人，但是是在我不擅长或者不熟悉的地方那种。我就觉得你艺术方面真的好厉害，做版画和设计真的超级厉害，对我我这种小小白来说真的倾慕。你对朋友和亲人的感情也很让我很动容（除了对学弟），真挚的感情真的很打动人，时常让我反思我对我爸妈的爱是不是应该更主动一些…有些时候确实会疏忽了他们的感受，哎。感觉夸不过来了都，还有好多好多，比如你是个自律的宝宝，规划也比我好，做事情很认真，艺术造诣也比我强多了，在这些方面我和你比起来是黯然失色的，写的我都要自卑了呜。</p>
 <p>好想和你一起去很多好玩的地方，去野餐，去旅游，去迪士尼看烟花，去日本看富士山，去看北京初雪，来西雅图一起看秋天。我提议可以一起写一个人生清单，记录我们想要一起做的事情，然后一件件去完成，看看30岁前能完成多少嘿嘿，感觉会很有意思，而且也满足了我们俩都很丰盛的规划欲。而且有了明确的规划，生活的容错率对我来说也高了很多，比如我们如果年底要一起去玩，那么如果有几天你很忙要把事情都做完跟我去玩，那我就很能接受被冷落一阵子这样。良好的沟通也很重要，喜欢你直直的性格，沟通起来真的很爽，谁懂。和match的人谈恋爱真好，不仅三观和习惯都很像，而且未来规划也很match，而且感觉每时每刻都很开心！</p>
 <p>小木头你真是我遇见最最好的宝宝！太喜欢你了，好想赶紧回国和你奔现去呜呜，然后年底就开始一起玩去！今天先写到这里啦，准备去吃个午饭，留点东西下次写，我已经有点头绪可以写点什么了嘿嘿。万圣节快乐，爱你哦宝贝！</p>
-        </div>
+<span class="text-right">
+    爱你的小狗
+    2024年10月31日
+</span>        
+</div>
     </div>
 
     <script>
@@ -133,7 +143,7 @@
             const passwordSection = document.querySelector('.password-section');
             const error = document.getElementById('error');
             
-            if (password === "20241101") {
+            if (password === "23") {
                 passwordSection.style.display = 'none';
                 letter.style.display = 'block';
                 letter.classList.add('animate__fadeIn');
