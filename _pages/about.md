@@ -49,7 +49,7 @@ My research interests are deeply rooted in the latest advancements in multimodal
 
 ***The Best of Both Worlds*: Toward an Honest and Helpful Large Language Model** [[PDF]](https://arxiv.org/abs/2406.00380) [[Github]](https://github.com/Flossiee/HonestyLLM) [[Website]](https://honestllm.github.io/)
 
-Chujie Gao \*, Qihui Zhang \*, **Dongping Chen** \*, Yue Huang, Siyuan Wu, Zhengyan Fu, Yao Wan†, Xiangliang Zhang, Lichao Sun
+Chujie Gao \*, Siyuan Wu \*, Yue Huang \*, **Dongping Chen** \*, Qihui Zhang \*, Zhengyan Fu, Yao Wan†, Xiangliang Zhang, Lichao Sun
 
 
 </div>
