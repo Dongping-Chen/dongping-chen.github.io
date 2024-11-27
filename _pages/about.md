@@ -29,8 +29,8 @@ My research interests are deeply rooted in the latest advancements in multimodal
 - Multimodal Perception: T2I/T2V models, multimodal large language model (MLLM), etc.
 - LLM-based Agents: tool usage, efficiency and utility.
 - Trustworthy AI: safety, truthfulness, fairness, etc.
-  
-  
+
+
 # 🔥 News
 - *2024.10*: &nbsp;🎉🎉 Four papers have been accepted by NeurIPSW 2024!
 - *2024.08*: &nbsp;🎉🎉 **HonestLLM** has been accepted by **NeurIPS 2024**! 
@@ -88,7 +88,7 @@ Qihui Zhang \*, Chujie Gao \*, **Dongping Chen** \*, Yue Huang, Yixin Huang, Zhe
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/ISG.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Interleaved Scene Graph for Interleaved Text-and-Image Generation Assessment** [[PDF]](https://drive.google.com/file/d/1EWzqasPv6NagM6K6iFbFk3SpQI_7IXaN/view?usp=drive_link) [[Github]](https://github.com/Dongping-Chen/ISG) [[Website]](https://interleaved-eval.github.io/) 
+**Interleaved Scene Graph for Interleaved Text-and-Image Generation Assessment** [[PDF]](https://arxiv.org/abs/2411.17188) [[Github]](https://github.com/Dongping-Chen/ISG) [[Website]](https://interleave-eval.github.io/) 
 
 **Dongping Chen** \*, Ruoxi Chen \*, Shu Pu \*, Zhaoyi Liu \*, Yanru Wu \*, Caixi Chen \*, Benlin Liu, Yue Huang, Yao Wan, Pan Zhou, Ranjay Krishna†
 
