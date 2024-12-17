@@ -21,12 +21,12 @@ Hi, I am Dongping Chen (陈东平), a final-year undergraduate at [HUST](https:/
 =====
 At present, I have the privilege of being a visiting student to University of Washington, where I work with Professors [Ranjay Krishna](https://ranjaykrishna.com/index.html) and Senior PhD [Jieyu Zhang](https://jieyuz2.github.io/). Prior to this, my academic journey has also been enriched by a collaboration with [Lichao Sun](https://lichao-sun.github.io/) at Lehigh University and [Yao Wan](http://wanyao.me/), [Pan Zhou](https://scholar.google.com/citations?user=cTpFPJgAAAAJ&hl=en) at HUST. I am also leading [an undergrad research lab](https://oneslab.github.io) at HUST, and very lucky to have the opportunity to work with my labmates. 
 
-My research interests are deeply rooted in the latest advancements in multimodal perception, LLM-based Agents and Trustworthy AI. 
+My research interests are deeply rooted in the latest advancements in multimodal, LLM-based Agents and Trustworthy AI. 
 
 <!-- My latest CV can be viewed at [Here](CV_latest.pdf). -->
 # 💡 Research Interest
 
-- Multimodal Perception: T2I/T2V models, multimodal large language model (MLLM), etc.
+- Multimodal: T2I/T2V models, multimodal large language model (MLLM), etc.
 - LLM-based Agents: tool usage, efficiency and utility.
 - Trustworthy AI: safety, truthfulness, fairness, etc.
 
