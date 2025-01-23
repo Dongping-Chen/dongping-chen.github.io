@@ -32,6 +32,7 @@ My research interests are deeply rooted in the latest advancements in multimodal
 
 
 # 🔥 News
+- *2025.01*: &nbsp;🎉🎉 Four papers have been accepted by ICML 2025! Two papers have been accepted by WWW 2025!
 - *2024.10*: &nbsp;🎉🎉 Four papers have been accepted by NeurIPSW 2024!
 - *2024.08*: &nbsp;🎉🎉 **HonestLLM** has been accepted by **NeurIPS 2024**! 
 - *2024.08*: &nbsp;🥳🥳 I start my intern with Senior [PhD. Jieyu](https://jieyuz2.github.io/) and [Prof. Ranjay Krishna](https://ranjaykrishna.com/index.html) in University of Washington.
@@ -44,6 +45,27 @@ My research interests are deeply rooted in the latest advancements in multimodal
 
 # 📝 Publications 
 * indicates equal contribution. † indicates corresponding author.
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025</div><img src='images/ISG.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Interleaved Scene Graph for Interleaved Text-and-Image Generation Assessment** [[PDF]](https://arxiv.org/abs/2411.17188) [[Github]](https://github.com/Dongping-Chen/ISG) [[Website]](https://interleave-eval.github.io/) 
+
+**Dongping Chen** \*, Ruoxi Chen \*, Shu Pu \*, Zhaoyi Liu \*, Yanru Wu \*, Caixi Chen \*, Benlin Liu, Yue Huang, Yao Wan, Pan Zhou, Ranjay Krishna†
+
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025</div><img src='images/GUI.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**GUI-World: A Dataset for GUI-oriented Multimodal LLM-based Agents** [[PDF]](https://arxiv.org/pdf/2406.10819) [[Github]](https://github.com/Dongping-Chen/GUI-World) [[Website]](https://gui-world.github.io)
+
+**Dongping Chen** \*, Yue Huang \*, Siyuan Wu, Jingyu Tang, Liuyi Chen, Yilin Bai, Zhigang He, Chenlong Wang, Huichi Zhou, Yiqiang Li, Tianshuo Zhou, Yue Yu, Chujie Gao, Qihui Zhang, Yi Gui, Zhen Li, Yao Wan†, Pan Zhou†, Jianfeng Gao, Lichao Sun
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/HonestLLM.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -77,34 +99,13 @@ Qihui Zhang \*, Chujie Gao \*, **Dongping Chen** \*, Yue Huang, Yixin Huang, Zhe
 </div>
 </div>
 
+- ![ICLR 2025](https://img.shields.io/badge/ICMLW-2024-c821f3) [Self-Cognition in Large Language Models: An Exploratory Study](https://arxiv.org/abs/2407.01505) **Dongping Chen** \*, Jiawen Shi \*, Yao Wan†, Pan Zhou†, Neil Zhenqiang Gong, Lichao Sun
+- ![ICLR 2025](https://img.shields.io/badge/NeurIPSW-2024-e87213) [UniGen: A Unified Framework for Textual Dataset Generation Using Large Language Models](https://arxiv.org/abs/2406.18966) Yue Huang \*, Siyuan Wu \*, Chujie Gao, **Dongping Chen**, Qihui Zhang, Yao Wan†, Tianyi Zhou, Xiangliang Zhang, Jianfeng Gao, Chaowei Xiao, Lichao Sun
 - ![ACL 2024](https://img.shields.io/badge/ACL-2024-red) [Evaluating the Validity of Word-level Adversarial Attacks with Large Language Models](https://aclanthology.org/2024.findings-acl.292.pdf) Huichi Zhou \*, Zhaoyang Wang \*, Hongtao Wang†,  **Dongping Chen**, Wenhan Mu, Fangyuan Zhang
-- ![ICMLW 2024](https://img.shields.io/badge/ICMLW-2024-c821f3) [Self-Cognition in Large Language Models: An Exploratory Study](https://arxiv.org/abs/2407.01505) **Dongping Chen** \*, Jiawen Shi \*, Yao Wan†, Pan Zhou†, Neil Zhenqiang Gong, Lichao Sun
-- ![NeurIPSW 2024](https://img.shields.io/badge/NeurIPSW-2024-e87213) [UniGen: A Unified Framework for Textual Dataset Generation Using Large Language Models](https://arxiv.org/abs/2406.18966) Yue Huang \*, Siyuan Wu \*, Chujie Gao, **Dongping Chen**, Qihui Zhang, Yao Wan†, Tianyi Zhou, Xiangliang Zhang, Jianfeng Gao, Chaowei Xiao, Lichao Sun
 - ![NeurIPSW 2024](https://img.shields.io/badge/NeurIPSW-2024-c7be87) [The Impact of Large Language Models in Academia: from Writing to Speaking](https://arxiv.org/pdf/2409.13686) Mingmeng Geng, Caixi Chen, Yanru Wu, **Dongping Chen**, Yao Wan, Pan Zhou, Roberto Trotta
 - ![NeurIPSW 2024](https://img.shields.io/badge/NeurIPSW-2024-blue) [Justice or Prejudice? Quantifying Biases in LLM-as-a-Judge](https://arxiv.org/pdf/2410.02736) Jiayi Ye \*, Yanbo Wang \*, Yue Huang \*, **Dongping Chen**, Qihui Zhang, Nuno Moniz, Tian Gao, Werner Geyer, Chao Huang, Pin-Yu Chen, Nitesh V Chawla, Xiangliang Zhang†
 
 # 🍀 In Submission
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/ISG.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**Interleaved Scene Graph for Interleaved Text-and-Image Generation Assessment** [[PDF]](https://arxiv.org/abs/2411.17188) [[Github]](https://github.com/Dongping-Chen/ISG) [[Website]](https://interleave-eval.github.io/) 
-
-**Dongping Chen** \*, Ruoxi Chen \*, Shu Pu \*, Zhaoyi Liu \*, Yanru Wu \*, Caixi Chen \*, Benlin Liu, Yue Huang, Yao Wan, Pan Zhou, Ranjay Krishna†
-
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPSW 2024</div><img src='images/GUI.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**GUI-World: A Dataset for GUI-oriented Multimodal LLM-based Agents** [[PDF]](https://arxiv.org/pdf/2406.10819) [[Github]](https://github.com/Dongping-Chen/GUI-World) [[Website]](https://gui-world.github.io)
-
-**Dongping Chen** \*, Yue Huang \*, Siyuan Wu, Jingyu Tang, Liuyi Chen, Yilin Bai, Zhigang He, Chenlong Wang, Huichi Zhou, Yiqiang Li, Tianshuo Zhou, Yue Yu, Chujie Gao, Qihui Zhang, Yi Gui, Zhen Li, Yao Wan†, Pan Zhou†, Jianfeng Gao, Lichao Sun
-
-</div>
-</div>
 
 
 - ![Preprint](https://img.shields.io/badge/Preprint-2024-87acc7) [ObscurePrompt: Jailbreaking Large Language Models via Obscure Input](https://arxiv.org/pdf/2406.13662) Yue Huang \*, Jingyu Tang \*, **Dongping Chen**, Bingda Tang, Yao Wan, Lichao Sun, Xiangliang Zhang†
@@ -123,7 +124,7 @@ Qihui Zhang \*, Chujie Gao \*, **Dongping Chen** \*, Yue Huang, Yixin Huang, Zhe
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
 # 📖 Educations
-- *2024.08 - 2025.01 (expected)*, Visiting Scholar, University of Washington. 
+- *2024.08 - 2024.12*, Visiting Scholar, University of Washington. 
 - *2021.09 - 2025.06 (expected)*, BEng.,  Huazhong University of Science and Technology. 
 
 
