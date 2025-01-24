@@ -32,7 +32,7 @@ My research interests are deeply rooted in the latest advancements in multimodal
 
 
 # 🔥 News
-- *2025.01*: &nbsp;🎉🎉 Four papers have been accepted by ICML 2025! Two papers have been accepted by WWW 2025!
+- *2025.01*: &nbsp;🎉🎉 Four papers have been accepted by ICLR 2025! Two papers have been accepted by WWW 2025!
 - *2024.10*: &nbsp;🎉🎉 Four papers have been accepted by NeurIPSW 2024!
 - *2024.08*: &nbsp;🎉🎉 **HonestLLM** has been accepted by **NeurIPS 2024**! 
 - *2024.08*: &nbsp;🥳🥳 I start my intern with Senior [PhD. Jieyu](https://jieyuz2.github.io/) and [Prof. Ranjay Krishna](https://ranjaykrishna.com/index.html) in University of Washington.
