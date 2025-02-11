@@ -31,7 +31,7 @@ My research interests are deeply rooted in the latest advancements in generative
 
 
 # 🔥 News
-- *2025.01*: &nbsp;🎉🎉 Four papers have been accepted by ICLR 2025! *Interleaved Scene Graph* is selected as **ICLR 2025 Spotlight**! Two other papers have been accepted by WWW 2025!
+- *2025.01*: &nbsp;🎉🎉 Four papers have been accepted by **ICLR 2025**! *Interleaved Scene Graph* is selected as **ICLR 2025 Spotlight**! Two other papers have been accepted by **WWW 2025**!
 - *2024.09*: &nbsp;🎉🎉 **HonestLLM** has been accepted by **NeurIPS 2024**! 
 - *2024.08*: &nbsp;🥳🥳 I start my intern with Senior [PhD. Jieyu](https://jieyuz2.github.io/) and [Prof. Ranjay Krishna](https://ranjaykrishna.com/index.html) in University of Washington.
 - *2024.06*: &nbsp;🎉🎉 **Self-Cognition** has been accepted by **ICMLW 2024**! Congratulations to [Jiawen](https://scholar.google.com/citations?user=yy8oPX0AAAAJ&hl=en).   
