@@ -21,20 +21,18 @@ Hi, I am Dongping Chen (陈东平), a final-year undergraduate at [HUST](https:/
 =====
 At present, I am working with Professor [Yao Wan](http://wanyao.me/) at HUST. Prior to this, I have the privilege of being a visiting student to University of Washington, where I work with Professors [Ranjay Krishna](https://ranjaykrishna.com/index.html) and Senior PhD [Jieyu Zhang](https://jieyuz2.github.io/). My academic journey has also been enriched by a collaboration with [Lichao Sun](https://lichao-sun.github.io/) at Lehigh University and [Yao Wan](http://wanyao.me/), [Pan Zhou](https://scholar.google.com/citations?user=cTpFPJgAAAAJ&hl=en) at HUST. I am also leading [an undergrad research lab](https://oneslab.github.io) at HUST, and very lucky to have the opportunity to work with my labmates. 
 
-My research interests are deeply rooted in the latest advancements in multimodal, LLM-based Agents and Trustworthy AI. 
+My research interests are deeply rooted in the latest advancements in generative models, especially multimodal and LLM-based agents. 
 
 <!-- My latest CV can be viewed at [Here](CV_latest.pdf). -->
 # 💡 Research Interest
 
 - Multimodal: T2I/T2V models, multimodal large language model (MLLM), etc.
-- LLM-based Agents: tool usage, efficiency and utility.
-- Trustworthy AI: safety, truthfulness, fairness, etc.
+- LLM-based Agents: agentic workflow, tool usage, efficiency and utility.
 
 
 # 🔥 News
-- *2025.01*: &nbsp;🎉🎉 Four papers have been accepted by ICLR 2025! Two papers have been accepted by WWW 2025!
-- *2024.10*: &nbsp;🎉🎉 Four papers have been accepted by NeurIPSW 2024!
-- *2024.08*: &nbsp;🎉🎉 **HonestLLM** has been accepted by **NeurIPS 2024**! 
+- *2025.01*: &nbsp;🎉🎉 Four papers have been accepted by ICLR 2025! *Interleaved Scene Graph* is selected as **ICLR 2025 Spotlight**! Two other papers have been accepted by WWW 2025!
+- *2024.09*: &nbsp;🎉🎉 **HonestLLM** has been accepted by **NeurIPS 2024**! 
 - *2024.08*: &nbsp;🥳🥳 I start my intern with Senior [PhD. Jieyu](https://jieyuz2.github.io/) and [Prof. Ranjay Krishna](https://ranjaykrishna.com/index.html) in University of Washington.
 - *2024.06*: &nbsp;🎉🎉 **Self-Cognition** has been accepted by **ICMLW 2024**! Congratulations to [Jiawen](https://scholar.google.com/citations?user=yy8oPX0AAAAJ&hl=en).   
 - *2024.06*: &nbsp;🥳🥳 Our **MLLM-as-a-Judge** is selected as **ICML 2024 Oral**!
@@ -45,7 +43,7 @@ My research interests are deeply rooted in the latest advancements in multimodal
 
 # 📝 Publications 
 * indicates equal contribution. † indicates corresponding author.
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025</div><img src='images/ISG.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025 Spotlight</div><img src='images/ISG.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Interleaved Scene Graph for Interleaved Text-and-Image Generation Assessment** [[PDF]](https://arxiv.org/abs/2411.17188) [[Github]](https://github.com/Dongping-Chen/ISG) [[Website]](https://interleave-eval.github.io/) 
