@@ -31,7 +31,8 @@ My research interests are deeply rooted in the latest advancements in generative
 
 
 # 🔥 News
-- *2025.01*: &nbsp;🎉🎉 Four papers have been accepted by **ICLR 2025**! *Interleaved Scene Graph* is selected as **ICLR 2025 Spotlight**! Two other papers have been accepted by **WWW 2025**!
+- *2025.01*: &nbsp;🎉🎉 Two papers have been accepted by **CVPR 2025**! Three papers is on Arxiv! Check [Yue](https://howiehwong.github.io/)'s latest fantastic work on [Trustworthy Foundation Models](https://arxiv.org/abs/2502.14296)!
+- *2025.01*: &nbsp;🎉🎉 Four papers have been accepted by **ICLR 2025**! **Interleaved Scene Graph** is selected as **ICLR 2025 Spotlight**! Two other papers have been accepted by **WWW 2025**!
 - *2024.09*: &nbsp;🎉🎉 **HonestLLM** has been accepted by **NeurIPS 2024**! 
 - *2024.08*: &nbsp;🥳🥳 I start my intern with Senior [PhD. Jieyu](https://jieyuz2.github.io/) and [Prof. Ranjay Krishna](https://ranjaykrishna.com/index.html) in University of Washington.
 - *2024.06*: &nbsp;🎉🎉 **Self-Cognition** has been accepted by **ICMLW 2024**! Congratulations to [Jiawen](https://scholar.google.com/citations?user=yy8oPX0AAAAJ&hl=en).   
@@ -97,16 +98,23 @@ Qihui Zhang \*, Chujie Gao \*, **Dongping Chen** \*, Yue Huang, Yixin Huang, Zhe
 </div>
 </div>
 
+- ![CVPR 2025](https://img.shields.io/badge/CVPR-2025-9AD7FF) [REALEDIT: Reddit Edits As a Large-scale Empirical Dataset for Image Transformations](https://arxiv.org/abs/2502.03629) Peter Sushko, Ayana Bharadwaj, Zhi Yang Lim, Vasily Ilin, Ben Caffee, **Dongping Chen**, Mohammadreza Salehi, Cheng-Yu Hsieh, Ranjay Krishna†
+- ![CVPR 2025](https://img.shields.io/badge/CVPR-2025-9AD7FF) [Perception Tokens Enhance Visual Reasoning in Multimodal Language Models](https://arxiv.org/abs/2412.03548) Mahtab Bigverdi, Zelun Luo, Cheng-Yu Hsieh, Ethan Shen, **Dongping Chen**, Linda G. Shapiro, Ranjay Krishna†
 - ![ICLR 2025](https://img.shields.io/badge/ICLR-2025-e87213) [DataGen: A Unified Framework for Textual Dataset Generation Using Large Language Models](https://arxiv.org/abs/2406.18966) Yue Huang \*, Siyuan Wu \*, Chujie Gao, **Dongping Chen**, Qihui Zhang, Yao Wan, Tianyi Zhou, Jianfeng Gao, Chaowei Xiao, Lichao Sun, Xiangliang Zhang†
-- ![ICLR 2025](https://img.shields.io/badge/ICLR-2025-blue) [Justice or Prejudice? Quantifying Biases in LLM-as-a-Judge](https://arxiv.org/pdf/2410.02736) Jiayi Ye \*, Yanbo Wang \*, Yue Huang \*, **Dongping Chen**, Qihui Zhang, Nuno Moniz, Tian Gao, Werner Geyer, Chao Huang, Pin-Yu Chen, Nitesh V Chawla, Xiangliang Zhang†
+- ![ICLR 2025](https://img.shields.io/badge/ICLR-2025-e87213) [Justice or Prejudice? Quantifying Biases in LLM-as-a-Judge](https://arxiv.org/pdf/2410.02736) Jiayi Ye \*, Yanbo Wang \*, Yue Huang \*, **Dongping Chen**, Qihui Zhang, Nuno Moniz, Tian Gao, Werner Geyer, Chao Huang, Pin-Yu Chen, Nitesh V Chawla, Xiangliang Zhang†
+- ![WWW 2025](https://img.shields.io/badge/WWW-2025-EACD76) [WebCode2M: A Real-World Dataset for Code Generation from Webpage Designs](https://openreview.net/forum?id=aeP5nmlw5B) Yi Gui, Zhen Li, Yao Wan†, Yemin Shi, Hongyu Zhang, Yi Su, Bohua Chen, **Dongping Chen**, Siyuan Wu, Xing Zhou, Wenbin Jiang, Hai Jin, Xiangliang Zhang
+- ![WWW 2025](https://img.shields.io/badge/WWW-2025-EACD76) [UICopilot: Automating UI Synthesis via Hierarchical Code Generation from Webpage Designs](https://openreview.net/forum?id=faMbH0wkye) Yi Gui, Yao Wan, Zhen Li, Zhongyi Zhang, **Dongping Chen**, Hongyu Zhang, Yi Su, Bohua Chen, Xing Zhou, Wenbin Jiang, Xiangliang Zhang
 - ![ACL 2024](https://img.shields.io/badge/ACL-2024-red) [Evaluating the Validity of Word-level Adversarial Attacks with Large Language Models](https://aclanthology.org/2024.findings-acl.292.pdf) Huichi Zhou \*, Zhaoyang Wang \*, Hongtao Wang†,  **Dongping Chen**, Wenhan Mu, Fangyuan Zhang
 - ![ICMLW 2024](https://img.shields.io/badge/ICMLW-2024-c821f3) [Self-Cognition in Large Language Models: An Exploratory Study](https://arxiv.org/abs/2407.01505) **Dongping Chen** \*, Jiawen Shi \*, Yao Wan†, Pan Zhou†, Neil Zhenqiang Gong, Lichao Sun
 - ![NeurIPSW 2024](https://img.shields.io/badge/NeurIPSW-2024-c7be87) [The Impact of Large Language Models in Academia: from Writing to Speaking](https://arxiv.org/pdf/2409.13686) Mingmeng Geng, Caixi Chen, Yanru Wu, **Dongping Chen**, Yao Wan, Pan Zhou, Roberto Trotta
 
 # 🍀 In Submission
 
-
+- ![Preprint](https://img.shields.io/badge/Preprint-2025-87acc7) [On the Trustworthiness of Generative Foundation Models: Guideline, Assessment, and Perspective](https://arxiv.org/abs/2502.14296) Yue Huang, Chujie Gao, Siyuan Wu, ... **Dongping Chen** ..., Xiangliang Zhang†
+- ![Preprint](https://img.shields.io/badge/Preprint-2025-87acc7) [nvAgent: Automated Data Visualization from Natural Language via Collaborative Agent Workflow](https://arxiv.org/abs/2502.05036) Geliang Ouyang, Jingyao Chen, Zhihe Nie, Yi Gui, Yao Wan, Hongyu Zhang, **Dongping Chen**
+- ![Preprint](https://img.shields.io/badge/Preprint-2025-87acc7) [CodeSync: Synchronizing Large Language Models with Dynamic Code Evolution at Scale](https://arxiv.org/abs/2502.16645) Chenlong Wang, Zhaoyang Chu, Zhengxiang Cheng, Xuyi Yang, Kaiyue Qiu, Yao Wan, Zhou Zhao, Xuanhua Shi, **Dongping Chen**
 - ![Preprint](https://img.shields.io/badge/Preprint-2024-87acc7) [ObscurePrompt: Jailbreaking Large Language Models via Obscure Input](https://arxiv.org/pdf/2406.13662) Yue Huang \*, Jingyu Tang \*, **Dongping Chen**, Bingda Tang, Yao Wan, Lichao Sun, Xiangliang Zhang†
+
 
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/Aggregate.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
