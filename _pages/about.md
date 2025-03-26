@@ -31,7 +31,7 @@ My research interests are deeply rooted in the latest advancements in generative
 
 
 # 🔥 News
-- *2025.02*: &nbsp;🎉🎉 Two papers have been accepted by **CVPR 2025**! Five papers is on Arxiv! Check [Yue](https://howiehwong.github.io/)'s latest fantastic work on [Trustworthy Foundation Models](https://arxiv.org/abs/2502.14296)!
+- *2025.02*: &nbsp;🎉🎉 Two papers have been accepted by **CVPR 2025**! Six papers is on Arxiv! Check [Yue](https://howiehwong.github.io/)'s latest fantastic work on [Trustworthy Foundation Models](https://arxiv.org/abs/2502.14296)!
 - *2025.01*: &nbsp;🎉🎉 Four papers have been accepted by **ICLR 2025**! **Interleaved Scene Graph** is selected as **ICLR 2025 Spotlight**! Two other papers have been accepted by **WWW 2025**!
 - *2024.09*: &nbsp;🎉🎉 **HonestLLM** has been accepted by **NeurIPS 2024**! 
 - *2024.08*: &nbsp;🥳🥳 I start my intern with Senior [PhD. Jieyu](https://jieyuz2.github.io/) and [Prof. Ranjay Krishna](https://ranjaykrishna.com/index.html) in University of Washington.
@@ -110,8 +110,9 @@ Qihui Zhang \*, Chujie Gao \*, **Dongping Chen** \*, Yue Huang, Yixin Huang, Zhe
 
 # 🍀 In Submission
 
+- ![Preprint](https://img.shields.io/badge/Preprint-2025-87acc7) [Judge Anything: MLLM as a Judge Across Any Modality](https://arxiv.org/pdf/2503.17489) Shu Pu*, Yaochen Wang*, **Dongping Chen**‡, Yuhang Chen, Guohao Wang, Qi Qin, Zhongyi Zhang, Zhiyuan Zhang, Zetong Zhou, Shuang Gong, Yi Gui, Yao Wan, Philip S. Yu
 - ![Preprint](https://img.shields.io/badge/Preprint-2025-87acc7) [On the Trustworthiness of Generative Foundation Models: Guideline, Assessment, and Perspective](https://arxiv.org/abs/2502.14296) Yue Huang, Chujie Gao, Siyuan Wu, ... **Dongping Chen** ..., Xiangliang Zhang†
-- ![Preprint](https://img.shields.io/badge/Preprint-2025-87acc7) [nvAgent: Automated Data Visualization from Natural Language via Collaborative Agent Workflow](https://arxiv.org/pdf/2502.05036) Geliang Ouyang, Jingyao Chen, Zhihe Nie, Yi Gui, Yao Wan, Hongyu Zhang, **Dongping Chen**‡
+- ![Preprint](https://img.shields.io/badge/Preprint-2025-87acc7) [nvAgent: Automated Data Visualization from Natural Language via Collaborative Agent Workflow](https://arxiv.org/pdf/2502.05036) Geliang Ouyang, Jingyao Chen, Zhihe Nie, Yi Gui, Yao Wan, Hongyu Zhang, **Dongping Chen**
 - ![Preprint](https://img.shields.io/badge/Preprint-2025-87acc7) [CodeSync: Synchronizing Large Language Models with Dynamic Code Evolution at Scale](https://arxiv.org/pdf/2502.16645) Chenlong Wang, Zhaoyang Chu, Zhengxiang Cheng, Xuyi Yang, Kaiyue Qiu, Yao Wan, Zhou Zhao, Xuanhua Shi, **Dongping Chen**‡
 - ![Preprint](https://img.shields.io/badge/Preprint-2025-87acc7) [Wikipedia in the Era of LLMs: Evolution and Risks](https://arxiv.org/pdf/2503.02879) Siming Huang, Yuliang Xu, Mingmeng Geng, Yao Wan, **Dongping Chen**‡
 - ![Preprint](https://img.shields.io/badge/Preprint-2025-87acc7) [CrowdSelect: Synthetic Instruction Data Selection with Multi-LLM Wisdom](https://arxiv.org/pdf/2503.01836) Yisen Li, Lingfeng Yang, Wenxuan Shen, Pan Zhou, Yao Wan, Weiwei Lin, **Dongping Chen**‡
