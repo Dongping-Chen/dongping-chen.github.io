@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Dongping Chen's Website"
-description              : "Year 4 Undergraduate"
+description              : "Incoming PhD Student"
 repository               : "Dongping-Chen/Dongping-Chen.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,12 +23,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Dongping Chen"
   avatar           : "images/IMG_0890.JPG"
-  bio              : "Huazhong University of Science and Technology"
-  location         : "Wuhan, China"
+  bio              : "Research for Fun"
+  location         : 
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=g92Ri7YAAAAJ&hl=zh-CN"
-  email            : "dongpingchen0612@gmail.com"
+  email            : "dongpingchen@umd.edu"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :

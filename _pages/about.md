@@ -17,9 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, I am Dongping Chen (陈东平), a final-year undergraduate at [HUST](https://hust.edu.cn).
+Hi, I am Dongping Chen (陈东平).
 =====
-At present, I am working with Professor [Yao Wan](http://wanyao.me/) at HUST. Prior to this, I have the privilege of being a visiting student to University of Washington, where I work with Professors [Ranjay Krishna](https://ranjaykrishna.com/index.html) and Senior PhD [Jieyu Zhang](https://jieyuz2.github.io/). My academic journey has also been enriched by a collaboration with [Lichao Sun](https://lichao-sun.github.io/) at Lehigh University and [Yao Wan](http://wanyao.me/), [Pan Zhou](https://scholar.google.com/citations?user=cTpFPJgAAAAJ&hl=en) at HUST. I am also leading [an undergrad research lab](https://oneslab.github.io) at HUST, and very lucky to have the opportunity to work with my labmates. 
+At present, I am working with Professor [Tianyi Zhou](https://tianyizhou.github.io/) at UMD. Prior to this, I have the privilege of being a visiting student to University of Washington, where I work with Professors [Ranjay Krishna](https://ranjaykrishna.com/index.html) and Senior PhD [Jieyu Zhang](https://jieyuz2.github.io/). My academic journey has also been enriched by a collaboration with [Lichao Sun](https://lichao-sun.github.io/) at Lehigh University and [Yao Wan](http://wanyao.me/), [Pan Zhou](https://scholar.google.com/citations?user=cTpFPJgAAAAJ&hl=en) at HUST. I am also leading [an undergrad research lab](https://oneslab.github.io) with Professor [Yao Wan](http://wanyao.me/), and very lucky to have the opportunity to work with my labmates. 
 
 My research interests are deeply rooted in the latest advancements in generative models, especially multimodal and LLM-based agents. 
 
@@ -141,8 +141,8 @@ Qihui Zhang \*, Chujie Gao \*, **Dongping Chen** \*, Yue Huang, Yixin Huang, Zhe
 - *2024.07*, Oral Presentation of **MLLM-as-a-Judge** at ICML 2024. [\[video\]](https://icml.cc/virtual/2024/oral/35497)
 
 # 💻 Services
-- 2025, Reviewer for ICLR 2025, ICASSP 2025
-- 2024, Reviewer for ICML Workshops 2024, NeurIPS Workshops 2024
+- 2025, Reviewer for ARR Feb, ICCV/ICLR/ICASSP
+- 2024, Reviewer for ICML/NeurIPS Workshops
 
 <html lang="en">
 <head>
