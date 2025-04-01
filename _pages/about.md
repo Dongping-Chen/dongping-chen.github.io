@@ -24,13 +24,13 @@ At present, I am working with Professor [Tianyi Zhou](https://tianyizhou.github.
 My research interests are deeply rooted in the latest advancements in generative models, especially multimodal and LLM-based agents. 
 
 <!-- My latest CV can be viewed at [Here](CV_latest.pdf). -->
-# 💡 Research Interest
+<!-- # 💡 Research Interest
 
 - Multimodal: T2I/T2V models, multimodal large language model (MLLM), etc.
-- LLM-based Agents: agentic workflow, tool usage, efficiency and utility.
+- LLM-based Agents: agentic workflow, tool usage, efficiency and utility. -->
 
 
-# 🔥 News
+<!-- # 🔥 News
 - *2025.02*: &nbsp;🎉🎉 Two papers have been accepted by **CVPR 2025**! Six papers is on Arxiv! Check [Yue](https://howiehwong.github.io/)'s latest fantastic work on [Trustworthy Foundation Models](https://arxiv.org/abs/2502.14296)!
 - *2025.01*: &nbsp;🎉🎉 Four papers have been accepted by **ICLR 2025**! **Interleaved Scene Graph** is selected as **ICLR 2025 Spotlight**! Two other papers have been accepted by **WWW 2025**!
 - *2024.09*: &nbsp;🎉🎉 **HonestLLM** has been accepted by **NeurIPS 2024**! 
@@ -39,7 +39,7 @@ My research interests are deeply rooted in the latest advancements in generative
 - *2024.06*: &nbsp;🥳🥳 Our **MLLM-as-a-Judge** is selected as **ICML 2024 Oral**!
 - *2024.05*: &nbsp;🎉🎉 **AVLLM** has been accepted by **ACL 2024 Findings**! Congratulations to [Huichi](https://huichizhou.github.io/).
 - *2024.05*: &nbsp;🎉🎉 **MLLM-as-a-Judge** has been accepted by **ICML 2024**! Congratulations to [Ruoxi](https://scholar.google.com/citations?user=F7cDYF0AAAAJ), [Shilin](https://scholar.google.com/citations?hl=en&user=b_qLXToAAAAJ), [Yaochen](https://scholar.google.com/citations?hl=en&user=pcqtbQEAAAAJ), [Yinuo](https://scholar.google.com/citations?hl=en&user=MKPvCFIAAAAJ), [Huichi](https://scholar.google.com/citations?user=1IJyxpUAAAAJ), [Qihui](https://scholar.google.com/citations?user=ZdgtY0EAAAAJ&hl=en)!
-- *2024.03*: &nbsp;🎉🎉 **LLM-as-a-Coauthor** has been accepted by **NAACL 2024 Findings**! Congratulations to [Qihui](https://scholar.google.com/citations?user=ZdgtY0EAAAAJ&hl=en), [Chujie](https://flossiee.github.io/) and [Yue](https://howiehwong.github.io/)! 
+- *2024.03*: &nbsp;🎉🎉 **LLM-as-a-Coauthor** has been accepted by **NAACL 2024 Findings**! Congratulations to [Qihui](https://scholar.google.com/citations?user=ZdgtY0EAAAAJ&hl=en), [Chujie](https://flossiee.github.io/) and [Yue](https://howiehwong.github.io/)!  -->
 
 
 # 📝 Publications 
@@ -98,7 +98,7 @@ Qihui Zhang \*, Chujie Gao \*, **Dongping Chen** \*, Yue Huang, Yixin Huang, Zhe
 </div>
 </div>
 
-- ![CVPR 2025](https://img.shields.io/badge/CVPR-2025-9AD7FF) [REALEDIT: Reddit Edits As a Large-scale Empirical Dataset for Image Transformations](https://arxiv.org/pdf/2502.03629) Peter Sushko, Ayana Bharadwaj, Zhi Yang Lim, Vasily Ilin, Ben Caffee, **Dongping Chen**, Mohammadreza Salehi, Cheng-Yu Hsieh, Ranjay Krishna†
+<!-- - ![CVPR 2025](https://img.shields.io/badge/CVPR-2025-9AD7FF) [REALEDIT: Reddit Edits As a Large-scale Empirical Dataset for Image Transformations](https://arxiv.org/pdf/2502.03629) Peter Sushko, Ayana Bharadwaj, Zhi Yang Lim, Vasily Ilin, Ben Caffee, **Dongping Chen**, Mohammadreza Salehi, Cheng-Yu Hsieh, Ranjay Krishna†
 - ![CVPR 2025](https://img.shields.io/badge/CVPR-2025-9AD7FF) [Perception Tokens Enhance Visual Reasoning in Multimodal Language Models](https://arxiv.org/pdf/2412.03548) Mahtab Bigverdi, Zelun Luo, Cheng-Yu Hsieh, Ethan Shen, **Dongping Chen**, Linda G. Shapiro, Ranjay Krishna†
 - ![ICLR 2025](https://img.shields.io/badge/ICLR-2025-e87213) [DataGen: A Unified Framework for Textual Dataset Generation Using Large Language Models](https://arxiv.org/pdf/2406.18966) Yue Huang \*, Siyuan Wu \*, Chujie Gao, **Dongping Chen**, Qihui Zhang, Yao Wan, Tianyi Zhou, Jianfeng Gao, Chaowei Xiao, Lichao Sun, Xiangliang Zhang†
 - ![ICLR 2025](https://img.shields.io/badge/ICLR-2025-e87213) [Justice or Prejudice? Quantifying Biases in LLM-as-a-Judge](https://arxiv.org/pdf/2410.02736) Jiayi Ye \*, Yanbo Wang \*, Yue Huang \*, **Dongping Chen**, Qihui Zhang, Nuno Moniz, Tian Gao, Werner Geyer, Chao Huang, Pin-Yu Chen, Nitesh V Chawla, Xiangliang Zhang†
@@ -116,7 +116,7 @@ Qihui Zhang \*, Chujie Gao \*, **Dongping Chen** \*, Yue Huang, Yixin Huang, Zhe
 - ![Preprint](https://img.shields.io/badge/Preprint-2025-87acc7) [CodeSync: Synchronizing Large Language Models with Dynamic Code Evolution at Scale](https://arxiv.org/pdf/2502.16645) Chenlong Wang, Zhaoyang Chu, Zhengxiang Cheng, Xuyi Yang, Kaiyue Qiu, Yao Wan, Zhou Zhao, Xuanhua Shi, **Dongping Chen**‡
 - ![Preprint](https://img.shields.io/badge/Preprint-2025-87acc7) [Wikipedia in the Era of LLMs: Evolution and Risks](https://arxiv.org/pdf/2503.02879) Siming Huang, Yuliang Xu, Mingmeng Geng, Yao Wan, **Dongping Chen**‡
 - ![Preprint](https://img.shields.io/badge/Preprint-2025-87acc7) [CrowdSelect: Synthetic Instruction Data Selection with Multi-LLM Wisdom](https://arxiv.org/pdf/2503.01836) Yisen Li, Lingfeng Yang, Wenxuan Shen, Pan Zhou, Yao Wan, Weiwei Lin, **Dongping Chen**‡
-- ![Preprint](https://img.shields.io/badge/Preprint-2024-87acc7) [ObscurePrompt: Jailbreaking Large Language Models via Obscure Input](https://arxiv.org/pdf/2406.13662) Yue Huang \*, Jingyu Tang \*, **Dongping Chen**, Bingda Tang, Yao Wan, Lichao Sun, Xiangliang Zhang†
+- ![Preprint](https://img.shields.io/badge/Preprint-2024-87acc7) [ObscurePrompt: Jailbreaking Large Language Models via Obscure Input](https://arxiv.org/pdf/2406.13662) Yue Huang \*, Jingyu Tang \*, **Dongping Chen**, Bingda Tang, Yao Wan, Lichao Sun, Xiangliang Zhang† -->
 
 
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/Aggregate.jpg' alt="sym" width="100%"></div></div>
@@ -137,12 +137,12 @@ Qihui Zhang \*, Chujie Gao \*, **Dongping Chen** \*, Yue Huang, Yixin Huang, Zhe
 - *2021.09 - 2025.06 (expected)*, BEng.,  Huazhong University of Science and Technology. 
 
 
-# 💬 Talks
+<!-- # 💬 Talks
 - *2024.07*, Oral Presentation of **MLLM-as-a-Judge** at ICML 2024. [\[video\]](https://icml.cc/virtual/2024/oral/35497)
 
 # 💻 Services
 - 2025, Reviewer for ARR Feb, ICCV/ICLR/ICASSP
-- 2024, Reviewer for ICML/NeurIPS Workshops
+- 2024, Reviewer for ICML/NeurIPS Workshops -->
 
 <html lang="en">
 <head>
