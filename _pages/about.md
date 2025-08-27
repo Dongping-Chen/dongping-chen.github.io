@@ -21,7 +21,11 @@ Hi, I am Dongping Chen (陈东平).
 =====
 At present, I am working with Professor [Tianyi Zhou](https://tianyizhou.github.io/) at UMD. Prior to this, I have the privilege of being a visiting student to University of Washington, where I work with Professors [Ranjay Krishna](https://ranjaykrishna.com/index.html) and Senior PhD [Jieyu Zhang](https://jieyuz2.github.io/). My academic journey has also been enriched by a collaboration with [Lichao Sun](https://lichao-sun.github.io/) at Lehigh University and [Yao Wan](http://wanyao.me/), [Pan Zhou](https://scholar.google.com/citations?user=cTpFPJgAAAAJ&hl=en) at HUST. I am also leading [an undergrad research lab](https://oneslab.github.io) with Professor [Yao Wan](http://wanyao.me/), and very lucky to have the opportunity to work with my labmates. 
 
-My research interests are deeply rooted in the latest advancements in generative models, especially multimodal and LLM-based agents. 
+My research interests are deeply rooted in the latest advancements in generative models, especially multimodal, LLM-based agents and frontier trustworthy problems.
+
+<span class="highlight-red">I'm looking for summer intern opportunities in 2026 summer and feel free to reach out.</span> 
+
+I'm interested in connecting with students for research collaboration, mentorship, or just making friends! I especially encourage students from underrepresented groups to reach out. If you're interested in discussing research, seeking advice, or simply having a chat, feel free to schedule a meeting via [this link](https://calendly.com/dongping-umd/30min).  
 
 <!-- My latest CV can be viewed at [Here](CV_latest.pdf). -->
 <!-- # 💡 Research Interest
@@ -93,6 +97,27 @@ My research interests are deeply rooted in the latest advancements in generative
     border-radius: 8px;
     margin: 20px 0;
 }
+
+.author-me {
+    background-color: #E3F2FD;
+    border: 1px solid #BBDEFB;
+    border-radius: 4px;
+    padding: 2px 6px;
+    margin: 0 2px;
+    color: #1565C0;
+    font-weight: 500;
+}
+
+.highlight-red {
+    background-color: #FFEBEE;
+    border: 1px solid #FFCDD2;
+    border-radius: 4px;
+    padding: 4px 8px;
+    margin: 2px 0;
+    color: #C62828;
+    font-weight: 600;
+    display: inline-block;
+}
 </style>
 
 <div class="publication-tabs">
@@ -105,9 +130,9 @@ My research interests are deeply rooted in the latest advancements in generative
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025 Spotlight</div><img src='images/ISG.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Interleaved Scene Graph for Interleaved Text-and-Image Generation Assessment** [[PDF]](https://arxiv.org/abs/2411.17188) [[Github]](https://github.com/Dongping-Chen/ISG) [[Website]](https://interleave-eval.github.io/) 
+**Interleaved Scene Graph for Interleaved Text-and-Image Generation Assessment** [[PDF]](https://arxiv.org/pdf/2411.17188) [[Github]](https://github.com/Dongping-Chen/ISG) [[Website]](https://interleave-eval.github.io/) 
 
-**Dongping Chen** \*, Ruoxi Chen \*, Shu Pu \*, Zhaoyi Liu \*, Yanru Wu \*, Caixi Chen \*, Benlin Liu, Yue Huang, Yao Wan, Pan Zhou, Ranjay Krishna†
+<span class="author-me">**Dongping Chen**</span> \*, Ruoxi Chen \*, Shu Pu \*, Zhaoyi Liu \*, Yanru Wu \*, Caixi Chen \*, Benlin Liu, Yue Huang, Yao Wan, Pan Zhou, Ranjay Krishna†
 
 </div>
 </div>
@@ -118,7 +143,7 @@ My research interests are deeply rooted in the latest advancements in generative
 
 **GUI-World: A Dataset for GUI-oriented Multimodal LLM-based Agents** [[PDF]](https://arxiv.org/pdf/2406.10819) [[Github]](https://github.com/Dongping-Chen/GUI-World) [[Website]](https://gui-world.github.io)
 
-**Dongping Chen** \*, Yue Huang \*, Siyuan Wu, Jingyu Tang, Liuyi Chen, Yilin Bai, Zhigang He, Chenlong Wang, Huichi Zhou, Yiqiang Li, Tianshuo Zhou, Yue Yu, Chujie Gao, Qihui Zhang, Yi Gui, Zhen Li, Yao Wan†, Pan Zhou†, Jianfeng Gao, Lichao Sun
+<span class="author-me">**Dongping Chen**</span> \*, Yue Huang \*, Siyuan Wu, Jingyu Tang, Liuyi Chen, Yilin Bai, Zhigang He, Chenlong Wang, Huichi Zhou, Yiqiang Li, Tianshuo Zhou, Yue Yu, Chujie Gao, Qihui Zhang, Yi Gui, Zhen Li, Yao Wan†, Pan Zhou†, Jianfeng Gao, Lichao Sun
 
 </div>
 </div>
@@ -126,9 +151,9 @@ My research interests are deeply rooted in the latest advancements in generative
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/HonestLLM.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-***The Best of Both Worlds*: Toward an Honest and Helpful Large Language Model** [[PDF]](https://arxiv.org/abs/2406.00380) [[Github]](https://github.com/Flossiee/HonestyLLM) [[Website]](https://honestllm.github.io/)
+***The Best of Both Worlds*: Toward an Honest and Helpful Large Language Model** [[PDF]](https://arxiv.org/pdf/2406.00380) [[Github]](https://github.com/Flossiee/HonestyLLM) [[Website]](https://honestllm.github.io/)
 
-Chujie Gao \*, Siyuan Wu \*, Yue Huang \*, **Dongping Chen** \*, Qihui Zhang \*, Zhengyan Fu, Yao Wan†, Xiangliang Zhang, Lichao Sun
+Chujie Gao \*, Siyuan Wu \*, Yue Huang \*, <span class="author-me">**Dongping Chen**</span> \*, Qihui Zhang \*, Zhengyan Fu, Yao Wan†, Xiangliang Zhang, Lichao Sun
 
 </div>
 </div>
@@ -137,9 +162,9 @@ Chujie Gao \*, Siyuan Wu \*, Yue Huang \*, **Dongping Chen** \*, Qihui Zhang \*,
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2024 Oral</div><img src='images/mllm-judge.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**MLLM-as-a-Judge: Assessing Multimodal LLM-as-a-Judge with Vision-Language Benchmark** [[PDF]](https://arxiv.org/abs/2402.04788) [[Github]](https://github.com/Dongping-Chen/MLLM-Judge) [[Website]](https://mllm-judge.github.io/)
+**MLLM-as-a-Judge: Assessing Multimodal LLM-as-a-Judge with Vision-Language Benchmark** [[PDF]](https://arxiv.org/pdf/2402.04788) [[Github]](https://github.com/Dongping-Chen/MLLM-Judge) [[Website]](https://mllm-judge.github.io/)
 
-**Dongping Chen** \*, Ruoxi Chen \*, Shilin Zhang \*, Yinuo Liu \*, Yaochen Wang \*, Huichi Zhou \*, Qihui Zhang \*, Yao Wan†, Pan Zhou†, Lichao Sun
+<span class="author-me">**Dongping Chen**</span> \*, Ruoxi Chen \*, Shilin Zhang \*, Yinuo Liu \*, Yaochen Wang \*, Huichi Zhou \*, Qihui Zhang \*, Yao Wan†, Pan Zhou†, Lichao Sun
 
 </div>
 </div>
@@ -148,9 +173,9 @@ Chujie Gao \*, Siyuan Wu \*, Yue Huang \*, **Dongping Chen** \*, Qihui Zhang \*,
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NAACL 2024 Findings</div><img src='images/mixcase.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**LLM-as-a-Coauthor: The Challenges of Detecting LLM-Human Mixcase** [[PDF]](https://arxiv.org/abs/2401.05952) [[Github]](https://github.com/Dongping-Chen/MixSet) [[Website]](https://gui-world.github.io/)
+**LLM-as-a-Coauthor: The Challenges of Detecting LLM-Human Mixcase** [[PDF]](https://arxiv.org/pdf/2401.05952) [[Github]](https://github.com/Dongping-Chen/MixSet) [[Website]](https://gui-world.github.io/)
 
-Qihui Zhang \*, Chujie Gao \*, **Dongping Chen** \*, Yue Huang, Yixin Huang, Zhenyang Sun, Shilin Zhang, Weiye Li, Zhengyan Fu, Yao Wan, Lichao Sun†
+Qihui Zhang \*, Chujie Gao \*, <span class="author-me">**Dongping Chen**</span> \*, Yue Huang, Yixin Huang, Zhenyang Sun, Shilin Zhang, Weiye Li, Zhengyan Fu, Yao Wan, Lichao Sun†
 
 </div>
 </div>
@@ -159,12 +184,120 @@ Qihui Zhang \*, Chujie Gao \*, **Dongping Chen** \*, Yue Huang, Yixin Huang, Zhe
 
 <div id="projects-lead" class="tab-content">
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025 Dataset Track</div><img src='images/multiref.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/double-bench.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**MultiRef: Controllable Image Generation with Multiple Visual References** [[PDF]](https://arxiv.org/abs/2401.05952) [[Github]](https://github.com/Dongping-Chen/MixSet) [[Website]](https://gui-world.github.io/)
+**Are We on the Right Way for Assessing Document Retrieval-Augmented Generation?** [[PDF]](https://arxiv.org/pdf/2508.03644) [[Github]](https://github.com/Episoode/Double-Bench) [[Website]](https://double-bench.github.io/) [[Dataset]](https://huggingface.co/datasets/Episoode/Double-Bench)
+Wenxuan Shen \*, Mingjia Wang \*, Yaochen Wang, <span class="author-me">Dongping Chen</span>‡, Junjie Yang, Yao Wan, Weiwei Lin†
 
-Ruoxi Chen, Dongping Chen‡, Siyuan Wu, Sinan Wang, Shiyun Lang, Petr Sushko, Gaoyang Jiang, Yao Wan, Ranjay Krishna†
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/code_transform.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**code_transformed: The Influence of Large Language Models on Code** [[PDF]](https://arxiv.org/pdf/2506.12014) [[Github]](https://github.com/ignorancex/LLM_code) 
+Yuliang Xu \*, Siming Huang \*, Mingmeng Geng†, Yao Wan†, Xuanhua Shi, <span class="author-me">Dongping Chen</span>‡
+
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/code_transform.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**code_transformed: The Influence of Large Language Models on Code** [[PDF]](https://arxiv.org/pdf/2506.12014) [[Github]](https://github.com/ignorancex/LLM_code) 
+Yuliang Xu \*, Siming Huang \*, Mingmeng Geng†, Yao Wan†, Xuanhua Shi, <span class="author-me">Dongping Chen</span>‡
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tech Report</div><img src='images/LC-R1.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Optimizing Length Compression in Large Reasoning Models** [[PDF]](https://arxiv.org/pdf/2506.14755) [[Github]](https://github.com/zxiangx/LC-R1) 
+Zhengxiang Cheng, <span class="author-me">Dongping Chen</span>‡, Mingyang Fu, Tianyi Zhou†
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/liveVQA.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Seeking and Updating with Live Visual Knowledge** [[PDF]](https://arxiv.org/pdf/2504.05288) [[Github]](https://github.com/fumingyang2004/LIVEVQA) [[Dataset]](https://huggingface.co/datasets/ONE-Lab/LiveVQA-new/tree/main) [[Website]](https://livevqa.github.io/)
+
+Mingyang Fu\*, Yuyang Peng\*, <span class="author-me">Dongping Chen</span>‡, Zetong Zhou, Benlin Liu, Yao Wan†, Zhou Zhao, Philip S. Yu, Ranjay Krishna†
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025 Dataset Track</div><img src='images/multiref.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**MultiRef: Controllable Image Generation with Multiple Visual References** [[PDF]](https://arxiv.org/pdf/2508.06905) [[Github]](https://github.com/Dipsy0830/MultiRef-code) [[Dataset]](https://huggingface.co/datasets/ONE-Lab/MultiRef-dataset) [[Website]](https://multiref.github.io/)
+
+Ruoxi Chen, <span class="author-me">Dongping Chen</span>‡, Siyuan Wu, Sinan Wang, Shiyun Lang, Petr Sushko, Gaoyang Jiang, Yao Wan, Ranjay Krishna†
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2025 Findings</div><img src='images/nowait.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Wait, We Don't Need to "Wait"! Removing Thinking Tokens Improves Reasoning Efficiency** [[PDF]](https://arxiv.org/pdf/2506.08343v2) (Code Coming Soon)
+
+Chenlong Wang, Yuanning Feng, <span class="author-me">Dongping Chen</span>‡, Zhaoyang Chu, Ranjay Krishna, Tianyi Zhou†
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2025 Dataset and Benchmark Track</div><img src='images/JudgeAnything.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Judge Anything: MLLM as a Judge Across Any Modality** [[PDF]](https://arxiv.org/pdf/2503.17489) [[Webpage]](https://urrealhero.github.io/judgeanythingweb/)
+
+Shu Pu*, Yaochen Wang*, <span class="author-me">Dongping Chen</span>‡, Yuhang Chen, Guohao Wang, Qi Qin, Zhongyi Zhang, Zhiyuan Zhang, Zetong Zhou, Shuang Gong, Yi Gui, Yao Wan†, Philip S. Yu
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IC2S2 2025</div><img src='images/Wikipedia.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Wikipedia in the Era of LLMs: Evolution and Risks** [[PDF]](https://arxiv.org/pdf/2503.17489)
+
+Siming Huang*, Yuliang Xu*, Mingmeng Geng†, Yao Wan†, <span class="author-me">Dongping Chen</span>‡
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2025</div><img src='images/codesync.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**CodeSync: Synchronizing Large Language Models with Dynamic Code Evolution at Scale** [[PDF]](https://arxiv.org/pdf/2502.16645) [[Code]](https://github.com/Lucky-voyage/Code-Sync)
+
+Siming Huang*, Yuliang Xu*, Mingmeng Geng†, Yao Wan†, <span class="author-me">Dongping Chen</span>‡
+
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2025</div><img src='images/nvAgent.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**nvAgent: Automated Data Visualization from Natural Language via Collaborative Agent Workflow** [[PDF]](https://arxiv.org/pdf/2502.05036) [[Code]](https://github.com/geliang0114/nvAgent)
+
+Geliang Ouyang, Jingyao Chen, Zhihe Nie, Yi Gui, Yao Wan†, Hongyu Zhang, <span class="author-me">Dongping Chen</span>‡
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2025 Findings</div><img src='images/llm-speaking.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**The Impact of Large Language Models in Academia: from Writing to Speaking** [[PDF]](https://arxiv.org/pdf/2409.13686)
+
+Mingmeng Geng†, Caixi Chen, Yanru Wu, <span class="author-me">Dongping Chen</span>‡, Yao Wan, Pan Zhou
 
 </div>
 </div>
