@@ -188,6 +188,7 @@ Qihui Zhang \*, Chujie Gao \*, <span class="author-me">**Dongping Chen**</span> 
 <div class='paper-box-text' markdown="1">
 
 **Are We on the Right Way for Assessing Document Retrieval-Augmented Generation?** [[PDF]](https://arxiv.org/pdf/2508.03644) [[Github]](https://github.com/Episoode/Double-Bench) [[Website]](https://double-bench.github.io/) [[Dataset]](https://huggingface.co/datasets/Episoode/Double-Bench)
+
 Wenxuan Shen \*, Mingjia Wang \*, Yaochen Wang, <span class="author-me">Dongping Chen</span>‡, Junjie Yang, Yao Wan, Weiwei Lin†
 
 </div>
@@ -197,6 +198,7 @@ Wenxuan Shen \*, Mingjia Wang \*, Yaochen Wang, <span class="author-me">Dongping
 <div class='paper-box-text' markdown="1">
 
 **code_transformed: The Influence of Large Language Models on Code** [[PDF]](https://arxiv.org/pdf/2506.12014) [[Github]](https://github.com/ignorancex/LLM_code) 
+
 Yuliang Xu \*, Siming Huang \*, Mingmeng Geng†, Yao Wan†, Xuanhua Shi, <span class="author-me">Dongping Chen</span>‡
 
 </div>
@@ -207,6 +209,7 @@ Yuliang Xu \*, Siming Huang \*, Mingmeng Geng†, Yao Wan†, Xuanhua Shi, <span
 <div class='paper-box-text' markdown="1">
 
 **code_transformed: The Influence of Large Language Models on Code** [[PDF]](https://arxiv.org/pdf/2506.12014) [[Github]](https://github.com/ignorancex/LLM_code) 
+
 Yuliang Xu \*, Siming Huang \*, Mingmeng Geng†, Yao Wan†, Xuanhua Shi, <span class="author-me">Dongping Chen</span>‡
 
 </div>
@@ -216,6 +219,7 @@ Yuliang Xu \*, Siming Huang \*, Mingmeng Geng†, Yao Wan†, Xuanhua Shi, <span
 <div class='paper-box-text' markdown="1">
 
 **Optimizing Length Compression in Large Reasoning Models** [[PDF]](https://arxiv.org/pdf/2506.14755) [[Github]](https://github.com/zxiangx/LC-R1) 
+
 Zhengxiang Cheng, <span class="author-me">Dongping Chen</span>‡, Mingyang Fu, Tianyi Zhou†
 
 </div>
