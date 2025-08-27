@@ -260,7 +260,7 @@ Shu Pu*, Yaochen Wang*, <span class="author-me">Dongping Chen</span>‡, Yuhang 
 
 **Wikipedia in the Era of LLMs: Evolution and Risks** [[PDF]](https://arxiv.org/pdf/2503.17489)
 
-Siming Huang*, Yuliang Xu*, Mingmeng Geng†, Yao Wan†, <span class="author-me">Dongping Chen</span>‡
+Siming Huang \*, Yuliang Xu \*, Mingmeng Geng†, Yao Wan†, <span class="author-me">Dongping Chen</span>‡
 
 </div>
 </div>
@@ -270,7 +270,7 @@ Siming Huang*, Yuliang Xu*, Mingmeng Geng†, Yao Wan†, <span class="author-me
 
 **CodeSync: Synchronizing Large Language Models with Dynamic Code Evolution at Scale** [[PDF]](https://arxiv.org/pdf/2502.16645) [[Code]](https://github.com/Lucky-voyage/Code-Sync)
 
-Siming Huang*, Yuliang Xu*, Mingmeng Geng†, Yao Wan†, <span class="author-me">Dongping Chen</span>‡
+Chenlong Wang, Zhaoyang Chu, Zhengxiang Cheng, Xuyi Yang, Kaiyue Qiu, Yao Wan, Zhou Zhao, Xuanhua Shi, <span class="author-me">Dongping Chen</span>‡
 
 </div>
 </div>
