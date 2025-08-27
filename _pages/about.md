@@ -25,7 +25,7 @@ My research interests are deeply rooted in the latest advancements in generative
 
 <span class="highlight-red">I'm looking for summer intern opportunities in 2026 summer and feel free to reach out.</span> 
 
-I'm interested in connecting with students for research collaboration, mentorship, or just making friends! I especially encourage students from underrepresented groups to reach out. If you're interested in discussing research, seeking advice, or simply having a chat, feel free to schedule a meeting via [this link](https://calendly.com/dongping-umd/30min).  
+I'm interested in connecting with students for research collaboration, mentorship, or just making friends! I especially encourage junior student or students from underrepresented groups to reach out. Feel free to schedule a meeting via [this link](https://calendly.com/dongping-umd/30min). 
 
 <!-- My latest CV can be viewed at [Here](CV_latest.pdf). -->
 <!-- # 💡 Research Interest
