@@ -194,18 +194,8 @@ Wenxuan Shen \*, Mingjia Wang \*, Yaochen Wang, <span class="author-me">Dongping
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/code_transform.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
 
-**code_transformed: The Influence of Large Language Models on Code** [[PDF]](https://arxiv.org/pdf/2506.12014) [[Github]](https://github.com/ignorancex/LLM_code) 
-
-Yuliang Xu \*, Siming Huang \*, Mingmeng Geng†, Yao Wan†, Xuanhua Shi, <span class="author-me">Dongping Chen</span>‡
-
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/code_transform.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/code_transformed.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **code_transformed: The Influence of Large Language Models on Code** [[PDF]](https://arxiv.org/pdf/2506.12014) [[Github]](https://github.com/ignorancex/LLM_code) 
