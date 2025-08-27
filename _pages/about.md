@@ -250,7 +250,7 @@ Chenlong Wang, Yuanning Feng, <span class="author-me">Dongping Chen</span>‡, Z
 
 **Judge Anything: MLLM as a Judge Across Any Modality** [[PDF]](https://arxiv.org/pdf/2503.17489) [[Webpage]](https://urrealhero.github.io/judgeanythingweb/)
 
-Shu Pu*, Yaochen Wang*, <span class="author-me">Dongping Chen</span>‡, Yuhang Chen, Guohao Wang, Qi Qin, Zhongyi Zhang, Zhiyuan Zhang, Zetong Zhou, Shuang Gong, Yi Gui, Yao Wan†, Philip S. Yu
+Shu Pu \*, Yaochen Wang \*, <span class="author-me">Dongping Chen</span>‡, Yuhang Chen, Guohao Wang, Qi Qin, Zhongyi Zhang, Zhiyuan Zhang, Zetong Zhou, Shuang Gong, Yi Gui, Yao Wan†, Philip S. Yu
 
 </div>
 </div>
@@ -357,7 +357,7 @@ function switchTab(evt, tabName) {
 # 📖 Educations
 - *2025.08 - Current*, CS PhD Student, University of Maryland.
 - *2024.08 - 2024.12*, Visiting Scholar, University of Washington. 
-- *2021.09 - 2025.06 (expected)*, BEng.,  Huazhong University of Science and Technology. 
+- *2021.09 - 2025.06*, BEng.,  Huazhong University of Science and Technology. 
 
 
 <!-- # 💬 Talks
