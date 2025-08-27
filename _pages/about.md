@@ -43,7 +43,65 @@ My research interests are deeply rooted in the latest advancements in generative
 
 
 # 📝 Publications 
-* indicates equal contribution. † indicates corresponding author. ‡ indicates project leaders.
+\* indicates equal contribution. ‡ indicates project leaders.
+
+<style>
+.publication-tabs {
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.tab-button {
+    background: none;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    color: #666;
+    border-bottom: 3px solid transparent;
+    transition: all 0.3s ease;
+    margin-right: 10px;
+}
+
+.tab-button:hover {
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+.tab-button.active {
+    color: #2c5aa0;
+    border-bottom-color: #2c5aa0;
+    background-color: #f8f9fa;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.empty-section {
+    text-align: center;
+    padding: 40px 20px;
+    color: #666;
+    font-style: italic;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+</style>
+
+<div class="publication-tabs">
+    <button class="tab-button active" onclick="switchTab(event, 'mainly-contribute')">Papers I Mainly Contribute</button>
+    <button class="tab-button" onclick="switchTab(event, 'projects-lead')">Projects that I Lead</button>
+</div>
+
+<div id="mainly-contribute" class="tab-content active">
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025 Spotlight</div><img src='images/ISG.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -72,7 +130,6 @@ My research interests are deeply rooted in the latest advancements in generative
 
 Chujie Gao \*, Siyuan Wu \*, Yue Huang \*, **Dongping Chen** \*, Qihui Zhang \*, Zhengyan Fu, Yao Wan†, Xiangliang Zhang, Lichao Sun
 
-
 </div>
 </div>
 
@@ -97,6 +154,44 @@ Qihui Zhang \*, Chujie Gao \*, **Dongping Chen** \*, Yue Huang, Yixin Huang, Zhe
 
 </div>
 </div>
+
+</div>
+
+<div id="projects-lead" class="tab-content">
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025 Dataset Track</div><img src='images/multiref.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**MultiRef: Controllable Image Generation with Multiple Visual References** [[PDF]](https://arxiv.org/abs/2401.05952) [[Github]](https://github.com/Dongping-Chen/MixSet) [[Website]](https://gui-world.github.io/)
+
+Ruoxi Chen, Dongping Chen‡, Siyuan Wu, Sinan Wang, Shiyun Lang, Petr Sushko, Gaoyang Jiang, Yao Wan, Ranjay Krishna†
+
+</div>
+</div>
+
+</div>
+
+<script>
+function switchTab(evt, tabName) {
+    var i, tabcontent, tablinks;
+    
+    // Hide all tab content
+    tabcontent = document.getElementsByClassName("tab-content");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].classList.remove("active");
+    }
+    
+    // Remove active class from all tab buttons
+    tablinks = document.getElementsByClassName("tab-button");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].classList.remove("active");
+    }
+    
+    // Show the selected tab and mark the button as active
+    document.getElementById(tabName).classList.add("active");
+    evt.currentTarget.classList.add("active");
+}
+</script>
 
 <!-- - ![CVPR 2025](https://img.shields.io/badge/CVPR-2025-9AD7FF) [REALEDIT: Reddit Edits As a Large-scale Empirical Dataset for Image Transformations](https://arxiv.org/pdf/2502.03629) Peter Sushko, Ayana Bharadwaj, Zhi Yang Lim, Vasily Ilin, Ben Caffee, **Dongping Chen**, Mohammadreza Salehi, Cheng-Yu Hsieh, Ranjay Krishna†
 - ![CVPR 2025](https://img.shields.io/badge/CVPR-2025-9AD7FF) [Perception Tokens Enhance Visual Reasoning in Multimodal Language Models](https://arxiv.org/pdf/2412.03548) Mahtab Bigverdi, Zelun Luo, Cheng-Yu Hsieh, Ethan Shen, **Dongping Chen**, Linda G. Shapiro, Ranjay Krishna†
@@ -133,6 +228,7 @@ Qihui Zhang \*, Chujie Gao \*, **Dongping Chen** \*, Yue Huang, Yixin Huang, Zhe
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
 # 📖 Educations
+- *2025.08 - Current*, CS PhD Student, University of Maryland.
 - *2024.08 - 2024.12*, Visiting Scholar, University of Washington. 
 - *2021.09 - 2025.06 (expected)*, BEng.,  Huazhong University of Science and Technology. 
 
