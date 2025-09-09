@@ -184,6 +184,17 @@ Qihui Zhang \*, Chujie Gao \*, <span class="author-me">**Dongping Chen**</span> 
 
 <div id="projects-lead" class="tab-content">
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tech Report</div><img src='images/ReVPT.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Reinforced Visual Perception with Tools** [[PDF]](https://arxiv.org/pdf/2509.01656) [[Github]](https://github.com/ls-kelvin/REVPT) [[Model & Dataset]](https://huggingface.co/collections/Frywind/revpt-68b05161d2426128ea5db4d3)
+
+Zetong Zhou, <span class="author-me">Dongping Chen</span>‡, Zixian Ma, Zhihan Hu, Mingyang Fu, Sinan Wang, Yao Wan†, Zhou Zhao, Ranjay Krishna†
+
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/double-bench.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
