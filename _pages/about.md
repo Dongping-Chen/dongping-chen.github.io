@@ -19,7 +19,7 @@ redirect_from:
 
 Hi, I am Dongping Chen (陈东平).
 =====
-At present, I am working with Professor [Tianyi Zhou](https://tianyizhou.github.io/) at UMD. Prior to this, I have the privilege of being a visiting student to University of Washington, where I work with Professors [Ranjay Krishna](https://ranjaykrishna.com/index.html) and Senior PhD [Jieyu Zhang](https://jieyuz2.github.io/). My academic journey has also been enriched by a collaboration with [Lichao Sun](https://lichao-sun.github.io/) at Lehigh University, [Xiangliang Zhang](https://engineering.nd.edu/faculty/xiangliang-zhang/) at University of Notre Dame and [Yao Wan](http://wanyao.me/) at HUST. I am also leading [an undergrad research lab](https://oneslab.github.io) with Professor [Yao Wan](http://wanyao.me/), and very lucky to have the opportunity to work with my labmates. 
+At present, I am working with Professor [Tianyi Zhou](https://tianyizhou.github.io/) and [Sarah Wiegreffe](https://sarahwie.github.io/) at UMD. Prior to this, I have the privilege of being a visiting student to University of Washington, where I work with Professors [Ranjay Krishna](https://ranjaykrishna.com/index.html) and Senior PhD [Jieyu Zhang](https://jieyuz2.github.io/). My academic journey has also been enriched by a collaboration with [Lichao Sun](https://lichao-sun.github.io/) at Lehigh University, [Xiangliang Zhang](https://engineering.nd.edu/faculty/xiangliang-zhang/) at University of Notre Dame. I am also leading [ONE Lab](https://oneslab.github.io) with Professor [Yao Wan](http://wanyao.me/), and very lucky to have the opportunity to work with my labmates. 
 
 My research interests are deeply rooted in the latest advancements in generative models, especially multimodal, LLM-based agents and frontier trustworthy problems.
 
@@ -30,7 +30,7 @@ I'm interested in connecting with students for research collaboration, mentorshi
 <!-- My latest CV can be viewed at [Here](CV_latest.pdf). -->
 <!-- # 💡 Research Interest
 
-- Multimodal: T2I/T2V models, multimodal large language model (MLLM), etc.
+- Multimodal: T2I/T2V models, multimodal LLMs, etc.
 - LLM-based Agents: agentic workflow, tool usage, efficiency and utility. -->
 
 
