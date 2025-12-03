@@ -195,7 +195,7 @@ Zetong Zhou, <span class="author-me">Dongping Chen</span>‡, Zixian Ma, Zhihan 
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/double-bench.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/double-bench.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Are We on the Right Way for Assessing Document Retrieval-Augmented Generation?** [[PDF]](https://arxiv.org/pdf/2508.03644) [[Github]](https://github.com/Episoode/Double-Bench) [[Website]](https://double-bench.github.io/) [[Dataset]](https://huggingface.co/datasets/Episoode/Double-Bench)
@@ -226,7 +226,7 @@ Zhengxiang Cheng, <span class="author-me">Dongping Chen</span>‡, Mingyang Fu, 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/liveVQA.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025 D&B Track</div><img src='images/liveVQA.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Seeking and Updating with Live Visual Knowledge** [[PDF]](https://arxiv.org/pdf/2504.05288) [[Github]](https://github.com/fumingyang2004/LIVEVQA) [[Dataset]](https://huggingface.co/datasets/ONE-Lab/LiveVQA-new/tree/main) [[Website]](https://livevqa.github.io/)
