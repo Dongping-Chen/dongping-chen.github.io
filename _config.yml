@@ -27,7 +27,7 @@ author:
   location         : 
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=g92Ri7YAAAAJ&hl"
+  googlescholar    : # "https://scholar.google.com/citations?user=g92Ri7YAAAAJ&hl"
   email            : "dongping@umd.edu"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :

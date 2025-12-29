@@ -19,13 +19,13 @@ redirect_from:
 
 Hi, I am Dongping Chen (陈东平).
 =====
-At present, I am working with Professor [Tianyi Zhou](https://tianyizhou.github.io/) and [Sarah Wiegreffe](https://sarahwie.github.io/) at University of Maryland, College Park. Prior to this, I have the privilege of being a visiting student to University of Washington, where I work with Professors [Ranjay Krishna](https://ranjaykrishna.com/index.html) and Senior PhD [Jieyu Zhang](https://jieyuz2.github.io/). My academic journey has also been enriched by a collaboration with [Lichao Sun](https://lichao-sun.github.io/) at Lehigh University, [Xiangliang Zhang](https://engineering.nd.edu/faculty/xiangliang-zhang/) at University of Notre Dame. I am also leading [ONE Lab](https://oneslab.github.io) with Professor [Yao Wan](http://wanyao.me/), and very lucky to have the opportunity to work with my labmates. 
+At present, I am working on realtime world model with Professor [Tianyi Zhou](https://tianyizhou.github.io/). Prior to this, I have the privilege of being a visiting student to University of Washington, where I work with Professors [Ranjay Krishna](https://ranjaykrishna.com/index.html) and Senior PhD [Jieyu Zhang](https://jieyuz2.github.io/). My academic journey has also been enriched by a collaboration with [Lichao Sun](https://lichao-sun.github.io/) at Lehigh University, [Xiangliang Zhang](https://engineering.nd.edu/faculty/xiangliang-zhang/) at University of Notre Dame, and Professor [Yao Wan](http://wanyao.me/).
 
-My research interests are deeply rooted in the latest advancements in generative models, especially multimodal, LLM-based agents and frontier trustworthy problems.
+<!-- My research interests are deeply rooted in the latest advancements in generative models, especially multimodal, LLM-based agents and frontier trustworthy problems.
 
 <span class="highlight-red">I'm looking for summer intern opportunities in 2026 summer and feel free to reach out.</span> 
 
-I'm interested in connecting with students for research collaboration, mentorship, or just making friends! I especially encourage junior student or students from underrepresented groups to reach out. Feel free to schedule a meeting via [this link](https://calendly.com/dongping-umd/30min). 
+I'm interested in connecting with students for research collaboration, mentorship, or just making friends! I especially encourage junior student or students from underrepresented groups to reach out. Feel free to schedule a meeting via [this link](https://calendly.com/dongping-umd/30min).  -->
 
 <!-- My latest CV can be viewed at [Here](CV_latest.pdf). -->
 <!-- # 💡 Research Interest
@@ -46,7 +46,7 @@ I'm interested in connecting with students for research collaboration, mentorshi
 - *2024.03*: &nbsp;🎉🎉 **LLM-as-a-Coauthor** has been accepted by **NAACL 2024 Findings**! Congratulations to [Qihui](https://scholar.google.com/citations?user=ZdgtY0EAAAAJ&hl=en), [Chujie](https://flossiee.github.io/) and [Yue](https://howiehwong.github.io/)!  -->
 
 
-# 📝 Publications 
+<!-- # 📝 Publications 
 \* indicates equal contribution. ‡ indicates project leaders.
 
 <style>
@@ -329,7 +329,7 @@ function switchTab(evt, tabName) {
     document.getElementById(tabName).classList.add("active");
     evt.currentTarget.classList.add("active");
 }
-</script>
+</script> -->
 
 <!-- - ![CVPR 2025](https://img.shields.io/badge/CVPR-2025-9AD7FF) [REALEDIT: Reddit Edits As a Large-scale Empirical Dataset for Image Transformations](https://arxiv.org/pdf/2502.03629) Peter Sushko, Ayana Bharadwaj, Zhi Yang Lim, Vasily Ilin, Ben Caffee, **Dongping Chen**, Mohammadreza Salehi, Cheng-Yu Hsieh, Ranjay Krishna†
 - ![CVPR 2025](https://img.shields.io/badge/CVPR-2025-9AD7FF) [Perception Tokens Enhance Visual Reasoning in Multimodal Language Models](https://arxiv.org/pdf/2412.03548) Mahtab Bigverdi, Zelun Luo, Cheng-Yu Hsieh, Ethan Shen, **Dongping Chen**, Linda G. Shapiro, Ranjay Krishna†
@@ -378,7 +378,7 @@ function switchTab(evt, tabName) {
 - 2025, Reviewer for ARR Feb, ICCV/ICLR/ICASSP
 - 2024, Reviewer for ICML/NeurIPS Workshops -->
 
-<html lang="en">
+<!-- <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -400,4 +400,4 @@ function switchTab(evt, tabName) {
         <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=fbffc5&w=a&t=m&d=2DkJRDrBeg-CCyqtKLmfTsHaZGyMG4L1RfpChDpZ6is&co=9ff4f3&cmo=f96e6e&ct=ffffff'></script>
     </div>
 </body>
-</html>
+</html> -->
