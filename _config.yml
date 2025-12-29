@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Dongping Chen's Website"
-description              : "1-year PhD Student at UMD"
+description              : "First-year PhD Student"
 repository               : "Dongping-Chen/Dongping-Chen.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -27,7 +27,7 @@ author:
   location         : 
   employer         :
   pubmed           : 
-  googlescholar    : # "https://scholar.google.com/citations?user=g92Ri7YAAAAJ&hl"
+  googlescholar    : "https://scholar.google.com/citations?user=g92Ri7YAAAAJ&hl"
   email            : "dongping@umd.edu"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
