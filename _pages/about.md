@@ -19,7 +19,7 @@ redirect_from:
 
 Hi, I am Dongping Chen (陈东平).
 =====
-At present, I am working on realtime world model with Professor [Tianyi Zhou](https://tianyizhou.github.io/) and [Sarah Wiegreffe](https://sarahwie.github.io/). Prior to this, I have the privilege of being a visiting student to University of Washington, where I work with Professor [Ranjay Krishna](https://ranjaykrishna.com/index.html) and Senior PhD [Jieyu Zhang](https://jieyuz2.github.io/). My academic journey has also been enriched by a collaboration with [Lichao Sun](https://lichao-sun.github.io/) at Lehigh University, [Xiangliang Zhang](https://engineering.nd.edu/faculty/xiangliang-zhang/) at University of Notre Dame, and [Yao Wan](http://wanyao.me/).
+At present, I am working with Professor [Tianyi Zhou](https://tianyizhou.github.io/). Prior to this, I have the privilege of being a visiting student to University of Washington, where I work with Professor [Ranjay Krishna](https://ranjaykrishna.com/index.html) and Senior PhD [Jieyu Zhang](https://jieyuz2.github.io/). My academic journey has also been enriched by a collaboration with [Lichao Sun](https://lichao-sun.github.io/) at Lehigh University, [Xiangliang Zhang](https://engineering.nd.edu/faculty/xiangliang-zhang/) at University of Notre Dame, and [Yao Wan](http://wanyao.me/).
 
 <!-- My research interests are deeply rooted in the latest advancements in generative models, especially multimodal, LLM-based agents and frontier trustworthy problems.
 
