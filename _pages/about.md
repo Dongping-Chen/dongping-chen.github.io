@@ -284,7 +284,7 @@ Chenlong Wang, Yuanning Feng, <span class="author-me">Dongping Chen</span>‡, Z
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2025 Dataset and Benchmark Track</div><img src='images/JudgeAnything.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2025 DB Track Oral</div><img src='images/JudgeAnything.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Judge Anything: MLLM as a Judge Across Any Modality** [[PDF]](https://arxiv.org/pdf/2503.17489) [[Webpage]](https://urrealhero.github.io/judgeanythingweb/)
