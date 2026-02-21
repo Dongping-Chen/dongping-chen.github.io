@@ -127,6 +127,16 @@ I'm interested in connecting with students for research collaboration, mentorshi
 
 <div id="mainly-contribute" class="tab-content active">
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026 Findings</div><img src='images/VGI.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Measuring Visual Generative Intelligence**  
+
+<span class="author-me">**Dongping Chen**</span> \*, Ruoxi Chen \*, Xuanao Huang \*, Yishan Wang \*, Junqi Yang \*, Yao Wan†, Ranjay Krishna†
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025 Spotlight</div><img src='images/ISG.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -184,6 +194,24 @@ Qihui Zhang \*, Chujie Gao \*, <span class="author-me">**Dongping Chen**</span> 
 
 <div id="projects-lead" class="tab-content">
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tech Report</div><img src='images/Paper2Web.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Paper2Web: Let's Make Your Paper Alive!** [[PDF]](https://arxiv.org/pdf/2510.15842) [[Github]](https://github.com/YuhangChen1/Paper2All)
+
+Yuhang Chen, Tianpeng Lv, Siyi Zhang, Yixiang Yin, Yao Wan, Philip S. Yu, <span class="author-me">Dongping Chen</span>‡
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tech Report</div><img src='images/Judge.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Are We on the Right Way to Assessing LLM-as-a-Judge?** [[PDF]](https://arxiv.org/pdf/2512.16041)
+
+Yuanning Feng, Sinan Wang, Zhengxiang Cheng, Yao Wan, <span class="author-me">Dongping Chen</span>‡
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tech Report</div><img src='images/ReVPT.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -206,7 +234,7 @@ Wenxuan Shen \*, Mingjia Wang \*, Yaochen Wang, <span class="author-me">Dongping
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/code_transformed.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EACL 2026</div><img src='images/code_transformed.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **code_transformed: The Influence of Large Language Models on Code** [[PDF]](https://arxiv.org/pdf/2506.12014) [[Github]](https://github.com/ignorancex/LLM_code) 
@@ -266,7 +294,7 @@ Shu Pu \*, Yaochen Wang \*, <span class="author-me">Dongping Chen</span>‡, Yuh
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IC2S2 2025</div><img src='images/Wikipedia.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMLR</div><img src='images/Wikipedia.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Wikipedia in the Era of LLMs: Evolution and Risks** [[PDF]](https://arxiv.org/pdf/2503.17489)
