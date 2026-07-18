@@ -5,6 +5,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 ABOUT = ROOT / "_pages" / "about.md"
+HOMEPAGE_SCSS = ROOT / "_sass" / "_homepage.scss"
+MAIN_SCSS = ROOT / "assets" / "css" / "main.scss"
 
 PUBLICATION_TITLES = (
     "Interleaved Scene Graph for Interleaved Text-and-Image Generation Assessment",
@@ -59,6 +61,27 @@ class HomepageSourceTests(unittest.TestCase):
         self.assertIn("Design inspired by", self.source)
         self.assertIn("https://linxins.net/", self.source)
         self.assertIn("https://github.com/LinxinS97/LinxinS97.github.io", self.source)
+
+
+class HomepageStyleTests(unittest.TestCase):
+    def test_imports_dedicated_homepage_styles(self):
+        self.assertTrue(HOMEPAGE_SCSS.is_file())
+        self.assertIn('@import "homepage";', MAIN_SCSS.read_text(encoding="utf-8"))
+
+    def test_styles_core_layout_and_accessibility_states(self):
+        self.assertTrue(HOMEPAGE_SCSS.is_file())
+        styles = HOMEPAGE_SCSS.read_text(encoding="utf-8")
+        for selector in (
+            ".wiki-infobox",
+            ".wiki-contents",
+            ".publication-grid",
+            ".publication-row",
+            ":focus-visible",
+            "@media (max-width:",
+            "@media print",
+        ):
+            with self.subTest(selector=selector):
+                self.assertIn(selector, styles)
 
 
 if __name__ == "__main__":
