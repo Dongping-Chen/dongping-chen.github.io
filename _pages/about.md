@@ -25,7 +25,6 @@ redirect_from:
     </header>
 
     <aside class="wiki-infobox" aria-label="Dongping Chen profile summary">
-      <div class="wiki-infobox__name">Dongping Chen</div>
       <img src="images/head_2025_hq.png" alt="Portrait of Dongping Chen">
       <dl class="wiki-infobox__facts">
         <div><dt>Chinese name</dt><dd>陈东平</dd></div>
@@ -54,8 +53,8 @@ redirect_from:
       <h2 id="research-interests-title">Research Interests</h2>
       <p>I study multimodal generative models and the agentic systems they power, with an emphasis on evaluation, tool use, efficiency. I am currently working on world model and LLM-based agents</p>
       <ul class="research-topics" aria-label="Research topics">
-        <li>Multimodal Understanding and Generation</li>
-        <li>Agentic AI</li>
+        <li class="research-topic research-topic--multimodal">Multimodal Understanding and Generation</li>
+        <li class="research-topic research-topic--agentic">Agentic AI</li>
       </ul>
     </section>
   </div>
@@ -72,11 +71,31 @@ redirect_from:
     <section class="publication-tab-panel" id="publication-panel-contributions" role="tabpanel" aria-labelledby="publication-tab-contributions">
       <div class="publication-list">
         <article class="publication-row">
+          <div class="publication-row__media"><img src="images/OmniCoding.png" alt="Sandboxed coding agents for omni-modal tasks overview" loading="lazy"></div>
+          <div class="publication-row__body">
+            <div class="publication-row__meta"><span class="venue-label">Tech Report</span></div>
+            <h4><a href="https://arxiv.org/pdf/2606.00579">Sandboxed Coding Agents are Competitive Omni-modal Task Solvers</a></h4>
+            <p class="publication-authors"><strong class="author-me">Dongping Chen</strong>, Xuanao Huang, Zhihan Hu, Qingyuan Shi, Dianqi Li, Tianyi Zhou</p>
+            <div class="publication-links" aria-label="Sandboxed coding agents resources"><a href="https://github.com/Dongping-Chen/OmniCoding">GitHub</a></div>
+          </div>
+        </article>
+
+        <article class="publication-row">
           <div class="publication-row__media"><img src="images/VGI.png" alt="Measuring Visual Generative Intelligence project preview" loading="lazy"></div>
           <div class="publication-row__body">
             <div class="publication-row__meta"><span class="venue-label">CVPR 2026 Findings</span></div>
             <h4>Measuring Visual Generative Intelligence</h4>
             <p class="publication-authors"><strong class="author-me">Dongping Chen</strong> *, Ruoxi Chen *, Xuanao Huang *, Yishan Wang *, Junqi Yang *, Yao Wan†, Ranjay Krishna†</p>
+          </div>
+        </article>
+
+        <article class="publication-row">
+          <div class="publication-row__media"><img src="images/nowait.png" alt="Removing thinking tokens project preview" loading="lazy"></div>
+          <div class="publication-row__body">
+            <div class="publication-row__meta"><span class="venue-label">EMNLP 2025 Findings</span></div>
+            <h4><a href="https://arxiv.org/pdf/2506.08343v2">Wait, We Don't Need to "Wait"! Removing Thinking Tokens Improves Reasoning Efficiency</a></h4>
+            <p class="publication-authors">Chenlong Wang, Yuanning Feng, <strong class="author-me">Dongping Chen</strong>, Zhaoyang Chu, Ranjay Krishna, Tianyi Zhou†</p>
+            <div class="publication-links" aria-label="Removing thinking tokens resources"><a href="https://arxiv.org/pdf/2506.08343v2">PDF</a><span>Code coming soon</span></div>
           </div>
         </article>
 
@@ -156,7 +175,7 @@ redirect_from:
         <article class="publication-row">
           <div class="publication-row__media"><img src="images/Paper2Web.png" alt="Paper2Web project preview" loading="lazy"></div>
           <div class="publication-row__body">
-            <div class="publication-row__meta"><span class="venue-label">Tech Report</span><span class="lead-label">Project lead</span></div>
+            <div class="publication-row__meta"><span class="venue-label">ACL 2026 Demo Track</span></div>
             <h4><a href="https://arxiv.org/pdf/2510.15842">Paper2Web: Let's Make Your Paper Alive!</a></h4>
             <p class="publication-authors">Yuhang Chen, Tianpeng Lv, Siyi Zhang, Yixiang Yin, Yao Wan, Philip S. Yu, <strong class="author-me">Dongping Chen</strong>‡</p>
             <div class="publication-links" aria-label="Paper2Web resources"><a href="https://arxiv.org/pdf/2510.15842">PDF</a><a href="https://github.com/YuhangChen1/Paper2All">GitHub</a></div>
@@ -164,9 +183,19 @@ redirect_from:
         </article>
 
         <article class="publication-row">
+          <div class="publication-row__media"><img src="images/worldwide-livevqa.png" alt="Worldwide LiveVQA multilingual visual knowledge preview" loading="lazy"></div>
+          <div class="publication-row__body">
+            <div class="publication-row__meta"><span class="venue-label">ACL 2026 Findings</span></div>
+            <h4><a href="https://aclanthology.org/2026.findings-acl.1984.pdf">Worldwide LiveVQA: Real-Time Visual Knowledge Seeking and Updating Across Languages</a></h4>
+            <p class="publication-authors">Xuanao Huang *, Xingjia Liu *, Yuyang Peng, Zetong Zhou, Yao Wan‡, <strong class="author-me">Dongping Chen</strong>‡</p>
+            <div class="publication-links" aria-label="Worldwide LiveVQA resources"><a href="https://aclanthology.org/2026.findings-acl.1984.pdf">PDF</a></div>
+          </div>
+        </article>
+
+        <article class="publication-row">
           <div class="publication-row__media"><img src="images/Judge.png" alt="LLM-as-a-Judge assessment project preview" loading="lazy"></div>
           <div class="publication-row__body">
-            <div class="publication-row__meta"><span class="venue-label">Tech Report</span><span class="lead-label">Project lead</span></div>
+            <div class="publication-row__meta"><span class="venue-label">Tech Report</span></div>
             <h4><a href="https://arxiv.org/pdf/2512.16041">Are We on the Right Way to Assessing LLM-as-a-Judge?</a></h4>
             <p class="publication-authors">Yuanning Feng, Sinan Wang, Zhengxiang Cheng, Yao Wan, <strong class="author-me">Dongping Chen</strong>‡</p>
             <div class="publication-links" aria-label="LLM-as-a-Judge assessment resources"><a href="https://arxiv.org/pdf/2512.16041">PDF</a></div>
@@ -176,7 +205,7 @@ redirect_from:
         <article class="publication-row">
           <div class="publication-row__media"><img src="images/ReVPT.png" alt="ReVPT project preview" loading="lazy"></div>
           <div class="publication-row__body">
-            <div class="publication-row__meta"><span class="venue-label">Tech Report</span><span class="lead-label">Project lead</span></div>
+            <div class="publication-row__meta"><span class="venue-label">Tech Report</span></div>
             <h4><a href="https://arxiv.org/pdf/2509.01656">Reinforced Visual Perception with Tools</a></h4>
             <p class="publication-authors">Zetong Zhou, <strong class="author-me">Dongping Chen</strong>‡, Zixian Ma, Zhihan Hu, Mingyang Fu, Sinan Wang, Yao Wan†, Zhou Zhao, Ranjay Krishna†</p>
             <div class="publication-links" aria-label="ReVPT resources"><a href="https://arxiv.org/pdf/2509.01656">PDF</a><a href="https://github.com/ls-kelvin/REVPT">GitHub</a><a href="https://huggingface.co/collections/Frywind/revpt-68b05161d2426128ea5db4d3">Model &amp; Dataset</a></div>
@@ -186,7 +215,7 @@ redirect_from:
         <article class="publication-row">
           <div class="publication-row__media"><img src="images/double-bench.png" alt="Double-Bench project preview" loading="lazy"></div>
           <div class="publication-row__body">
-            <div class="publication-row__meta"><span class="venue-label">AAAI 2026</span><span class="lead-label">Project lead</span></div>
+            <div class="publication-row__meta"><span class="venue-label">AAAI 2026</span></div>
             <h4><a href="https://arxiv.org/pdf/2508.03644">Are We on the Right Way for Assessing Document Retrieval-Augmented Generation?</a></h4>
             <p class="publication-authors">Wenxuan Shen *, Mingjia Wang *, Yaochen Wang, <strong class="author-me">Dongping Chen</strong>‡, Junjie Yang, Yao Wan, Weiwei Lin†</p>
             <div class="publication-links" aria-label="Double-Bench resources"><a href="https://arxiv.org/pdf/2508.03644">PDF</a><a href="https://github.com/Episoode/Double-Bench">GitHub</a><a href="https://double-bench.github.io/">Website</a><a href="https://huggingface.co/datasets/Episoode/Double-Bench">Dataset</a></div>
@@ -196,7 +225,7 @@ redirect_from:
         <article class="publication-row">
           <div class="publication-row__media"><img src="images/code_transformed.png" alt="code transformed project preview" loading="lazy"></div>
           <div class="publication-row__body">
-            <div class="publication-row__meta"><span class="venue-label">EACL 2026</span><span class="lead-label">Project lead</span></div>
+            <div class="publication-row__meta"><span class="venue-label">EACL 2026</span></div>
             <h4><a href="https://arxiv.org/pdf/2506.12014">code_transformed: The Influence of Large Language Models on Code</a></h4>
             <p class="publication-authors">Yuliang Xu *, Siming Huang *, Mingmeng Geng†, Yao Wan†, Xuanhua Shi, <strong class="author-me">Dongping Chen</strong>‡</p>
             <div class="publication-links" aria-label="code transformed resources"><a href="https://arxiv.org/pdf/2506.12014">PDF</a><a href="https://github.com/ignorancex/LLM_code">GitHub</a></div>
@@ -206,7 +235,7 @@ redirect_from:
         <article class="publication-row">
           <div class="publication-row__media"><img src="images/LC-R1.png" alt="LC-R1 project preview" loading="lazy"></div>
           <div class="publication-row__body">
-            <div class="publication-row__meta"><span class="venue-label">Tech Report</span><span class="lead-label">Project lead</span></div>
+            <div class="publication-row__meta"><span class="venue-label">Tech Report</span></div>
             <h4><a href="https://arxiv.org/pdf/2506.14755">Optimizing Length Compression in Large Reasoning Models</a></h4>
             <p class="publication-authors">Zhengxiang Cheng, <strong class="author-me">Dongping Chen</strong>‡, Mingyang Fu, Tianyi Zhou†</p>
             <div class="publication-links" aria-label="LC-R1 resources"><a href="https://arxiv.org/pdf/2506.14755">PDF</a><a href="https://github.com/zxiangx/LC-R1">GitHub</a></div>
@@ -216,7 +245,7 @@ redirect_from:
         <article class="publication-row">
           <div class="publication-row__media"><img src="images/liveVQA.png" alt="LiveVQA project preview" loading="lazy"></div>
           <div class="publication-row__body">
-            <div class="publication-row__meta"><span class="venue-label">NeurIPS 2025 D&amp;B</span><span class="lead-label">Project lead</span></div>
+            <div class="publication-row__meta"><span class="venue-label">NeurIPS 2025 D&amp;B</span></div>
             <h4><a href="https://arxiv.org/pdf/2504.05288">Seeking and Updating with Live Visual Knowledge</a></h4>
             <p class="publication-authors">Mingyang Fu*, Yuyang Peng*, <strong class="author-me">Dongping Chen</strong>‡, Zetong Zhou, Benlin Liu, Yao Wan†, Zhou Zhao, Philip S. Yu, Ranjay Krishna†</p>
             <div class="publication-links" aria-label="LiveVQA resources"><a href="https://arxiv.org/pdf/2504.05288">PDF</a><a href="https://github.com/fumingyang2004/LIVEVQA">GitHub</a><a href="https://huggingface.co/datasets/ONE-Lab/LiveVQA-new/tree/main">Dataset</a><a href="https://livevqa.github.io/">Website</a></div>
@@ -226,7 +255,7 @@ redirect_from:
         <article class="publication-row">
           <div class="publication-row__media"><img src="images/multiref.png" alt="MultiRef project preview" loading="lazy"></div>
           <div class="publication-row__body">
-            <div class="publication-row__meta"><span class="venue-label">ACM MM 2025 Dataset</span><span class="lead-label">Project lead</span></div>
+            <div class="publication-row__meta"><span class="venue-label">ACM MM 2025 Dataset</span></div>
             <h4><a href="https://arxiv.org/pdf/2508.06905">MultiRef: Controllable Image Generation with Multiple Visual References</a></h4>
             <p class="publication-authors">Ruoxi Chen, <strong class="author-me">Dongping Chen</strong>‡, Siyuan Wu, Sinan Wang, Shiyun Lang, Petr Sushko, Gaoyang Jiang, Yao Wan, Ranjay Krishna†</p>
             <div class="publication-links" aria-label="MultiRef resources"><a href="https://arxiv.org/pdf/2508.06905">PDF</a><a href="https://github.com/Dipsy0830/MultiRef-code">GitHub</a><a href="https://huggingface.co/datasets/ONE-Lab/MultiRef-dataset">Dataset</a><a href="https://multiref.github.io/">Website</a></div>
@@ -234,19 +263,9 @@ redirect_from:
         </article>
 
         <article class="publication-row">
-          <div class="publication-row__media"><img src="images/nowait.png" alt="Removing thinking tokens project preview" loading="lazy"></div>
-          <div class="publication-row__body">
-            <div class="publication-row__meta"><span class="venue-label">EMNLP 2025 Findings</span><span class="lead-label">Project lead</span></div>
-            <h4><a href="https://arxiv.org/pdf/2506.08343v2">Wait, We Don't Need to "Wait"! Removing Thinking Tokens Improves Reasoning Efficiency</a></h4>
-            <p class="publication-authors">Chenlong Wang, Yuanning Feng, <strong class="author-me">Dongping Chen</strong>‡, Zhaoyang Chu, Ranjay Krishna, Tianyi Zhou†</p>
-            <div class="publication-links" aria-label="Removing thinking tokens resources"><a href="https://arxiv.org/pdf/2506.08343v2">PDF</a><span>Code coming soon</span></div>
-          </div>
-        </article>
-
-        <article class="publication-row">
           <div class="publication-row__media"><img src="images/JudgeAnything.png" alt="Judge Anything project preview" loading="lazy"></div>
           <div class="publication-row__body">
-            <div class="publication-row__meta"><span class="venue-label">KDD 2025 D&amp;B Oral</span><span class="lead-label">Project lead</span></div>
+            <div class="publication-row__meta"><span class="venue-label">KDD 2025 D&amp;B Oral</span></div>
             <h4><a href="https://arxiv.org/pdf/2503.17489">Judge Anything: MLLM as a Judge Across Any Modality</a></h4>
             <p class="publication-authors">Shu Pu *, Yaochen Wang *, <strong class="author-me">Dongping Chen</strong>‡, Yuhang Chen, Guohao Wang, Qi Qin, Zhongyi Zhang, Zhiyuan Zhang, Zetong Zhou, Shuang Gong, Yi Gui, Yao Wan†, Philip S. Yu</p>
             <div class="publication-links" aria-label="Judge Anything resources"><a href="https://arxiv.org/pdf/2503.17489">PDF</a><a href="https://urrealhero.github.io/judgeanythingweb/">Website</a></div>
@@ -256,7 +275,7 @@ redirect_from:
         <article class="publication-row">
           <div class="publication-row__media"><img src="images/Wikipedia.png" alt="Wikipedia in the era of LLMs project preview" loading="lazy"></div>
           <div class="publication-row__body">
-            <div class="publication-row__meta"><span class="venue-label">TMLR</span><span class="lead-label">Project lead</span></div>
+            <div class="publication-row__meta"><span class="venue-label">TMLR</span></div>
             <h4><a href="https://arxiv.org/pdf/2503.02879">Wikipedia in the Era of LLMs: Evolution and Risks</a></h4>
             <p class="publication-authors">Siming Huang *, Yuliang Xu *, Mingmeng Geng†, Yao Wan†, <strong class="author-me">Dongping Chen</strong>‡</p>
             <div class="publication-links" aria-label="Wikipedia in the era of LLMs resources"><a href="https://arxiv.org/pdf/2503.02879">PDF</a></div>
@@ -266,7 +285,7 @@ redirect_from:
         <article class="publication-row">
           <div class="publication-row__media"><img src="images/codesync.png" alt="CodeSync project preview" loading="lazy"></div>
           <div class="publication-row__body">
-            <div class="publication-row__meta"><span class="venue-label">ICML 2025</span><span class="lead-label">Project lead</span></div>
+            <div class="publication-row__meta"><span class="venue-label">ICML 2025</span></div>
             <h4><a href="https://arxiv.org/pdf/2502.16645">CodeSync: Synchronizing Large Language Models with Dynamic Code Evolution at Scale</a></h4>
             <p class="publication-authors">Chenlong Wang, Zhaoyang Chu, Zhengxiang Cheng, Xuyi Yang, Kaiyue Qiu, Yao Wan, Zhou Zhao, Xuanhua Shi, <strong class="author-me">Dongping Chen</strong>‡</p>
             <div class="publication-links" aria-label="CodeSync resources"><a href="https://arxiv.org/pdf/2502.16645">PDF</a><a href="https://github.com/Lucky-voyage/Code-Sync">Code</a></div>
@@ -276,7 +295,7 @@ redirect_from:
         <article class="publication-row">
           <div class="publication-row__media"><img src="images/nvAgent.png" alt="nvAgent project preview" loading="lazy"></div>
           <div class="publication-row__body">
-            <div class="publication-row__meta"><span class="venue-label">ACL 2025</span><span class="lead-label">Project lead</span></div>
+            <div class="publication-row__meta"><span class="venue-label">ACL 2025</span></div>
             <h4><a href="https://arxiv.org/pdf/2502.05036">nvAgent: Automated Data Visualization from Natural Language via Collaborative Agent Workflow</a></h4>
             <p class="publication-authors">Geliang Ouyang, Jingyao Chen, Zhihe Nie, Yi Gui, Yao Wan†, Hongyu Zhang, <strong class="author-me">Dongping Chen</strong>‡</p>
             <div class="publication-links" aria-label="nvAgent resources"><a href="https://arxiv.org/pdf/2502.05036">PDF</a><a href="https://github.com/geliang0114/nvAgent">Code</a></div>
@@ -286,7 +305,7 @@ redirect_from:
         <article class="publication-row">
           <div class="publication-row__media"><img src="images/llm-speaking.png" alt="LLMs in academia project preview" loading="lazy"></div>
           <div class="publication-row__body">
-            <div class="publication-row__meta"><span class="venue-label">ACL 2025 Findings</span><span class="lead-label">Project lead</span></div>
+            <div class="publication-row__meta"><span class="venue-label">ACL 2025 Findings</span></div>
             <h4><a href="https://arxiv.org/pdf/2409.13686">The Impact of Large Language Models in Academia: from Writing to Speaking</a></h4>
             <p class="publication-authors">Mingmeng Geng†, Caixi Chen, Yanru Wu, <strong class="author-me">Dongping Chen</strong>‡, Yao Wan, Pan Zhou</p>
             <div class="publication-links" aria-label="LLMs in academia resources"><a href="https://arxiv.org/pdf/2409.13686">PDF</a></div>
