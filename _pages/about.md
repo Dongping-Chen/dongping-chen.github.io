@@ -66,10 +66,8 @@ redirect_from:
     <h2 id="research-interests-title">Research Interests</h2>
     <p>I study multimodal generative models and the agentic systems they power, with an emphasis on evaluation, tool use, efficiency, and trustworthy behavior.</p>
     <ul class="research-topics" aria-label="Research topics">
-      <li>Multimodal Generation</li>
-      <li>LLM-based Agents</li>
-      <li>Multimodal Evaluation</li>
-      <li>Trustworthy AI</li>
+      <li>Multimodal Understanding and Generation</li>
+      <li>Agentic AI</li>
     </ul>
   </section>
 
