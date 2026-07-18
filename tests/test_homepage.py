@@ -14,6 +14,7 @@ BUILT_INDEX = ROOT / "_site" / "index.html"
 BUILT_CSS = ROOT / "_site" / "assets" / "css" / "main.css"
 
 PUBLICATION_TITLES = (
+    "Sandboxed Coding Agents are Competitive Omni-modal Task Solvers",
     "Measuring Visual Generative Intelligence",
     "Interleaved Scene Graph for Interleaved Text-and-Image Generation Assessment",
     "GUI-World: A Dataset for GUI-oriented Multimodal LLM-based Agents",
@@ -21,6 +22,7 @@ PUBLICATION_TITLES = (
     "MLLM-as-a-Judge: Assessing Multimodal LLM-as-a-Judge with Vision-Language Benchmark",
     "LLM-as-a-Coauthor: The Challenges of Detecting LLM-Human Mixcase",
     "Paper2Web: Let's Make Your Paper Alive!",
+    "Worldwide LiveVQA: Real-Time Visual Knowledge Seeking and Updating Across Languages",
     "Are We on the Right Way to Assessing LLM-as-a-Judge?",
     "Reinforced Visual Perception with Tools",
     "Are We on the Right Way for Assessing Document Retrieval-Augmented Generation?",
@@ -35,6 +37,13 @@ PUBLICATION_TITLES = (
     "nvAgent: Automated Data Visualization from Natural Language via Collaborative Agent Workflow",
     "The Impact of Large Language Models in Academia: from Writing to Speaking",
 )
+
+
+def publication_article(source, title):
+    title_index = source.index(title)
+    article_start = source.rindex('<article class="publication-row">', 0, title_index)
+    article_end = source.index("</article>", title_index) + len("</article>")
+    return source[article_start:article_end]
 
 
 class HomepageSourceTests(unittest.TestCase):
@@ -70,13 +79,87 @@ class HomepageSourceTests(unittest.TestCase):
             with self.subTest(retained_fact=retained_fact):
                 self.assertIn(f"<dt>{retained_fact}</dt>", self.source)
 
+    def test_refreshes_profile_and_research_topics(self):
+        self.assertNotRegex(
+            self.source,
+            r'class\s*=\s*["\'][^"\']*\bwiki-infobox__name\b[^"\']*["\']',
+        )
+        self.assertIn('class="research-topic research-topic--multimodal"', self.source)
+        self.assertIn('class="research-topic research-topic--agentic"', self.source)
+        self.assertNotRegex(
+            self.source,
+            r'class\s*=\s*["\'][^"\']*\blead-label\b[^"\']*["\']',
+        )
+        self.assertNotRegex(self.source, r"\b\d+\s+selected works\b")
+        self.assertNotIn("publication-count", self.source)
+
+    def test_adds_and_regroups_recent_publications(self):
+        main_start = self.source.index('id="publication-panel-contributions"')
+        led_start = self.source.index('id="publication-panel-led"')
+        main_panel = self.source[main_start:led_start]
+        led_panel = self.source[led_start:]
+
+        omni_title = "Sandboxed Coding Agents are Competitive Omni-modal Task Solvers"
+        measuring_title = "Measuring Visual Generative Intelligence"
+        wait_title = 'Wait, We Don\'t Need to "Wait"! Removing Thinking Tokens Improves Reasoning Efficiency'
+        isg_title = "Interleaved Scene Graph for Interleaved Text-and-Image Generation Assessment"
+        paper2web_title = "Paper2Web: Let's Make Your Paper Alive!"
+        worldwide_title = "Worldwide LiveVQA: Real-Time Visual Knowledge Seeking and Updating Across Languages"
+        judge_title = "Are We on the Right Way to Assessing LLM-as-a-Judge?"
+
+        self.assertIn(omni_title, main_panel)
+        self.assertIn(wait_title, main_panel)
+        self.assertNotIn(wait_title, led_panel)
+        self.assertEqual(1, self.source.count(wait_title))
+        self.assertIn(worldwide_title, led_panel)
+
+        self.assertLess(main_panel.index(omni_title), main_panel.index(measuring_title))
+        self.assertLess(main_panel.index(measuring_title), main_panel.index(wait_title))
+        self.assertLess(main_panel.index(wait_title), main_panel.index(isg_title))
+        self.assertLess(led_panel.index(paper2web_title), led_panel.index(worldwide_title))
+        self.assertLess(led_panel.index(worldwide_title), led_panel.index(judge_title))
+
+        paper2web_article = publication_article(self.source, "Paper2Web")
+        omnicoding_article = publication_article(self.source, omni_title)
+        worldwide_article = publication_article(self.source, "Worldwide LiveVQA")
+        wait_article = publication_article(self.source, wait_title)
+
+        self.assertIn("ACL 2026 Demo Track", paper2web_article)
+        self.assertIn('images/OmniCoding.png', omnicoding_article)
+        self.assertIn('https://arxiv.org/pdf/2606.00579', omnicoding_article)
+        self.assertIn('https://github.com/Dongping-Chen/OmniCoding', omnicoding_article)
+        self.assertIn("Tech Report", omnicoding_article)
+        self.assertIn(
+            '<p class="publication-authors"><strong class="author-me">Dongping Chen</strong>, '
+            'Xuanao Huang, Zhihan Hu, Qingyuan Shi, Dianqi Li, Tianyi Zhou</p>',
+            omnicoding_article,
+        )
+        self.assertIn(
+            'alt="Sandboxed coding agents for omni-modal tasks overview"',
+            omnicoding_article,
+        )
+        self.assertIn('images/worldwide-livevqa.png', worldwide_article)
+        self.assertIn('https://aclanthology.org/2026.findings-acl.1984.pdf', worldwide_article)
+        self.assertIn("ACL 2026 Findings", worldwide_article)
+        self.assertIn(
+            '<p class="publication-authors">Xuanao Huang *, Xingjia Liu *, Yuyang Peng, Zetong Zhou, '
+            'Yao Wan‡, <strong class="author-me">Dongping Chen</strong>‡</p>',
+            worldwide_article,
+        )
+        self.assertIn(
+            'alt="Worldwide LiveVQA multilingual visual knowledge preview"',
+            worldwide_article,
+        )
+        self.assertIn('<strong class="author-me">Dongping Chen</strong>', wait_article)
+        self.assertNotIn('<strong class="author-me">Dongping Chen</strong>‡', wait_article)
+
     def test_preserves_all_visible_publications(self):
         for title in PUBLICATION_TITLES:
             with self.subTest(title=title):
                 self.assertIn(title, self.source)
 
         self.assertNotIn('class="publication-card"', self.source)
-        self.assertEqual(20, self.source.count('<article class="publication-row">'))
+        self.assertEqual(len(PUBLICATION_TITLES), self.source.count('<article class="publication-row">'))
 
         for venue in ("CVPR 2026 Findings", "EACL 2026", "KDD 2025 D&amp;B Oral", "TMLR"):
             with self.subTest(venue=venue):
@@ -87,7 +170,7 @@ class HomepageSourceTests(unittest.TestCase):
             r'<(?:article)[^>]+class="publication-(?:card|row)[^"]*"[\s\S]*?<img[^>]+src=["\']([^"\']+)',
             self.source,
         )
-        self.assertEqual(20, len(image_paths))
+        self.assertEqual(len(PUBLICATION_TITLES), len(image_paths))
         for image_path in image_paths:
             with self.subTest(image=image_path):
                 self.assertTrue((ROOT / image_path).is_file(), image_path)
