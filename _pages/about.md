@@ -25,10 +25,10 @@ redirect_from:
   <nav class="wiki-contents" aria-label="Page contents">
     <span class="wiki-contents__title">Contents</span>
     <ol>
-      <li><a href="#biography">Biography</a></li>
-      <li><a href="#research-interests">Research Interests</a></li>
-      <li><a href="#publications">Publications</a></li>
-      <li><a href="#education">Education</a></li>
+      <li><a href="#biography" target="_self">Biography</a></li>
+      <li><a href="#research-interests" target="_self">Research Interests</a></li>
+      <li><a href="#publications" target="_self">Publications</a></li>
+      <li><a href="#education" target="_self">Education</a></li>
     </ol>
   </nav>
 
