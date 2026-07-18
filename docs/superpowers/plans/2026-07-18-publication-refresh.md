@@ -93,7 +93,7 @@ self.assertIn(
     omnicoding_article,
 )
 self.assertIn(
-    '<p class="publication-authors">Xuanao Huang *, Xingjia Liu *, Yuyang Peng, Zetong Zhou, '
+    '<p class="publication-authors">Xuanao Huang *, Xingjia Liu *, Zetong Zhou, Yuyang Peng, '
     'Yao Wan‡, <strong class="author-me">Dongping Chen</strong>‡</p>',
     worldwide_article,
 )
@@ -189,7 +189,7 @@ Ensure the title occurs exactly once.
   - Alt: `Worldwide LiveVQA multilingual visual knowledge preview`
   - Venue: `ACL 2026 Findings`
   - Title/PDF: `https://aclanthology.org/2026.findings-acl.1984.pdf`
-  - Authors: Xuanao Huang *, Xingjia Liu *, Yuyang Peng, Zetong Zhou, Yao Wan‡, Dongping Chen‡
+  - Authors: Xuanao Huang *, Xingjia Liu *, Zetong Zhou, Yuyang Peng, Yao Wan‡, Dongping Chen‡
 - Remove every `<span class="lead-label">Project lead</span>` from the Projects Led panel.
 - Keep author-line `‡` markers on led projects other than Wait.
 

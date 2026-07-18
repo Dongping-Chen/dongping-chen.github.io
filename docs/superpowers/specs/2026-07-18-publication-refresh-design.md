@@ -56,7 +56,7 @@ Add the following work after Paper2Web:
 
 - Title: `Worldwide LiveVQA: Real-Time Visual Knowledge Seeking and Updating Across Languages`
 - Venue: `ACL 2026 Findings`
-- Authors: Xuanao Huang *, Xingjia Liu *, Yuyang Peng, Zetong Zhou, Yao Wan‡, Dongping Chen‡
+- Authors: Xuanao Huang *, Xingjia Liu *, Zetong Zhou, Yuyang Peng, Yao Wan‡, Dongping Chen‡
 - Image: `images/worldwide-livevqa.png`
 - PDF: `https://aclanthology.org/2026.findings-acl.1984.pdf`
 
@@ -80,4 +80,3 @@ Update the existing Python homepage tests before production changes and verify t
 - Publication figures use `360px`, `240px`, and full-width mobile sizing while retaining natural height and no cropping.
 - All publication images resolve in the built site.
 - Jekyll builds successfully and the complete homepage test suite passes.
-

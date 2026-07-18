@@ -187,7 +187,7 @@ redirect_from:
           <div class="publication-row__body">
             <div class="publication-row__meta"><span class="venue-label">ACL 2026 Findings</span></div>
             <h4><a href="https://aclanthology.org/2026.findings-acl.1984.pdf">Worldwide LiveVQA: Real-Time Visual Knowledge Seeking and Updating Across Languages</a></h4>
-            <p class="publication-authors">Xuanao Huang *, Xingjia Liu *, Yuyang Peng, Zetong Zhou, Yao Wan‡, <strong class="author-me">Dongping Chen</strong>‡</p>
+            <p class="publication-authors">Xuanao Huang *, Xingjia Liu *, Zetong Zhou, Yuyang Peng, Yao Wan‡, <strong class="author-me">Dongping Chen</strong>‡</p>
             <div class="publication-links" aria-label="Worldwide LiveVQA resources"><a href="https://aclanthology.org/2026.findings-acl.1984.pdf">PDF</a></div>
           </div>
         </article>

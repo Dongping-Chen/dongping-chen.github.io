@@ -142,7 +142,7 @@ class HomepageSourceTests(unittest.TestCase):
         self.assertIn('https://aclanthology.org/2026.findings-acl.1984.pdf', worldwide_article)
         self.assertIn("ACL 2026 Findings", worldwide_article)
         self.assertIn(
-            '<p class="publication-authors">Xuanao Huang *, Xingjia Liu *, Yuyang Peng, Zetong Zhou, '
+            '<p class="publication-authors">Xuanao Huang *, Xingjia Liu *, Zetong Zhou, Yuyang Peng, '
             'Yao Wan‡, <strong class="author-me">Dongping Chen</strong>‡</p>',
             worldwide_article,
         )
