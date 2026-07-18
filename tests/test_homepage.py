@@ -268,6 +268,47 @@ class HomepageStyleTests(unittest.TestCase):
         self.assertNotRegex(styles, media_selector + r"[\s\S]{0,500}object-fit:\s*cover")
         self.assertIn(".publication-tabs--enhanced", styles)
 
+    def test_styles_research_topics_and_larger_publication_media(self):
+        styles = HOMEPAGE_SCSS.read_text(encoding="utf-8")
+        modifier_rules = {
+            "multimodal": (
+                r"\.research-topic--multimodal\s*\{\s*"
+                r"color:\s*#315f88;\s*"
+                r"background:\s*#eef6ff;\s*"
+                r"border-color:\s*#a9c7e8;\s*\}"
+            ),
+            "agentic": (
+                r"\.research-topic--agentic\s*\{\s*"
+                r"color:\s*#93463f;\s*"
+                r"background:\s*#fff1ef;\s*"
+                r"border-color:\s*#e3b4ae;\s*\}"
+            ),
+        }
+        for topic, rule in modifier_rules.items():
+            with self.subTest(topic=topic):
+                self.assertRegex(styles, rule)
+
+        tablet_start = styles.index("@media (max-width: 680px)")
+        mobile_start = styles.index("@media (max-width: 450px)")
+        desktop_styles = styles[:tablet_start]
+        tablet_styles = styles[tablet_start:mobile_start]
+        mobile_styles = styles[mobile_start:]
+
+        responsive_rules = {
+            "desktop columns": (desktop_styles, "grid-template-columns: 360px minmax(0, 1fr);"),
+            "desktop media": (desktop_styles, "width: 360px;"),
+            "tablet columns": (tablet_styles, "grid-template-columns: 240px minmax(0, 1fr);"),
+            "tablet media": (tablet_styles, "width: 240px;"),
+            "mobile columns": (mobile_styles, "grid-template-columns: 1fr;"),
+            "mobile media": (mobile_styles, "width: 100%;"),
+        }
+        for viewport, (scope, rule) in responsive_rules.items():
+            with self.subTest(viewport=viewport):
+                self.assertIn(rule, scope)
+        for removed_style in (".lead-label", "--wiki-lead"):
+            with self.subTest(removed_style=removed_style):
+                self.assertNotIn(removed_style, styles)
+
     def test_homepage_layout_uses_explicit_body_class_without_has_dependency(self):
         layout = DEFAULT_LAYOUT.read_text(encoding="utf-8")
         styles = HOMEPAGE_SCSS.read_text(encoding="utf-8")
