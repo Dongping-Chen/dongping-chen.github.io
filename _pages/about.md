@@ -65,7 +65,7 @@ redirect_from:
 
   <section id="research-interests" class="wiki-section" aria-labelledby="research-interests-title">
     <h2 id="research-interests-title">Research Interests</h2>
-    <p>I study multimodal generative models and the agentic systems they power, with an emphasis on evaluation, tool use, efficiency, and trustworthy behavior.</p>
+    <p>I study multimodal generative models and the agentic systems they power, with an emphasis on evaluation, tool use, efficiency. I am currently working on world model and LLM-based agents</p>
     <ul class="research-topics" aria-label="Research topics">
       <li>Multimodal Understanding and Generation</li>
       <li>Agentic AI</li>
