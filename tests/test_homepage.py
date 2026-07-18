@@ -42,8 +42,8 @@ class HomepageSourceTests(unittest.TestCase):
             with self.subTest(title=title):
                 self.assertIn(title, self.source)
 
-        self.assertEqual(5, self.source.count('class="publication-card'))
-        self.assertEqual(12, self.source.count('class="publication-row'))
+        self.assertEqual(5, self.source.count('<article class="publication-card">'))
+        self.assertEqual(12, self.source.count('<article class="publication-row">'))
 
     def test_publication_images_exist(self):
         image_paths = re.findall(
