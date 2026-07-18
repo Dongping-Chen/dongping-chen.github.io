@@ -3,6 +3,7 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: false
+body_class: wiki-home-page
 redirect_from:
   - /about/
   - /about.html
@@ -74,7 +75,7 @@ redirect_from:
   <section id="publications" class="wiki-section publications" aria-labelledby="publications-title">
     <div class="wiki-section__heading">
       <h2 id="publications-title">Publications</h2>
-      <p>17 selected works</p>
+      <p>20 selected works</p>
     </div>
     <p class="publication-note"><span aria-hidden="true">*</span> indicates equal contribution. <span aria-hidden="true">‡</span> indicates project leaders.</p>
 
@@ -84,10 +85,21 @@ redirect_from:
           <p class="publication-group__index">01</p>
           <h3>Primary Contributions</h3>
         </div>
-        <p>Five representative works with substantial direct contribution.</p>
+        <p>Six representative works with substantial direct contribution.</p>
       </div>
 
       <div class="publication-grid">
+        <article class="publication-card">
+          <div class="publication-card__media">
+            <img src="images/VGI.png" alt="Measuring Visual Generative Intelligence project preview" loading="lazy">
+            <span class="venue-label">CVPR 2026 Findings</span>
+          </div>
+          <div class="publication-card__body">
+            <h4>Measuring Visual Generative Intelligence</h4>
+            <p class="publication-authors"><strong class="author-me">Dongping Chen</strong> *, Ruoxi Chen *, Xuanao Huang *, Yishan Wang *, Junqi Yang *, Yao Wan†, Ranjay Krishna†</p>
+          </div>
+        </article>
+
         <article class="publication-card">
           <div class="publication-card__media">
             <img src="images/ISG.png" alt="Interleaved Scene Graph project preview" loading="lazy">
@@ -175,10 +187,30 @@ redirect_from:
           <p class="publication-group__index">02</p>
           <h3>Projects Led</h3>
         </div>
-        <p>Twelve projects organized as a compact, scannable research index.</p>
+        <p>Fourteen projects organized as a compact, scannable research index.</p>
       </div>
 
       <div class="publication-list">
+        <article class="publication-row">
+          <div class="publication-row__media"><img src="images/Paper2Web.png" alt="Paper2Web project preview" loading="lazy"></div>
+          <div class="publication-row__body">
+            <div class="publication-row__meta"><span class="venue-label">Tech Report</span><span class="lead-label">Project lead</span></div>
+            <h4><a href="https://arxiv.org/pdf/2510.15842">Paper2Web: Let's Make Your Paper Alive!</a></h4>
+            <p class="publication-authors">Yuhang Chen, Tianpeng Lv, Siyi Zhang, Yixiang Yin, Yao Wan, Philip S. Yu, <strong class="author-me">Dongping Chen</strong>‡</p>
+            <div class="publication-links" aria-label="Paper2Web resources"><a href="https://arxiv.org/pdf/2510.15842">PDF</a><a href="https://github.com/YuhangChen1/Paper2All">GitHub</a></div>
+          </div>
+        </article>
+
+        <article class="publication-row">
+          <div class="publication-row__media"><img src="images/Judge.png" alt="LLM-as-a-Judge assessment project preview" loading="lazy"></div>
+          <div class="publication-row__body">
+            <div class="publication-row__meta"><span class="venue-label">Tech Report</span><span class="lead-label">Project lead</span></div>
+            <h4><a href="https://arxiv.org/pdf/2512.16041">Are We on the Right Way to Assessing LLM-as-a-Judge?</a></h4>
+            <p class="publication-authors">Yuanning Feng, Sinan Wang, Zhengxiang Cheng, Yao Wan, <strong class="author-me">Dongping Chen</strong>‡</p>
+            <div class="publication-links" aria-label="LLM-as-a-Judge assessment resources"><a href="https://arxiv.org/pdf/2512.16041">PDF</a></div>
+          </div>
+        </article>
+
         <article class="publication-row">
           <div class="publication-row__media"><img src="images/ReVPT.png" alt="ReVPT project preview" loading="lazy"></div>
           <div class="publication-row__body">
@@ -202,7 +234,7 @@ redirect_from:
         <article class="publication-row">
           <div class="publication-row__media"><img src="images/code_transformed.png" alt="code transformed project preview" loading="lazy"></div>
           <div class="publication-row__body">
-            <div class="publication-row__meta"><span class="venue-label">Preprint</span><span class="lead-label">Project lead</span></div>
+            <div class="publication-row__meta"><span class="venue-label">EACL 2026</span><span class="lead-label">Project lead</span></div>
             <h4><a href="https://arxiv.org/pdf/2506.12014">code_transformed: The Influence of Large Language Models on Code</a></h4>
             <p class="publication-authors">Yuliang Xu *, Siming Huang *, Mingmeng Geng†, Yao Wan†, Xuanhua Shi, <strong class="author-me">Dongping Chen</strong>‡</p>
             <div class="publication-links" aria-label="code transformed resources"><a href="https://arxiv.org/pdf/2506.12014">PDF</a><a href="https://github.com/ignorancex/LLM_code">GitHub</a></div>
@@ -252,7 +284,7 @@ redirect_from:
         <article class="publication-row">
           <div class="publication-row__media"><img src="images/JudgeAnything.png" alt="Judge Anything project preview" loading="lazy"></div>
           <div class="publication-row__body">
-            <div class="publication-row__meta"><span class="venue-label">KDD 2025 D&amp;B</span><span class="lead-label">Project lead</span></div>
+            <div class="publication-row__meta"><span class="venue-label">KDD 2025 D&amp;B Oral</span><span class="lead-label">Project lead</span></div>
             <h4><a href="https://arxiv.org/pdf/2503.17489">Judge Anything: MLLM as a Judge Across Any Modality</a></h4>
             <p class="publication-authors">Shu Pu *, Yaochen Wang *, <strong class="author-me">Dongping Chen</strong>‡, Yuhang Chen, Guohao Wang, Qi Qin, Zhongyi Zhang, Zhiyuan Zhang, Zetong Zhou, Shuang Gong, Yi Gui, Yao Wan†, Philip S. Yu</p>
             <div class="publication-links" aria-label="Judge Anything resources"><a href="https://arxiv.org/pdf/2503.17489">PDF</a><a href="https://urrealhero.github.io/judgeanythingweb/">Website</a></div>
@@ -262,7 +294,7 @@ redirect_from:
         <article class="publication-row">
           <div class="publication-row__media"><img src="images/Wikipedia.png" alt="Wikipedia in the era of LLMs project preview" loading="lazy"></div>
           <div class="publication-row__body">
-            <div class="publication-row__meta"><span class="venue-label">IC2S2 2025</span><span class="lead-label">Project lead</span></div>
+            <div class="publication-row__meta"><span class="venue-label">TMLR</span><span class="lead-label">Project lead</span></div>
             <h4><a href="https://arxiv.org/pdf/2503.02879">Wikipedia in the Era of LLMs: Evolution and Risks</a></h4>
             <p class="publication-authors">Siming Huang *, Yuliang Xu *, Mingmeng Geng†, Yao Wan†, <strong class="author-me">Dongping Chen</strong>‡</p>
             <div class="publication-links" aria-label="Wikipedia in the era of LLMs resources"><a href="https://arxiv.org/pdf/2503.02879">PDF</a></div>

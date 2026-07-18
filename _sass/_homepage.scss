@@ -2,7 +2,7 @@
    WIKIPEDIA-INSPIRED ACADEMIC HOMEPAGE
    ========================================================================== */
 
-body:has(.wiki-home) {
+body.wiki-home-page {
   background: #f5f5f4;
 
   .masthead,
@@ -639,7 +639,7 @@ body:has(.wiki-home) {
 }
 
 @media (max-width: 860px) {
-  body:has(.wiki-home) #main {
+  body.wiki-home-page #main {
     margin: 0;
     padding: 1.6rem 1.25rem 2.2rem;
     border-right: 0;
@@ -748,7 +748,7 @@ body:has(.wiki-home) {
 }
 
 @media (max-width: 450px) {
-  body:has(.wiki-home) #main {
+  body.wiki-home-page #main {
     padding-right: 0.9rem;
     padding-left: 0.9rem;
   }
@@ -772,7 +772,7 @@ body:has(.wiki-home) {
 }
 
 @media print {
-  body:has(.wiki-home) {
+  body.wiki-home-page {
     background: #fff;
 
     #main {

@@ -8,15 +8,19 @@ ROOT = Path(__file__).resolve().parents[1]
 ABOUT = ROOT / "_pages" / "about.md"
 HOMEPAGE_SCSS = ROOT / "_sass" / "_homepage.scss"
 MAIN_SCSS = ROOT / "assets" / "css" / "main.scss"
+DEFAULT_LAYOUT = ROOT / "_layouts" / "default.html"
 BUILT_INDEX = ROOT / "_site" / "index.html"
 BUILT_CSS = ROOT / "_site" / "assets" / "css" / "main.css"
 
 PUBLICATION_TITLES = (
+    "Measuring Visual Generative Intelligence",
     "Interleaved Scene Graph for Interleaved Text-and-Image Generation Assessment",
     "GUI-World: A Dataset for GUI-oriented Multimodal LLM-based Agents",
     "Toward an Honest and Helpful Large Language Model",
     "MLLM-as-a-Judge: Assessing Multimodal LLM-as-a-Judge with Vision-Language Benchmark",
     "LLM-as-a-Coauthor: The Challenges of Detecting LLM-Human Mixcase",
+    "Paper2Web: Let's Make Your Paper Alive!",
+    "Are We on the Right Way to Assessing LLM-as-a-Judge?",
     "Reinforced Visual Perception with Tools",
     "Are We on the Right Way for Assessing Document Retrieval-Augmented Generation?",
     "code_transformed: The Influence of Large Language Models on Code",
@@ -39,6 +43,7 @@ class HomepageSourceTests(unittest.TestCase):
 
     def test_uses_semantic_wiki_homepage_structure(self):
         self.assertIn("author_profile: false", self.source)
+        self.assertIn("body_class: wiki-home-page", self.source)
         self.assertIn('class="wiki-home"', self.source)
         for section_id in ("biography", "research-interests", "publications", "education"):
             self.assertIn(f'id="{section_id}"', self.source)
@@ -49,15 +54,19 @@ class HomepageSourceTests(unittest.TestCase):
             with self.subTest(title=title):
                 self.assertIn(title, self.source)
 
-        self.assertEqual(5, self.source.count('<article class="publication-card">'))
-        self.assertEqual(12, self.source.count('<article class="publication-row">'))
+        self.assertEqual(6, self.source.count('<article class="publication-card">'))
+        self.assertEqual(14, self.source.count('<article class="publication-row">'))
+
+        for venue in ("CVPR 2026 Findings", "EACL 2026", "KDD 2025 D&amp;B Oral", "TMLR"):
+            with self.subTest(venue=venue):
+                self.assertIn(venue, self.source)
 
     def test_publication_images_exist(self):
         image_paths = re.findall(
             r'<(?:article)[^>]+class="publication-(?:card|row)[^"]*"[\s\S]*?<img[^>]+src=["\']([^"\']+)',
             self.source,
         )
-        self.assertEqual(17, len(image_paths))
+        self.assertEqual(20, len(image_paths))
         for image_path in image_paths:
             with self.subTest(image=image_path):
                 self.assertTrue((ROOT / image_path).is_file(), image_path)
@@ -95,6 +104,13 @@ class HomepageStyleTests(unittest.TestCase):
         ):
             with self.subTest(selector=selector):
                 self.assertIn(selector, styles)
+
+    def test_homepage_layout_uses_explicit_body_class_without_has_dependency(self):
+        layout = DEFAULT_LAYOUT.read_text(encoding="utf-8")
+        styles = HOMEPAGE_SCSS.read_text(encoding="utf-8")
+        self.assertIn('class="{{ page.body_class | default: \'\' }}"', layout)
+        self.assertIn("body.wiki-home-page", styles)
+        self.assertNotIn("body:has(.wiki-home)", styles)
 
 
 class WikiContentParser(HTMLParser):
@@ -141,6 +157,7 @@ class HomepageBuildTests(unittest.TestCase):
 
     def test_generated_homepage_contains_complete_content(self):
         self.assertIn("Dongping Chen", self.html)
+        self.assertIn('<body class="wiki-home-page">', self.html)
         self.assertNotIn('class="sidebar', self.html)
         for title in PUBLICATION_TITLES:
             with self.subTest(title=title):
