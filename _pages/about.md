@@ -73,39 +73,29 @@ redirect_from:
   </section>
 
   <section id="publications" class="wiki-section publications" aria-labelledby="publications-title">
-    <div class="wiki-section__heading">
-      <h2 id="publications-title">Publications</h2>
-      <p>20 selected works</p>
-    </div>
+    <h2 id="publications-title">Publications</h2>
     <p class="publication-note"><span aria-hidden="true">*</span> indicates equal contribution. <span aria-hidden="true">‡</span> indicates project leaders.</p>
 
-    <div class="publication-group">
-      <div class="publication-group__heading">
-        <div>
-          <p class="publication-group__index">01</p>
-          <h3>Primary Contributions</h3>
-        </div>
-        <p>Six representative works with substantial direct contribution.</p>
-      </div>
+    <div class="publication-tabs" role="tablist" aria-label="Publication categories">
+      <button class="publication-tab" id="publication-tab-contributions" type="button" role="tab" aria-selected="true" aria-controls="publication-panel-contributions">Main Contributions</button>
+      <button class="publication-tab" id="publication-tab-led" type="button" role="tab" aria-selected="false" aria-controls="publication-panel-led" tabindex="-1">Projects Led</button>
+    </div>
 
-      <div class="publication-grid">
-        <article class="publication-card">
-          <div class="publication-card__media">
-            <img src="images/VGI.png" alt="Measuring Visual Generative Intelligence project preview" loading="lazy">
-            <span class="venue-label">CVPR 2026 Findings</span>
-          </div>
-          <div class="publication-card__body">
+    <section class="publication-tab-panel" id="publication-panel-contributions" role="tabpanel" aria-labelledby="publication-tab-contributions">
+      <div class="publication-list">
+        <article class="publication-row">
+          <div class="publication-row__media"><img src="images/VGI.png" alt="Measuring Visual Generative Intelligence project preview" loading="lazy"></div>
+          <div class="publication-row__body">
+            <div class="publication-row__meta"><span class="venue-label">CVPR 2026 Findings</span></div>
             <h4>Measuring Visual Generative Intelligence</h4>
             <p class="publication-authors"><strong class="author-me">Dongping Chen</strong> *, Ruoxi Chen *, Xuanao Huang *, Yishan Wang *, Junqi Yang *, Yao Wan†, Ranjay Krishna†</p>
           </div>
         </article>
 
-        <article class="publication-card">
-          <div class="publication-card__media">
-            <img src="images/ISG.png" alt="Interleaved Scene Graph project preview" loading="lazy">
-            <span class="venue-label">ICLR 2025 Spotlight</span>
-          </div>
-          <div class="publication-card__body">
+        <article class="publication-row">
+          <div class="publication-row__media"><img src="images/ISG.png" alt="Interleaved Scene Graph project preview" loading="lazy"></div>
+          <div class="publication-row__body">
+            <div class="publication-row__meta"><span class="venue-label">ICLR 2025 Spotlight</span></div>
             <h4><a href="https://arxiv.org/pdf/2411.17188">Interleaved Scene Graph for Interleaved Text-and-Image Generation Assessment</a></h4>
             <p class="publication-authors"><strong class="author-me">Dongping Chen</strong> *, Ruoxi Chen *, Shu Pu *, Zhaoyi Liu *, Yanru Wu *, Caixi Chen *, Benlin Liu, Yue Huang, Yao Wan, Pan Zhou, Ranjay Krishna†</p>
             <div class="publication-links" aria-label="Interleaved Scene Graph resources">
@@ -116,12 +106,10 @@ redirect_from:
           </div>
         </article>
 
-        <article class="publication-card">
-          <div class="publication-card__media">
-            <img src="images/GUI.png" alt="GUI-World project preview" loading="lazy">
-            <span class="venue-label">ICLR 2025</span>
-          </div>
-          <div class="publication-card__body">
+        <article class="publication-row">
+          <div class="publication-row__media"><img src="images/GUI.png" alt="GUI-World project preview" loading="lazy"></div>
+          <div class="publication-row__body">
+            <div class="publication-row__meta"><span class="venue-label">ICLR 2025</span></div>
             <h4><a href="https://arxiv.org/pdf/2406.10819">GUI-World: A Dataset for GUI-oriented Multimodal LLM-based Agents</a></h4>
             <p class="publication-authors"><strong class="author-me">Dongping Chen</strong> *, Yue Huang *, Siyuan Wu, Jingyu Tang, Liuyi Chen, Yilin Bai, Zhigang He, Chenlong Wang, Huichi Zhou, Yiqiang Li, Tianshuo Zhou, Yue Yu, Chujie Gao, Qihui Zhang, Yi Gui, Zhen Li, Yao Wan†, Pan Zhou†, Jianfeng Gao, Lichao Sun</p>
             <div class="publication-links" aria-label="GUI-World resources">
@@ -132,12 +120,10 @@ redirect_from:
           </div>
         </article>
 
-        <article class="publication-card">
-          <div class="publication-card__media">
-            <img src="images/HonestLLM.png" alt="HonestLLM project preview" loading="lazy">
-            <span class="venue-label">NeurIPS 2024</span>
-          </div>
-          <div class="publication-card__body">
+        <article class="publication-row">
+          <div class="publication-row__media"><img src="images/HonestLLM.png" alt="HonestLLM project preview" loading="lazy"></div>
+          <div class="publication-row__body">
+            <div class="publication-row__meta"><span class="venue-label">NeurIPS 2024</span></div>
             <h4><a href="https://arxiv.org/pdf/2406.00380"><em>The Best of Both Worlds</em>: Toward an Honest and Helpful Large Language Model</a></h4>
             <p class="publication-authors">Chujie Gao *, Siyuan Wu *, Yue Huang *, <strong class="author-me">Dongping Chen</strong> *, Qihui Zhang *, Zhengyan Fu, Yao Wan†, Xiangliang Zhang, Lichao Sun</p>
             <div class="publication-links" aria-label="HonestLLM resources">
@@ -148,12 +134,10 @@ redirect_from:
           </div>
         </article>
 
-        <article class="publication-card">
-          <div class="publication-card__media">
-            <img src="images/mllm-judge.jpg" alt="MLLM-as-a-Judge project preview" loading="lazy">
-            <span class="venue-label">ICML 2024 Oral</span>
-          </div>
-          <div class="publication-card__body">
+        <article class="publication-row">
+          <div class="publication-row__media"><img src="images/mllm-judge.jpg" alt="MLLM-as-a-Judge project preview" loading="lazy"></div>
+          <div class="publication-row__body">
+            <div class="publication-row__meta"><span class="venue-label">ICML 2024 Oral</span></div>
             <h4><a href="https://arxiv.org/pdf/2402.04788">MLLM-as-a-Judge: Assessing Multimodal LLM-as-a-Judge with Vision-Language Benchmark</a></h4>
             <p class="publication-authors"><strong class="author-me">Dongping Chen</strong> *, Ruoxi Chen *, Shilin Zhang *, Yinuo Liu *, Yaochen Wang *, Huichi Zhou *, Qihui Zhang *, Yao Wan†, Pan Zhou†, Lichao Sun</p>
             <div class="publication-links" aria-label="MLLM-as-a-Judge resources">
@@ -164,12 +148,10 @@ redirect_from:
           </div>
         </article>
 
-        <article class="publication-card">
-          <div class="publication-card__media">
-            <img src="images/mixcase.jpg" alt="LLM-as-a-Coauthor project preview" loading="lazy">
-            <span class="venue-label">NAACL 2024 Findings</span>
-          </div>
-          <div class="publication-card__body">
+        <article class="publication-row">
+          <div class="publication-row__media"><img src="images/mixcase.jpg" alt="LLM-as-a-Coauthor project preview" loading="lazy"></div>
+          <div class="publication-row__body">
+            <div class="publication-row__meta"><span class="venue-label">NAACL 2024 Findings</span></div>
             <h4><a href="https://arxiv.org/pdf/2401.05952">LLM-as-a-Coauthor: The Challenges of Detecting LLM-Human Mixcase</a></h4>
             <p class="publication-authors">Qihui Zhang *, Chujie Gao *, <strong class="author-me">Dongping Chen</strong> *, Yue Huang, Yixin Huang, Zhenyang Sun, Shilin Zhang, Weiye Li, Zhengyan Fu, Yao Wan, Lichao Sun†</p>
             <div class="publication-links" aria-label="LLM-as-a-Coauthor resources">
@@ -179,17 +161,9 @@ redirect_from:
           </div>
         </article>
       </div>
-    </div>
+    </section>
 
-    <div class="publication-group publication-group--led">
-      <div class="publication-group__heading">
-        <div>
-          <p class="publication-group__index">02</p>
-          <h3>Projects Led</h3>
-        </div>
-        <p>Fourteen projects organized as a compact, scannable research index.</p>
-      </div>
-
+    <section class="publication-tab-panel" id="publication-panel-led" role="tabpanel" aria-labelledby="publication-tab-led">
       <div class="publication-list">
         <article class="publication-row">
           <div class="publication-row__media"><img src="images/Paper2Web.png" alt="Paper2Web project preview" loading="lazy"></div>
@@ -331,7 +305,46 @@ redirect_from:
           </div>
         </article>
       </div>
-    </div>
+    </section>
+
+    <script>
+      (() => {
+        const tablist = document.querySelector(".publication-tabs");
+        if (!tablist) return;
+
+        const tabs = Array.from(tablist.querySelectorAll('[role="tab"]'));
+        const panels = tabs.map((tab) => document.getElementById(tab.getAttribute("aria-controls")));
+        tablist.classList.add("publication-tabs--enhanced");
+
+        const activateTab = (nextTab, moveFocus = false) => {
+          tabs.forEach((tab, index) => {
+            const isActive = tab === nextTab;
+            tab.setAttribute("aria-selected", String(isActive));
+            tab.tabIndex = isActive ? 0 : -1;
+            panels[index].hidden = !isActive;
+          });
+          if (moveFocus) nextTab.focus();
+        };
+
+        tabs.forEach((tab) => tab.addEventListener("click", () => activateTab(tab)));
+        tablist.addEventListener("keydown", (event) => {
+          const currentIndex = tabs.indexOf(document.activeElement);
+          if (currentIndex < 0) return;
+
+          let nextIndex = currentIndex;
+          if (event.key === "ArrowRight") nextIndex = (currentIndex + 1) % tabs.length;
+          if (event.key === "ArrowLeft") nextIndex = (currentIndex - 1 + tabs.length) % tabs.length;
+          if (event.key === "Home") nextIndex = 0;
+          if (event.key === "End") nextIndex = tabs.length - 1;
+          if (nextIndex === currentIndex && !["Home", "End"].includes(event.key)) return;
+
+          event.preventDefault();
+          activateTab(tabs[nextIndex], true);
+        });
+
+        activateTab(tabs.find((tab) => tab.getAttribute("aria-selected") === "true") || tabs[0]);
+      })();
+    </script>
   </section>
 
   <section id="education" class="wiki-section" aria-labelledby="education-title">

@@ -54,8 +54,8 @@ class HomepageSourceTests(unittest.TestCase):
             with self.subTest(title=title):
                 self.assertIn(title, self.source)
 
-        self.assertEqual(6, self.source.count('<article class="publication-card">'))
-        self.assertEqual(14, self.source.count('<article class="publication-row">'))
+        self.assertNotIn('class="publication-card"', self.source)
+        self.assertEqual(20, self.source.count('<article class="publication-row">'))
 
         for venue in ("CVPR 2026 Findings", "EACL 2026", "KDD 2025 D&amp;B Oral", "TMLR"):
             with self.subTest(venue=venue):
@@ -70,6 +70,40 @@ class HomepageSourceTests(unittest.TestCase):
         for image_path in image_paths:
             with self.subTest(image=image_path):
                 self.assertTrue((ROOT / image_path).is_file(), image_path)
+
+    def test_publications_use_accessible_progressive_tabs(self):
+        self.assertIn('class="publication-tabs" role="tablist"', self.source)
+        self.assertIn('id="publication-tab-contributions"', self.source)
+        self.assertIn('aria-controls="publication-panel-contributions"', self.source)
+        self.assertIn('aria-selected="true"', self.source)
+        self.assertIn('id="publication-tab-led"', self.source)
+        self.assertIn('aria-controls="publication-panel-led"', self.source)
+        self.assertIn('aria-selected="false"', self.source)
+        self.assertIn('id="publication-panel-contributions"', self.source)
+        self.assertIn('aria-labelledby="publication-tab-contributions"', self.source)
+        self.assertIn('id="publication-panel-led"', self.source)
+        self.assertIn('aria-labelledby="publication-tab-led"', self.source)
+        self.assertNotRegex(self.source, r'<section[^>]+role="tabpanel"[^>]+hidden')
+        for script_token in (
+            "publication-tabs--enhanced",
+            "aria-selected",
+            "ArrowLeft",
+            "ArrowRight",
+            "Home",
+            "End",
+        ):
+            with self.subTest(script_token=script_token):
+                self.assertIn(script_token, self.source)
+
+    def test_removes_publication_group_microcopy(self):
+        for removed_copy in (
+            "20 selected works",
+            "Six representative works with substantial direct contribution.",
+            "Fourteen projects organized as a compact, scannable research index.",
+            "publication-group__index",
+        ):
+            with self.subTest(removed_copy=removed_copy):
+                self.assertNotIn(removed_copy, self.source)
 
     def test_credits_linxin_song_and_source(self):
         self.assertIn("Design inspired by", self.source)
@@ -96,7 +130,7 @@ class HomepageStyleTests(unittest.TestCase):
         for selector in (
             ".wiki-infobox",
             ".wiki-contents",
-            ".publication-grid",
+            ".publication-tabs",
             ".publication-row",
             ":focus-visible",
             "@media (max-width:",
@@ -104,6 +138,15 @@ class HomepageStyleTests(unittest.TestCase):
         ):
             with self.subTest(selector=selector):
                 self.assertIn(selector, styles)
+
+    def test_publication_images_keep_natural_ratio_and_reference_typography(self):
+        styles = HOMEPAGE_SCSS.read_text(encoding="utf-8")
+        self.assertIn('--wiki-sans: "Trebuchet MS", Helvetica, sans-serif;', styles)
+        media_selector = r"(?:\.publication-row__media|&__media)"
+        self.assertRegex(styles, media_selector + r"[\s\S]{0,500}height:\s*auto")
+        self.assertNotRegex(styles, media_selector + r"\s*\{[^}]*aspect-ratio")
+        self.assertNotRegex(styles, media_selector + r"[\s\S]{0,500}object-fit:\s*cover")
+        self.assertIn(".publication-tabs--enhanced", styles)
 
     def test_homepage_layout_uses_explicit_body_class_without_has_dependency(self):
         layout = DEFAULT_LAYOUT.read_text(encoding="utf-8")
@@ -164,6 +207,8 @@ class HomepageBuildTests(unittest.TestCase):
                 self.assertIn(title, self.html)
         self.assertIn("https://linxins.net/", self.html)
         self.assertIn("https://github.com/LinxinS97/LinxinS97.github.io", self.html)
+        self.assertIn('role="tablist"', self.html)
+        self.assertEqual(2, self.html.count('role="tabpanel"'))
 
     def test_generated_homepage_has_sections_and_resolvable_local_assets(self):
         parser = WikiContentParser()
@@ -175,8 +220,13 @@ class HomepageBuildTests(unittest.TestCase):
 
     def test_compiled_css_contains_homepage_system(self):
         self.assertIn(".wiki-home", self.css)
-        self.assertIn(".publication-grid", self.css)
+        self.assertIn(".publication-tabs", self.css)
         self.assertIn(".publication-row", self.css)
+        self.assertRegex(self.css, r"\.publication-row__media img\{[^}]*height:auto")
+        self.assertNotRegex(
+            self.css,
+            r"\.publication-row__media(?: img)?\{[^}]*(?:aspect-ratio|object-fit|max-height)",
+        )
 
 
 if __name__ == "__main__":
