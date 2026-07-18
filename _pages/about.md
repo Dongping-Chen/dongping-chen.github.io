@@ -20,7 +20,7 @@ redirect_from:
   <header class="wiki-hero">
     <p class="wiki-hero__eyebrow">Research profile</p>
     <h1 class="wiki-hero__title">Dongping Chen</h1>
-    <p class="wiki-hero__subtitle">Multimodal generation · Agentic intelligence · Trustworthy AI</p>
+    <p class="wiki-hero__subtitle">Multimodal generation · Agentic intelligence</p>
   </header>
 
   <nav class="wiki-contents" aria-label="Page contents">
@@ -59,7 +59,7 @@ redirect_from:
 
     <div class="wiki-biography__copy">
       <p class="wiki-lead"><strong>Dongping Chen (陈东平)</strong> is a Computer Science Ph.D. student at the University of Maryland. He currently works on multimodal generation and agents with Professor <a href="https://tianyizhou.github.io/">Tianyi Zhou</a> and Professor <a href="https://www.cs.umd.edu/people/dmanocha">Dinesh Manocha</a>.</p>
-      <p>Previously, he was a visiting student at the University of Washington, where he worked with Professor <a href="https://ranjaykrishna.com/index.html">Ranjay Krishna</a> and <a href="https://jieyuz2.github.io/">Jieyu Zhang</a>. His academic journey has also included collaborations with <a href="https://lichao-sun.github.io/">Lichao Sun</a> at Lehigh University, <a href="https://engineering.nd.edu/faculty/xiangliang-zhang/">Xiangliang Zhang</a> at the University of Notre Dame, and <a href="http://wanyao.me/">Yao Wan</a>.</p>
+      <p>Previously, he was a visiting student at the University of Washington, where he worked with Professor <a href="https://ranjaykrishna.com/index.html">Ranjay Krishna</a> and <a href="https://jieyuz2.github.io/">Jieyu Zhang</a>. His academic journey has also included collaborations with <a href="https://lichao-sun.github.io/">Lichao Sun</a>, <a href="https://engineering.nd.edu/faculty/xiangliang-zhang/">Xiangliang Zhang</a>, and <a href="http://wanyao.me/">Yao Wan</a>.</p>
     </div>
   </section>
 
