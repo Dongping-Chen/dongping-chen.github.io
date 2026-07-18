@@ -14,7 +14,7 @@ body.wiki-home-page {
   #main {
     float: none;
     width: auto;
-    max-width: 1180px;
+    max-width: 1380px;
     margin: 1.5rem auto;
     padding: 2.35rem 3rem 3rem;
     background: #fff;
@@ -48,9 +48,7 @@ body.wiki-home-page {
   --wiki-sans: "Trebuchet MS", Helvetica, sans-serif;
   --wiki-serif: var(--wiki-sans);
 
-  display: grid;
-  grid-template-columns: 164px minmax(0, 1fr);
-  column-gap: 2.4rem;
+  display: block;
   color: var(--wiki-ink);
   font-family: var(--wiki-sans);
   font-size: 15px;
@@ -101,8 +99,19 @@ body.wiki-home-page {
   }
 }
 
+.wiki-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 320px;
+  grid-template-areas:
+    "hero info"
+    "bio info"
+    "research info";
+  column-gap: 3rem;
+  align-items: start;
+}
+
 .wiki-hero {
-  grid-column: 1 / -1;
+  grid-area: hero;
   padding-bottom: 1.15rem;
   margin-bottom: 1.75rem;
   border-bottom: 1px solid var(--wiki-rule);
@@ -139,53 +148,7 @@ body.wiki-home-page {
   }
 }
 
-.wiki-contents {
-  position: sticky;
-  top: 1.5rem;
-  grid-column: 1;
-  grid-row: 2 / span 5;
-  align-self: start;
-  padding: 0.2rem 1.25rem 1rem 0;
-  border-right: 1px solid var(--wiki-rule-light);
-  font-family: var(--wiki-sans);
-  font-size: 0.79rem;
-  line-height: 1.45;
-
-  &__title {
-    display: block;
-    padding-bottom: 0.45rem;
-    margin-bottom: 0.45rem;
-    color: var(--wiki-ink);
-    border-bottom: 1px solid var(--wiki-rule-light);
-    font-weight: 700;
-  }
-
-  ol {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    counter-reset: contents;
-  }
-
-  li {
-    position: relative;
-    padding-left: 1.45rem;
-    margin: 0.42rem 0;
-    counter-increment: contents;
-
-    &::before {
-      content: "0" counter(contents);
-      position: absolute;
-      left: 0;
-      color: var(--wiki-faint);
-      font-size: 0.67rem;
-      letter-spacing: 0.04em;
-    }
-  }
-}
-
 .wiki-section {
-  grid-column: 2;
   min-width: 0;
   scroll-margin-top: 1.5rem;
   padding-top: 1.55rem;
@@ -228,13 +191,8 @@ body.wiki-home-page {
 }
 
 .wiki-biography {
+  grid-area: bio;
   padding-top: 0;
-
-  &::after {
-    display: table;
-    clear: both;
-    content: "";
-  }
 
   &__copy {
     p {
@@ -248,9 +206,10 @@ body.wiki-home-page {
 }
 
 .wiki-infobox {
-  float: right;
-  width: 265px;
-  margin: 0 0 1.25rem 1.6rem;
+  grid-area: info;
+  align-self: start;
+  width: 100%;
+  margin: 1.45rem 0 0;
   padding: 0.55rem;
   color: var(--wiki-ink);
   background: var(--wiki-paper-alt);
@@ -307,6 +266,10 @@ body.wiki-home-page {
       margin-right: 0.35rem;
     }
   }
+}
+
+.wiki-intro #research-interests {
+  grid-area: research;
 }
 
 .research-topics {
@@ -561,36 +524,18 @@ body.wiki-home-page {
     box-shadow: none;
   }
 
-  .wiki-home {
-    display: block;
+  .wiki-intro {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "hero"
+      "info"
+      "bio"
+      "research";
   }
 
-  .wiki-contents {
-    position: static;
-    padding: 0.7rem 0;
-    margin-bottom: 1rem;
-    border-top: 1px solid var(--wiki-rule-light);
-    border-right: 0;
-    border-bottom: 1px solid var(--wiki-rule-light);
-
-    &__title {
-      display: none;
-    }
-
-    ol {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.3rem 0.9rem;
-    }
-
-    li {
-      padding-left: 0;
-      margin: 0;
-
-      &::before {
-        display: none;
-      }
-    }
+  .wiki-infobox {
+    width: min(100%, 360px);
+    margin: 0 0 0.5rem;
   }
 
   .wiki-section {
@@ -609,12 +554,6 @@ body.wiki-home-page {
     &__subtitle {
       font-size: 0.85rem !important;
     }
-  }
-
-  .wiki-infobox {
-    float: none;
-    width: min(100%, 330px);
-    margin: 0 0 1.3rem;
   }
 
   .wiki-section__heading {
@@ -702,7 +641,6 @@ body.wiki-home-page {
     color: #000;
   }
 
-  .wiki-contents,
   .publication-tabs,
   .publication-links,
   .site-credit {

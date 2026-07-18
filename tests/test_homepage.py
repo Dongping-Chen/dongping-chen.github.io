@@ -9,6 +9,7 @@ ABOUT = ROOT / "_pages" / "about.md"
 HOMEPAGE_SCSS = ROOT / "_sass" / "_homepage.scss"
 MAIN_SCSS = ROOT / "assets" / "css" / "main.scss"
 DEFAULT_LAYOUT = ROOT / "_layouts" / "default.html"
+SCHOLAR_STATS_INCLUDE = ROOT / "_includes" / "fetch_google_scholar_stats.html"
 BUILT_INDEX = ROOT / "_site" / "index.html"
 BUILT_CSS = ROOT / "_site" / "assets" / "css" / "main.css"
 
@@ -47,7 +48,27 @@ class HomepageSourceTests(unittest.TestCase):
         self.assertIn('class="wiki-home"', self.source)
         for section_id in ("biography", "research-interests", "publications", "education"):
             self.assertIn(f'id="{section_id}"', self.source)
-            self.assertIn(f'href="#{section_id}" target="_self"', self.source)
+        self.assertNotIn('class="wiki-contents"', self.source)
+
+    def test_intro_grid_orders_content_and_simplifies_infobox(self):
+        self.assertIn('class="wiki-intro"', self.source)
+        intro_index = self.source.index('class="wiki-intro"')
+        hero_index = self.source.index('class="wiki-hero"', intro_index)
+        infobox_index = self.source.index('class="wiki-infobox"', intro_index)
+        biography_index = self.source.index('id="biography"', intro_index)
+        research_index = self.source.index('id="research-interests"', intro_index)
+        publications_index = self.source.index('id="publications"', intro_index)
+
+        self.assertLess(hero_index, infobox_index)
+        self.assertLess(infobox_index, biography_index)
+        self.assertLess(biography_index, research_index)
+        self.assertLess(research_index, publications_index)
+        for removed_fact in ("Occupation", "Fields", "Citations"):
+            with self.subTest(removed_fact=removed_fact):
+                self.assertNotIn(f"<dt>{removed_fact}</dt>", self.source)
+        for retained_fact in ("Chinese name", "Institution", "Websites", "Contact"):
+            with self.subTest(retained_fact=retained_fact):
+                self.assertIn(f"<dt>{retained_fact}</dt>", self.source)
 
     def test_preserves_all_visible_publications(self):
         for title in PUBLICATION_TITLES:
@@ -110,13 +131,16 @@ class HomepageSourceTests(unittest.TestCase):
         self.assertIn("https://linxins.net/", self.source)
         self.assertIn("https://github.com/LinxinS97/LinxinS97.github.io", self.source)
 
-    def test_keeps_scholar_stats_target_and_matching_publication_links(self):
-        self.assertIn('id="total_cit"', self.source)
+    def test_keeps_matching_publication_links(self):
         self.assertIn(
             'href="https://arxiv.org/pdf/2503.02879">Wikipedia in the Era of LLMs: Evolution and Risks',
             self.source,
         )
         self.assertEqual(1, self.source.count("https://gui-world.github.io"))
+
+    def test_scholar_stats_tolerate_homepage_without_citation_field(self):
+        scholar_script = SCHOLAR_STATS_INCLUDE.read_text(encoding="utf-8")
+        self.assertIn("if (totalCitationElement)", scholar_script)
 
 
 class HomepageStyleTests(unittest.TestCase):
@@ -129,7 +153,7 @@ class HomepageStyleTests(unittest.TestCase):
         styles = HOMEPAGE_SCSS.read_text(encoding="utf-8")
         for selector in (
             ".wiki-infobox",
-            ".wiki-contents",
+            ".wiki-intro",
             ".publication-tabs",
             ".publication-row",
             ":focus-visible",
@@ -138,6 +162,19 @@ class HomepageStyleTests(unittest.TestCase):
         ):
             with self.subTest(selector=selector):
                 self.assertIn(selector, styles)
+
+    def test_widens_canvas_and_uses_intro_grid_areas(self):
+        styles = HOMEPAGE_SCSS.read_text(encoding="utf-8")
+        self.assertIn("max-width: 1380px;", styles)
+        self.assertIn("grid-template-columns: minmax(0, 1fr) 320px;", styles)
+        self.assertIn("margin: 1.45rem 0 0;", styles)
+        for area in ('"hero info"', '"bio info"', '"research info"'):
+            with self.subTest(area=area):
+                self.assertIn(area, styles)
+        for mobile_area in ('"hero"', '"info"', '"bio"', '"research"'):
+            with self.subTest(mobile_area=mobile_area):
+                self.assertIn(mobile_area, styles)
+        self.assertNotIn(".wiki-contents", styles)
 
     def test_publication_images_keep_natural_ratio_and_reference_typography(self):
         styles = HOMEPAGE_SCSS.read_text(encoding="utf-8")
@@ -164,6 +201,8 @@ class WikiContentParser(HTMLParser):
         self.depth = 0
         self.ids = set()
         self.local_paths = set()
+        self.element_stack = []
+        self.parent_classes = {}
 
     def handle_starttag(self, tag, attrs):
         attributes = dict(attrs)
@@ -178,15 +217,20 @@ class WikiContentParser(HTMLParser):
 
         if attributes.get("id"):
             self.ids.add(attributes["id"])
+            self.parent_classes[attributes["id"]] = set(self.element_stack[-1][1]) if self.element_stack else set()
 
         for attribute in ("src", "href"):
             value = attributes.get(attribute, "")
             if value and not value.startswith(("http://", "https://", "mailto:", "#")):
                 self.local_paths.add(value.split("?", 1)[0].lstrip("/"))
 
+        if tag not in self.VOID_ELEMENTS:
+            self.element_stack.append((tag, classes))
+
     def handle_endtag(self, tag):
         if self.depth:
             self.depth -= 1
+            self.element_stack.pop()
 
     def handle_startendtag(self, tag, attrs):
         self.handle_starttag(tag, attrs)
@@ -209,11 +253,18 @@ class HomepageBuildTests(unittest.TestCase):
         self.assertIn("https://github.com/LinxinS97/LinxinS97.github.io", self.html)
         self.assertIn('role="tablist"', self.html)
         self.assertEqual(2, self.html.count('role="tabpanel"'))
+        self.assertNotIn('class="wiki-contents"', self.html)
+        for removed_fact in ("Occupation", "Fields", "Citations"):
+            self.assertNotIn(f"<dt>{removed_fact}</dt>", self.html)
 
     def test_generated_homepage_has_sections_and_resolvable_local_assets(self):
         parser = WikiContentParser()
         parser.feed(self.html)
         self.assertTrue({"biography", "research-interests", "publications", "education"} <= parser.ids)
+        self.assertIn("wiki-intro", parser.parent_classes["biography"])
+        self.assertIn("wiki-intro", parser.parent_classes["research-interests"])
+        self.assertIn("wiki-home", parser.parent_classes["publications"])
+        self.assertIn("wiki-home", parser.parent_classes["education"])
         for local_path in parser.local_paths:
             with self.subTest(path=local_path):
                 self.assertTrue((ROOT / "_site" / local_path).is_file(), local_path)
@@ -227,6 +278,8 @@ class HomepageBuildTests(unittest.TestCase):
             self.css,
             r"\.publication-row__media(?: img)?\{[^}]*(?:aspect-ratio|object-fit|max-height)",
         )
+        self.assertIn("max-width:1380px", self.css)
+        self.assertIn("grid-template-columns:minmax(0, 1fr) 320px", self.css)
 
 
 if __name__ == "__main__":

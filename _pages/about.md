@@ -17,34 +17,19 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <div class="wiki-home">
-  <header class="wiki-hero">
-    <p class="wiki-hero__eyebrow">Research profile</p>
-    <h1 class="wiki-hero__title">Dongping Chen</h1>
-    <p class="wiki-hero__subtitle">Multimodal generation · Agentic intelligence</p>
-  </header>
-
-  <nav class="wiki-contents" aria-label="Page contents">
-    <span class="wiki-contents__title">Contents</span>
-    <ol>
-      <li><a href="#biography" target="_self">Biography</a></li>
-      <li><a href="#research-interests" target="_self">Research Interests</a></li>
-      <li><a href="#publications" target="_self">Publications</a></li>
-      <li><a href="#education" target="_self">Education</a></li>
-    </ol>
-  </nav>
-
-  <section id="biography" class="wiki-section wiki-biography" aria-labelledby="biography-title">
-    <h2 id="biography-title" class="visually-hidden">Biography</h2>
+  <div class="wiki-intro">
+    <header class="wiki-hero">
+      <p class="wiki-hero__eyebrow">Research profile</p>
+      <h1 class="wiki-hero__title">Dongping Chen</h1>
+      <p class="wiki-hero__subtitle">Multimodal generation · Agentic intelligence</p>
+    </header>
 
     <aside class="wiki-infobox" aria-label="Dongping Chen profile summary">
       <div class="wiki-infobox__name">Dongping Chen</div>
       <img src="images/head_2025_hq.png" alt="Portrait of Dongping Chen">
       <dl class="wiki-infobox__facts">
         <div><dt>Chinese name</dt><dd>陈东平</dd></div>
-        <div><dt>Occupation</dt><dd>Ph.D. Student</dd></div>
         <div><dt>Institution</dt><dd>University of Maryland</dd></div>
-        <div><dt>Fields</dt><dd>Multimodal AI, Agents, Evaluation</dd></div>
-        <div><dt>Citations</dt><dd><span id="total_cit" aria-live="polite">—</span></dd></div>
         <div>
           <dt>Websites</dt>
           <dd>
@@ -57,20 +42,23 @@ redirect_from:
       </dl>
     </aside>
 
-    <div class="wiki-biography__copy">
-      <p class="wiki-lead"><strong>Dongping Chen (陈东平)</strong> is a Computer Science Ph.D. student at the University of Maryland. He currently works on multimodal generation and agents with Professor <a href="https://tianyizhou.github.io/">Tianyi Zhou</a> and Professor <a href="https://www.cs.umd.edu/people/dmanocha">Dinesh Manocha</a>.</p>
-      <p>Previously, he was a visiting student at the University of Washington, where he worked with Professor <a href="https://ranjaykrishna.com/index.html">Ranjay Krishna</a> and <a href="https://jieyuz2.github.io/">Jieyu Zhang</a>. His academic journey has also included collaborations with <a href="https://lichao-sun.github.io/">Lichao Sun</a>, <a href="https://engineering.nd.edu/faculty/xiangliang-zhang/">Xiangliang Zhang</a>, and <a href="http://wanyao.me/">Yao Wan</a>.</p>
-    </div>
-  </section>
+    <section id="biography" class="wiki-section wiki-biography" aria-labelledby="biography-title">
+      <h2 id="biography-title" class="visually-hidden">Biography</h2>
+      <div class="wiki-biography__copy">
+        <p class="wiki-lead"><strong>Dongping Chen (陈东平)</strong> is a Computer Science Ph.D. student at the University of Maryland. He currently works on multimodal generation and agents with Professor <a href="https://tianyizhou.github.io/">Tianyi Zhou</a> and Professor <a href="https://www.cs.umd.edu/people/dmanocha">Dinesh Manocha</a>.</p>
+        <p>Previously, he was a visiting student at the University of Washington, where he worked with Professor <a href="https://ranjaykrishna.com/index.html">Ranjay Krishna</a> and <a href="https://jieyuz2.github.io/">Jieyu Zhang</a>. His academic journey has also included collaborations with <a href="https://lichao-sun.github.io/">Lichao Sun</a>, <a href="https://engineering.nd.edu/faculty/xiangliang-zhang/">Xiangliang Zhang</a>, and <a href="http://wanyao.me/">Yao Wan</a>.</p>
+      </div>
+    </section>
 
-  <section id="research-interests" class="wiki-section" aria-labelledby="research-interests-title">
-    <h2 id="research-interests-title">Research Interests</h2>
-    <p>I study multimodal generative models and the agentic systems they power, with an emphasis on evaluation, tool use, efficiency. I am currently working on world model and LLM-based agents</p>
-    <ul class="research-topics" aria-label="Research topics">
-      <li>Multimodal Understanding and Generation</li>
-      <li>Agentic AI</li>
-    </ul>
-  </section>
+    <section id="research-interests" class="wiki-section" aria-labelledby="research-interests-title">
+      <h2 id="research-interests-title">Research Interests</h2>
+      <p>I study multimodal generative models and the agentic systems they power, with an emphasis on evaluation, tool use, efficiency. I am currently working on world model and LLM-based agents</p>
+      <ul class="research-topics" aria-label="Research topics">
+        <li>Multimodal Understanding and Generation</li>
+        <li>Agentic AI</li>
+      </ul>
+    </section>
+  </div>
 
   <section id="publications" class="wiki-section publications" aria-labelledby="publications-title">
     <h2 id="publications-title">Publications</h2>
