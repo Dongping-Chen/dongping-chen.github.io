@@ -38,6 +38,7 @@ class HomepageSourceTests(unittest.TestCase):
         cls.source = ABOUT.read_text(encoding="utf-8")
 
     def test_uses_semantic_wiki_homepage_structure(self):
+        self.assertIn("author_profile: false", self.source)
         self.assertIn('class="wiki-home"', self.source)
         for section_id in ("biography", "research-interests", "publications", "education"):
             self.assertIn(f'id="{section_id}"', self.source)
@@ -65,6 +66,14 @@ class HomepageSourceTests(unittest.TestCase):
         self.assertIn("Design inspired by", self.source)
         self.assertIn("https://linxins.net/", self.source)
         self.assertIn("https://github.com/LinxinS97/LinxinS97.github.io", self.source)
+
+    def test_keeps_scholar_stats_target_and_matching_publication_links(self):
+        self.assertIn('id="total_cit"', self.source)
+        self.assertIn(
+            'href="https://arxiv.org/pdf/2503.02879">Wikipedia in the Era of LLMs: Evolution and Risks',
+            self.source,
+        )
+        self.assertEqual(1, self.source.count("https://gui-world.github.io"))
 
 
 class HomepageStyleTests(unittest.TestCase):
@@ -132,6 +141,7 @@ class HomepageBuildTests(unittest.TestCase):
 
     def test_generated_homepage_contains_complete_content(self):
         self.assertIn("Dongping Chen", self.html)
+        self.assertNotIn('class="sidebar', self.html)
         for title in PUBLICATION_TITLES:
             with self.subTest(title=title):
                 self.assertIn(title, self.html)

@@ -2,7 +2,7 @@
 permalink: /
 title: ""
 excerpt: ""
-author_profile: true
+author_profile: false
 redirect_from:
   - /about/
   - /about.html
@@ -43,6 +43,7 @@ redirect_from:
         <div><dt>Occupation</dt><dd>Ph.D. Student</dd></div>
         <div><dt>Institution</dt><dd>University of Maryland</dd></div>
         <div><dt>Fields</dt><dd>Multimodal AI, Agents, Evaluation</dd></div>
+        <div><dt>Citations</dt><dd><span id="total_cit" aria-live="polite">—</span></dd></div>
         <div>
           <dt>Websites</dt>
           <dd>
@@ -164,7 +165,6 @@ redirect_from:
             <div class="publication-links" aria-label="LLM-as-a-Coauthor resources">
               <a href="https://arxiv.org/pdf/2401.05952">PDF</a>
               <a href="https://github.com/Dongping-Chen/MixSet">GitHub</a>
-              <a href="https://gui-world.github.io/">Website</a>
             </div>
           </div>
         </article>
@@ -265,9 +265,9 @@ redirect_from:
           <div class="publication-row__media"><img src="images/Wikipedia.png" alt="Wikipedia in the era of LLMs project preview" loading="lazy"></div>
           <div class="publication-row__body">
             <div class="publication-row__meta"><span class="venue-label">IC2S2 2025</span><span class="lead-label">Project lead</span></div>
-            <h4><a href="https://arxiv.org/pdf/2503.17489">Wikipedia in the Era of LLMs: Evolution and Risks</a></h4>
+            <h4><a href="https://arxiv.org/pdf/2503.02879">Wikipedia in the Era of LLMs: Evolution and Risks</a></h4>
             <p class="publication-authors">Siming Huang *, Yuliang Xu *, Mingmeng Geng†, Yao Wan†, <strong class="author-me">Dongping Chen</strong>‡</p>
-            <div class="publication-links" aria-label="Wikipedia in the era of LLMs resources"><a href="https://arxiv.org/pdf/2503.17489">PDF</a></div>
+            <div class="publication-links" aria-label="Wikipedia in the era of LLMs resources"><a href="https://arxiv.org/pdf/2503.02879">PDF</a></div>
           </div>
         </article>
 
