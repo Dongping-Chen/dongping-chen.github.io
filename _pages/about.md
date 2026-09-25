@@ -49,9 +49,9 @@ redirect_from:
       </div>
       <aside class="profile-highlight" aria-label="Recent updates">
         <p class="profile-highlight__eyebrow">Recent updates</p>
-        <p><strong>Two papers accepted to NeurIPS 2026:</strong> <em>Sandboxed Coding Agents are Competitive Omni-modal Task Solvers</em> and <em>OopsWorld! Operation-Grounded Seamless World Generation</em>.</p>
-        <p><strong>Current:</strong> Research intern at SHARPA in Shanghai, working on muscle modeling for dexterous hands.</p>
-        <p><strong>Looking ahead:</strong> Seeking Ph.D. opportunities in Singapore and Hong Kong for Fall 2027. <a href="mailto:{{ site.author.email }}">Please get in touch</a>.</p>
+        <p><strong>Two papers accepted to NeurIPS 2026:</strong> multimodal coding agents and text-as-action world models.</p>
+        <p><strong>Current:</strong> Research intern at SHARPA in Shanghai, working on foundation models and tactile sensing for dexterous hands.</p>
+        <p><strong>Looking ahead:</strong> Seeking Ph.D. opportunities in Singapore and Hong Kong for Fall 2027.</p>
       </aside>
     </section>
 
