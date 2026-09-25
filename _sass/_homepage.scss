@@ -104,6 +104,7 @@ body.wiki-home-page {
   grid-template-areas:
     "hero info"
     "bio info"
+    "highlight info"
     "research info";
   column-gap: 3rem;
   align-items: start;
@@ -197,6 +198,37 @@ body.wiki-home-page {
     p {
       margin: 0 0 1rem;
     }
+  }
+}
+
+.profile-highlight {
+  grid-area: highlight;
+  margin: 0.35rem 0 0;
+  padding: 1rem 1.1rem;
+  color: #18345c;
+  background: #eef5ff;
+  border: 1px solid #8aaddb;
+  border-left: 4px solid #3366cc;
+  border-radius: 4px;
+  font-family: var(--wiki-sans);
+  font-size: 0.84rem;
+  line-height: 1.5;
+
+  p {
+    margin: 0.45rem 0 0;
+  }
+
+  &__eyebrow {
+    margin: 0 !important;
+    color: #2453a6;
+    font-size: 0.68rem !important;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  a {
+    font-weight: 700;
   }
 }
 
@@ -534,6 +566,7 @@ body.wiki-home-page {
       "hero"
       "info"
       "bio"
+      "highlight"
       "research";
   }
 

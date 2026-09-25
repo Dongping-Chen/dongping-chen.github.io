@@ -47,6 +47,12 @@ redirect_from:
         <p class="wiki-lead"><strong>Dongping Chen (陈东平)</strong> is a Computer Science Ph.D. student at the University of Maryland. He currently works on multimodal generation and agents with Professor <a href="https://tianyizhou.github.io/">Tianyi Zhou</a> and Professor <a href="https://www.cs.umd.edu/people/dmanocha">Dinesh Manocha</a>.</p>
         <p>Previously, he was a visiting student at the University of Washington, where he worked with Professor <a href="https://ranjaykrishna.com/index.html">Ranjay Krishna</a> and <a href="https://jieyuz2.github.io/">Jieyu Zhang</a>. His academic journey has also included collaborations with <a href="https://lichao-sun.github.io/">Lichao Sun</a>, <a href="https://engineering.nd.edu/faculty/xiangliang-zhang/">Xiangliang Zhang</a>, and <a href="http://wanyao.me/">Yao Wan</a>.</p>
       </div>
+      <aside class="profile-highlight" aria-label="Recent updates">
+        <p class="profile-highlight__eyebrow">Recent updates</p>
+        <p><strong>Two papers accepted to NeurIPS 2026:</strong> <em>Sandboxed Coding Agents are Competitive Omni-modal Task Solvers</em> and <em>OopsWorld! Operation-Grounded Seamless World Generation</em>.</p>
+        <p><strong>Current:</strong> Research intern at SHARPA in Shanghai, working on muscle modeling for dexterous hands.</p>
+        <p><strong>Looking ahead:</strong> Seeking Ph.D. opportunities in Singapore and Hong Kong for Fall 2027. <a href="mailto:{{ site.author.email }}">Please get in touch</a>.</p>
+      </aside>
     </section>
 
     <section id="research-interests" class="wiki-section" aria-labelledby="research-interests-title">
@@ -73,10 +79,19 @@ redirect_from:
         <article class="publication-row">
           <div class="publication-row__media"><img src="images/OmniCoding.png" alt="Sandboxed coding agents for omni-modal tasks overview" loading="lazy"></div>
           <div class="publication-row__body">
-            <div class="publication-row__meta"><span class="venue-label">Tech Report</span></div>
+            <div class="publication-row__meta"><span class="venue-label">NeurIPS 2026</span></div>
             <h4><a href="https://arxiv.org/pdf/2606.00579">Sandboxed Coding Agents are Competitive Omni-modal Task Solvers</a></h4>
             <p class="publication-authors"><strong class="author-me">Dongping Chen</strong>, Xuanao Huang, Zhihan Hu, Qingyuan Shi, Dianqi Li, Tianyi Zhou</p>
             <div class="publication-links" aria-label="Sandboxed coding agents resources"><a href="https://github.com/Dongping-Chen/OmniCoding">GitHub</a></div>
+          </div>
+        </article>
+
+        <article class="publication-row">
+          <div class="publication-row__media"><img src="images/SeamlessWorld.png" alt="Overview of OopsWorld, operation-grounded seamless world generation" loading="lazy"></div>
+          <div class="publication-row__body">
+            <div class="publication-row__meta"><span class="venue-label">NeurIPS 2026</span></div>
+            <h4>OopsWorld! Operation-Grounded Seamless World Generation</h4>
+            <p class="publication-authors"><strong class="author-me">Dongping Chen</strong>, Tianyi Zhou</p>
           </div>
         </article>
 
