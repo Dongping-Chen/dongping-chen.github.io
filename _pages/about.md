@@ -21,7 +21,7 @@ redirect_from:
     <header class="wiki-hero">
       <p class="wiki-hero__eyebrow">Research profile</p>
       <h1 class="wiki-hero__title">Dongping Chen</h1>
-      <p class="wiki-hero__subtitle">Multimodal generation · Agentic intelligence</p>
+      <p class="wiki-hero__subtitle">Multimodal &amp; Robotics</p>
     </header>
 
     <aside class="wiki-infobox" aria-label="Dongping Chen profile summary">
@@ -44,7 +44,7 @@ redirect_from:
     <section id="biography" class="wiki-section wiki-biography" aria-labelledby="biography-title">
       <h2 id="biography-title" class="visually-hidden">Biography</h2>
       <div class="wiki-biography__copy">
-        <p class="wiki-lead"><strong>Dongping Chen (陈东平)</strong> is a Computer Science Ph.D. student at the University of Maryland. He currently works on multimodal generation and agents with Professor <a href="https://tianyizhou.github.io/">Tianyi Zhou</a> and Professor <a href="https://www.cs.umd.edu/people/dmanocha">Dinesh Manocha</a>.</p>
+        <p class="wiki-lead"><strong>Dongping Chen (陈东平)</strong> is a Computer Science Ph.D. student at the University of Maryland. His research focuses on multimodal understanding and generation for robotics, as well as robotic agents. He works with Professor <a href="https://tianyizhou.github.io/">Tianyi Zhou</a> and Professor <a href="https://www.cs.umd.edu/people/dmanocha">Dinesh Manocha</a>.</p>
         <p>Previously, he was a visiting student at the University of Washington, where he worked with Professor <a href="https://ranjaykrishna.com/index.html">Ranjay Krishna</a> and <a href="https://jieyuz2.github.io/">Jieyu Zhang</a>. His academic journey has also included collaborations with <a href="https://lichao-sun.github.io/">Lichao Sun</a>, <a href="https://engineering.nd.edu/faculty/xiangliang-zhang/">Xiangliang Zhang</a>, and <a href="http://wanyao.me/">Yao Wan</a>.</p>
       </div>
       <aside class="profile-highlight" aria-label="Recent updates">
@@ -57,10 +57,10 @@ redirect_from:
 
     <section id="research-interests" class="wiki-section" aria-labelledby="research-interests-title">
       <h2 id="research-interests-title">Research Interests</h2>
-      <p>I study multimodal generative models and the agentic systems they power, with an emphasis on evaluation, tool use, efficiency. I am currently working on world model and LLM-based agents</p>
+      <p>I study multimodal understanding and generation for robotics, including world models and robotic agents.</p>
       <ul class="research-topics" aria-label="Research topics">
-        <li class="research-topic research-topic--multimodal">Multimodal Understanding and Generation</li>
-        <li class="research-topic research-topic--agentic">Agentic AI</li>
+        <li class="research-topic research-topic--multimodal">Multimodal for Robotics</li>
+        <li class="research-topic research-topic--agentic">Robotic Agents</li>
       </ul>
     </section>
   </div>
