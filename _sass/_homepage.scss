@@ -50,7 +50,7 @@ body.wiki-home-page {
   display: block;
   color: var(--wiki-ink);
   font-family: var(--wiki-sans);
-  font-size: 15px;
+  font-size: 17px;
   line-height: 1.56;
 
   *,
@@ -142,7 +142,7 @@ body.wiki-home-page {
     max-width: 760px;
     margin: 0.8rem 0 0 !important;
     color: var(--wiki-muted);
-    font-size: 1rem !important;
+    font-size: 1.08rem !important;
     font-style: italic;
     letter-spacing: 0.01em;
   }
@@ -211,7 +211,7 @@ body.wiki-home-page {
   border-left: 4px solid #3366cc;
   border-radius: 4px;
   font-family: var(--wiki-sans);
-  font-size: 0.84rem;
+  font-size: 0.94rem;
   line-height: 1.5;
 
   p {
@@ -246,7 +246,7 @@ body.wiki-home-page {
   background: var(--wiki-paper-alt);
   border: 1px solid var(--wiki-rule);
   font-family: var(--wiki-sans);
-  font-size: 0.75rem;
+  font-size: 0.84rem;
   line-height: 1.42;
 
   &__name {
@@ -318,7 +318,7 @@ body.wiki-home-page {
   background: var(--wiki-paper-alt);
   border: 1px solid var(--wiki-rule);
   font-family: var(--wiki-sans);
-  font-size: 0.72rem !important;
+  font-size: 0.82rem !important;
   letter-spacing: 0.025em;
 }
 
@@ -338,7 +338,7 @@ body.wiki-home-page {
   margin: 0.55rem 0 1rem !important;
   color: var(--wiki-muted);
   font-family: var(--wiki-sans);
-  font-size: 0.76rem !important;
+  font-size: 0.86rem !important;
 }
 
 .publication-tabs {
@@ -362,7 +362,7 @@ body.wiki-home-page {
   border-bottom: 2px solid transparent;
   border-radius: 0;
   font-family: var(--wiki-sans);
-  font-size: 0.86rem;
+  font-size: 0.96rem;
   font-weight: 700;
   line-height: 1.3;
   cursor: pointer;
@@ -397,7 +397,7 @@ body.wiki-home-page {
   display: inline-block;
   padding: 0.14rem 0.42rem;
   font-family: var(--wiki-sans);
-  font-size: 0.61rem;
+  font-size: 0.74rem;
   font-weight: 700;
   letter-spacing: 0.035em;
   line-height: 1.35;
@@ -408,7 +408,7 @@ body.wiki-home-page {
   margin: 0 !important;
   color: var(--wiki-muted);
   font-family: var(--wiki-sans);
-  font-size: 0.7rem !important;
+  font-size: 0.88rem !important;
   line-height: 1.5;
   overflow-wrap: anywhere;
 }
@@ -428,7 +428,7 @@ body.wiki-home-page {
   gap: 0.35rem;
   margin-top: 0.7rem;
   font-family: var(--wiki-sans);
-  font-size: 0.67rem;
+  font-size: 0.8rem;
 
   a,
   span {
@@ -480,7 +480,7 @@ body.wiki-home-page {
     h4 {
       margin: 0.42rem 0 0.4rem !important;
       font-family: var(--wiki-sans) !important;
-      font-size: 0.96rem !important;
+      font-size: 1.1rem !important;
       line-height: 1.32;
     }
   }
@@ -513,14 +513,14 @@ body.wiki-home-page {
   time {
     color: var(--wiki-faint);
     font-family: var(--wiki-sans);
-    font-size: 0.72rem;
+    font-size: 0.82rem;
     letter-spacing: 0.02em;
   }
 
   p {
     margin: 0 !important;
     font-family: var(--wiki-sans);
-    font-size: 0.85rem !important;
+    font-size: 0.94rem !important;
   }
 
   strong,
@@ -531,7 +531,7 @@ body.wiki-home-page {
   span {
     margin-top: 0.08rem;
     color: var(--wiki-muted);
-    font-size: 0.75rem;
+    font-size: 0.84rem;
   }
 }
 
@@ -542,7 +542,7 @@ body.wiki-home-page {
   color: var(--wiki-faint);
   border-top: 1px solid var(--wiki-rule);
   font-family: var(--wiki-sans);
-  font-size: 0.66rem;
+  font-size: 0.76rem;
   text-align: right;
 
   p {
@@ -589,7 +589,7 @@ body.wiki-home-page {
     }
 
     &__subtitle {
-      font-size: 0.85rem !important;
+      font-size: 0.95rem !important;
     }
   }
 
@@ -613,11 +613,11 @@ body.wiki-home-page {
     }
 
     &__body h4 {
-      font-size: 0.91rem !important;
+      font-size: 1.04rem !important;
     }
 
     .publication-authors {
-      font-size: 0.65rem !important;
+      font-size: 0.84rem !important;
     }
   }
 
